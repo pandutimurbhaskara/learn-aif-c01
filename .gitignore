@@ -1,0 +1,22 @@
+# dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+
+# cloned source repos and PDFs (re-create with scripts/ingest.mjs)
+sources/
+
+# local tooling and agent state
+.superpowers/
+.claude/
+
+# env and logs
+.env
+.env.*
+*.log
+
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
