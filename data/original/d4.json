@@ -1,0 +1,258 @@
+[
+  {
+    "id": "og-4.1.3-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A bank trains a loan-approval model. It scores 98% accuracy on the training data but only 71% on a held-out test set, and the errors are concentrated on applicants from a small region with few training examples. Which explanation BEST describes the problem?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The model is underfitting, so it has high bias and needs fewer features."
+      },
+      {
+        "key": "B",
+        "text": "The model is overfitting, so it has high variance and has memorized the training data instead of generalizing."
+      },
+      {
+        "key": "C",
+        "text": "The model is well fit, and the test set is too small to be trusted."
+      },
+      {
+        "key": "D",
+        "text": "The model has experienced data drift since it was deployed to production."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Excellent training performance combined with poor performance on new data is the signature of overfitting (high variance), and small subgroups with few examples are hit hardest because predictions for them generalize badly. Underfitting would show poor results on both training and test data. A 27-point gap is not a good fit. Data drift describes production data changing over time after deployment, but this gap already appears on the test set before deployment.",
+    "domain": 4,
+    "step": "4.1",
+    "concepts": [
+      "4.1.3",
+      "1.1.9",
+      "4.1.2"
+    ]
+  },
+  {
+    "id": "og-4.1.3-2",
+    "source": "original",
+    "type": "multi",
+    "stem": "A retailer's customer-churn model performs very well on training data but poorly on new customers, especially for age groups that are under-represented in the data. The team wants to improve both accuracy and fairness for these groups. Which actions should the team take? (Select TWO.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Collect more training examples for the under-represented age groups."
+      },
+      {
+        "key": "B",
+        "text": "Switch to a much larger and more complex model trained on the same data."
+      },
+      {
+        "key": "C",
+        "text": "Apply regularization or early stopping during training."
+      },
+      {
+        "key": "D",
+        "text": "Train for more epochs on the existing dataset."
+      },
+      {
+        "key": "E",
+        "text": "Report only overall accuracy so that subgroup differences average out."
+      }
+    ],
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "The model is overfitting, and the under-represented groups suffer most. More and more balanced data for those groups, plus regularization or early stopping, both reduce variance and improve generalization. A larger, more complex model and more epochs on the same data make overfitting worse. Hiding subgroup results behind an overall average conceals the unfairness instead of fixing it.",
+    "domain": 4,
+    "step": "4.1",
+    "concepts": [
+      "4.1.3",
+      "4.1.4",
+      "4.1.6"
+    ]
+  },
+  {
+    "id": "og-4.1.3-3",
+    "source": "original",
+    "type": "match",
+    "stem": "A data science team is reviewing four models. Match each observation to the condition it describes.",
+    "pairs": [
+      {
+        "prompt": "Accuracy is poor on both training data and test data because the model is too simple.",
+        "answer": "Underfitting (high bias)"
+      },
+      {
+        "prompt": "Accuracy is near perfect on training data but much lower on test data.",
+        "answer": "Overfitting (high variance)"
+      },
+      {
+        "prompt": "Accuracy is high and similar on both training data and test data.",
+        "answer": "Good fit"
+      },
+      {
+        "prompt": "Accuracy was good at launch but fell months later as customer behavior changed.",
+        "answer": "Data drift"
+      }
+    ],
+    "termBank": [
+      "Underfitting (high bias)",
+      "Overfitting (high variance)",
+      "Good fit",
+      "Data drift"
+    ],
+    "explanation": "Underfitting means the model is too simple to learn the pattern, so it does badly everywhere. Overfitting means it memorized the training data, so it fails to generalize to unseen data. A good fit performs well and consistently on both sets. Data drift is a production problem: the incoming data changes after deployment, so a model that was well fit degrades and needs monitoring and re-training.",
+    "domain": 4,
+    "step": "4.1",
+    "concepts": [
+      "4.1.3",
+      "1.1.9",
+      "1.3.8"
+    ]
+  },
+  {
+    "id": "og-4.1.9-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A company wants to add a feature that classifies incoming support emails into 10 categories. Leadership has a sustainability goal to minimize the environmental impact of its AI workloads. Which approach BEST meets these requirements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pre-train a new large language model from scratch on all company emails."
+      },
+      {
+        "key": "B",
+        "text": "Use the largest available foundation model for every email to maximize accuracy."
+      },
+      {
+        "key": "C",
+        "text": "Use a small pre-trained model, fine-tuning or prompting it for the task, and right-size it to meet the accuracy target."
+      },
+      {
+        "key": "D",
+        "text": "Run a dedicated GPU endpoint 24 hours a day so the model is always ready."
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Reusing a pre-trained model and choosing the smallest model that meets the requirement minimizes compute and energy use. Pre-training from scratch is the most energy-intensive option and is unnecessary for a simple classification task. The largest model wastes compute per request when a smaller one meets the need. An always-on dedicated GPU endpoint keeps idle capacity running, which increases environmental impact.",
+    "domain": 4,
+    "step": "4.1",
+    "concepts": [
+      "4.1.9",
+      "3.1.7"
+    ]
+  },
+  {
+    "id": "og-4.1.9-2",
+    "source": "original",
+    "type": "multi",
+    "stem": "A media company runs a large nightly job that generates summaries for the day's articles. It wants to lower both the cost and the environmental footprint of this workload without reducing summary quality. Which actions meet these requirements? (Select TWO.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use batch inference for the nightly job instead of keeping a real-time endpoint running all day."
+      },
+      {
+        "key": "B",
+        "text": "Pre-train a custom foundation model that is specialized for summarization."
+      },
+      {
+        "key": "C",
+        "text": "Run self-hosted inference on AWS Inferentia-based instances, which are designed for better performance per watt."
+      },
+      {
+        "key": "D",
+        "text": "Double the number of GPU instances so the job finishes faster."
+      },
+      {
+        "key": "E",
+        "text": "Generate each summary several times and keep the longest version."
+      }
+    ],
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Batch inference suits a scheduled job and avoids paying for and powering an always-on endpoint. AWS Inferentia is purpose-built for efficient inference with better performance per watt. Pre-training a custom model consumes enormous compute and is not needed. Adding instances or generating multiple versions per article increases energy use rather than reducing it.",
+    "domain": 4,
+    "step": "4.1",
+    "concepts": [
+      "4.1.9",
+      "2.3.9",
+      "1.1.4"
+    ]
+  },
+  {
+    "id": "og-4.2.4-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A compliance officer is evaluating whether to use Amazon Rekognition face matching in an identity verification process. She needs AWS's own documentation of the intended use cases, known limitations and responsible AI design choices for the service. Which resource should she use?",
+    "options": [
+      {
+        "key": "A",
+        "text": "An Amazon SageMaker Model Card created by the company's data science team"
+      },
+      {
+        "key": "B",
+        "text": "An AWS AI Service Card for Amazon Rekognition"
+      },
+      {
+        "key": "C",
+        "text": "An Amazon SageMaker Clarify bias report"
+      },
+      {
+        "key": "D",
+        "text": "An AWS Artifact SOC 2 report"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "AWS AI Service Cards are AWS-written transparency documents describing an AWS AI service's intended uses, limitations, responsible AI design choices and deployment best practices. SageMaker Model Cards document models the customer builds, not AWS services. A Clarify bias report measures bias in the customer's own data and models. AWS Artifact SOC reports cover security controls, not responsible AI use and limitations.",
+    "domain": 4,
+    "step": "4.2",
+    "concepts": [
+      "4.2.4",
+      "4.2.3"
+    ]
+  },
+  {
+    "id": "og-4.2.4-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A startup plans to download an open-weight model from Amazon SageMaker JumpStart, fine-tune it on its own data and include it in a paid product. The team chose an open model so it can inspect the weights. What should the team confirm FIRST to avoid legal risk?",
+    "options": [
+      {
+        "key": "A",
+        "text": "That the model's license permits commercial use and modification, and what attribution it requires"
+      },
+      {
+        "key": "B",
+        "text": "That the model has the largest context window available"
+      },
+      {
+        "key": "C",
+        "text": "That the model can be deployed to a serverless endpoint"
+      },
+      {
+        "key": "D",
+        "text": "That the model's inference latency is below 1 second"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Open weights help transparency, but the license decides whether commercial use, modification and redistribution are allowed; using a model outside its license creates intellectual property risk. Context window size, deployment option and latency are performance and architecture choices that do not address the legal risk.",
+    "domain": 4,
+    "step": "4.2",
+    "concepts": [
+      "4.2.4",
+      "4.1.8",
+      "2.3.3"
+    ]
+  }
+]

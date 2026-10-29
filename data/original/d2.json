@@ -1,0 +1,562 @@
+[
+  {
+    "id": "og-2.1.5-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A law firm is building a semantic search tool over thousands of 200-page contracts. Each contract is currently embedded as a single unit, and searches return whole contracts instead of the specific clauses that answer a question. Some contracts also exceed the embedding model's token limit. Which approach will MOST improve retrieval precision?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Split each contract into smaller, slightly overlapping chunks before creating embeddings."
+      },
+      {
+        "key": "B",
+        "text": "Switch to a foundation model with a larger context window and send entire contracts with every question."
+      },
+      {
+        "key": "C",
+        "text": "Fine-tune the embedding model on the firm's contracts."
+      },
+      {
+        "key": "D",
+        "text": "Increase the randomness setting of the model so it explores more clauses."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Chunking splits long documents into smaller pieces that fit the embedding model's token limit, so search can return the precise clause that matches a question; overlap keeps sentences from losing context at chunk boundaries. Sending whole contracts to a larger-context model wastes tokens, raises cost and latency, and does not fix retrieval. Fine-tuning does not solve the token limit or the coarse granularity of whole-document embeddings. Randomness affects generated text, not how documents are retrieved.",
+    "domain": 2,
+    "step": "2.1",
+    "concepts": [
+      "2.1.5",
+      "2.1.4",
+      "2.1.3"
+    ]
+  },
+  {
+    "id": "og-2.1.12-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A company is building several AI agents that all need to read and update data in the same internal ticketing system, database and file store. The team wants to avoid writing a separate custom connector for each agent and each system. Which approach meets this requirement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expose each system through a Model Context Protocol (MCP) server that any MCP-compatible agent can use."
+      },
+      {
+        "key": "B",
+        "text": "Fine-tune the foundation model on exports from each system."
+      },
+      {
+        "key": "C",
+        "text": "Paste the full contents of each system into every agent's prompt."
+      },
+      {
+        "key": "D",
+        "text": "Use the Agent2Agent (A2A) protocol so agents can call the systems directly."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "MCP is an open standard for connecting agents to external tools and data: one MCP server per system exposes its tools and resources, and every MCP-compatible agent can discover and use them without custom integrations. Fine-tuning bakes in stale data and gives agents no way to update the systems. Pasting full system contents into prompts wastes tokens and quickly exceeds the context window. A2A is for agent-to-agent communication, not for connecting agents to tools and data.",
+    "domain": 2,
+    "step": "2.1",
+    "concepts": [
+      "2.1.12",
+      "2.1.11"
+    ]
+  },
+  {
+    "id": "og-2.1.12-2",
+    "source": "original",
+    "type": "single",
+    "stem": "An insurance company wants an AI solution that handles complex customer requests. A single request can involve billing questions, policy changes and claims status. The company wants one agent to break each request into sub-tasks, hand them to specialist agents, and combine the results into one answer. Which multi-agent pattern does this describe?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Supervisor (orchestrator-worker)"
+      },
+      {
+        "key": "B",
+        "text": "Sequential pipeline"
+      },
+      {
+        "key": "C",
+        "text": "Swarm (peer-to-peer)"
+      },
+      {
+        "key": "D",
+        "text": "Single agent with a larger context window"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "In the supervisor pattern, one agent plans the work, delegates sub-tasks to specialist agents and merges their results, which matches the requirement. A sequential pipeline passes output from one agent to the next in a fixed order without a coordinator deciding the split. In a swarm, agents hand off to each other directly with no central coordinator. A single agent with a larger context window is not a multi-agent pattern and loses the benefit of focused specialist contexts.",
+    "domain": 2,
+    "step": "2.1",
+    "concepts": [
+      "2.1.12",
+      "2.1.11",
+      "2.1.10"
+    ]
+  },
+  {
+    "id": "og-2.1.12-3",
+    "source": "original",
+    "type": "match",
+    "stem": "Match each scenario to the multi-agent pattern it describes.",
+    "pairs": [
+      {
+        "prompt": "A research agent gathers facts, a writing agent drafts a report from them, then a review agent checks the draft.",
+        "answer": "Sequential"
+      },
+      {
+        "prompt": "A travel request is sent to a flight agent, a hotel agent and a car-rental agent at the same time, and their results are combined.",
+        "answer": "Parallel"
+      },
+      {
+        "prompt": "A coordinator agent decides which specialist agent should handle each part of a request and merges the answers.",
+        "answer": "Supervisor"
+      },
+      {
+        "prompt": "Agents pass the conversation directly to whichever peer agent is best suited next, with no central coordinator.",
+        "answer": "Swarm"
+      }
+    ],
+    "termBank": [
+      "Sequential",
+      "Parallel",
+      "Supervisor",
+      "Swarm",
+      "Hierarchical"
+    ],
+    "explanation": "Sequential pipelines feed each agent's output into the next agent in a fixed order. Parallel patterns run agents at the same time and aggregate their results. A supervisor plans, delegates and merges results from specialist agents. A swarm lets peer agents hand off to each other directly without a coordinator; hierarchical (supervisors of supervisors) does not match any of these scenarios.",
+    "domain": 2,
+    "step": "2.1",
+    "concepts": [
+      "2.1.12"
+    ]
+  },
+  {
+    "id": "og-2.1.12-4",
+    "source": "original",
+    "type": "multi",
+    "stem": "A retail company has agents built by different teams. The order-management agent must delegate return requests to a returns agent owned by another team. Both agents also need standard access to the company's CRM data without custom code for each agent. Which TWO technologies should the company use? (Select TWO.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Agent2Agent (A2A) protocol for communication between the order-management agent and the returns agent"
+      },
+      {
+        "key": "B",
+        "text": "Model Context Protocol (MCP) server that exposes the CRM data and actions as tools"
+      },
+      {
+        "key": "C",
+        "text": "Fine-tuning both agents' models on historical CRM records"
+      },
+      {
+        "key": "D",
+        "text": "A single shared prompt that contains the full CRM database"
+      },
+      {
+        "key": "E",
+        "text": "Diffusion models to generate CRM records on demand"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "A2A is a standard for agents to communicate and delegate work to each other, and MCP is the standard for connecting agents to external tools and data such as a CRM. Fine-tuning on historical records gives agents stale knowledge and no ability to act on the CRM. Putting the whole database in a prompt is costly and exceeds context limits. Diffusion models generate images and media, not live business data.",
+    "domain": 2,
+    "step": "2.1",
+    "concepts": [
+      "2.1.12",
+      "2.1.11",
+      "2.1.6"
+    ]
+  },
+  {
+    "id": "og-2.3.5-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A development team wants an AI-powered IDE in which a developer describes a new feature in plain language and the AI first produces requirements, a design and an ordered task list, then implements the tasks for the developer to review. Which AWS offering meets this need?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kiro"
+      },
+      {
+        "key": "B",
+        "text": "Amazon Q Business"
+      },
+      {
+        "key": "C",
+        "text": "Amazon Bedrock AgentCore Runtime"
+      },
+      {
+        "key": "D",
+        "text": "Amazon SageMaker JumpStart"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Kiro is AWS's agentic AI-powered IDE, and its spec-driven development turns a feature description into requirements, design and tasks before the agent writes code. Amazon Q Business is an assistant that answers employee questions over company documents, not an IDE. AgentCore Runtime hosts agents in production and does not help developers write code. SageMaker JumpStart is a model hub for deploying and fine-tuning pre-trained models.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.5"
+    ]
+  },
+  {
+    "id": "og-2.3.5-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A team uses Kiro. Developers often forget to update unit tests and documentation after changing source files. The team wants the Kiro agent to perform these updates automatically every time a file is saved. Which Kiro feature should the team use?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Agent hooks"
+      },
+      {
+        "key": "B",
+        "text": "Steering files"
+      },
+      {
+        "key": "C",
+        "text": "Spec-driven development"
+      },
+      {
+        "key": "D",
+        "text": "Supervised mode"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Agent hooks are automations triggered by events such as saving a file, so they can run the agent to update tests and docs automatically. Steering files give the agent standing project rules and context but do not trigger actions on events. Spec-driven development turns a feature idea into requirements, design and tasks; it is not an event trigger. Supervised mode controls how much the agent does without approval, not when it runs.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.5"
+    ]
+  },
+  {
+    "id": "og-2.3.5-3",
+    "source": "original",
+    "type": "single",
+    "stem": "A company's developers use Kiro. Every developer currently repeats the company's coding standards and approved technology stack in their chat prompts, and results are inconsistent when someone forgets. The company wants the agent to follow these rules in every session with the LEAST ongoing effort. What should the company do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Add the standards and tech stack to Kiro steering files in the project."
+      },
+      {
+        "key": "B",
+        "text": "Fine-tune a foundation model on the company's existing code."
+      },
+      {
+        "key": "C",
+        "text": "Create an agent hook that runs whenever a file is saved."
+      },
+      {
+        "key": "D",
+        "text": "Ask developers to paste the standards into each prompt."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Steering files hold project rules and context that the Kiro agent always follows, which is context engineering applied to development, so the rules are included without anyone repeating them. Fine-tuning a model is costly and unnecessary for passing standing instructions. Agent hooks trigger actions on events; they do not supply rules to every conversation. Pasting standards into every prompt is the manual, error-prone process the company wants to replace.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.5",
+      "2.1.10"
+    ]
+  },
+  {
+    "id": "og-2.3.5-4",
+    "source": "original",
+    "type": "single",
+    "stem": "A developer using Kiro wants the agent to read open issues from the company's internal issue tracker while it plans and implements tasks. The tracker already has a Model Context Protocol (MCP) server. Which solution requires the LEAST custom development?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Configure Kiro to connect to the issue tracker's MCP server."
+      },
+      {
+        "key": "B",
+        "text": "Build a Strands Agents application that copies issues into the Kiro project folder."
+      },
+      {
+        "key": "C",
+        "text": "Use Amazon SageMaker JumpStart to deploy a model trained on the issue tracker data."
+      },
+      {
+        "key": "D",
+        "text": "Ask Amazon Quick to export the issues as a dashboard for the developer to read."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Kiro supports MCP, so connecting to the existing MCP server gives the agent the tracker's tools and data with no new code. Building a Strands Agents application to copy issues adds custom development and keeps the data stale. Deploying a model trained on tracker data with JumpStart is slow, costly and does not give live access. An Amazon Quick dashboard is for business users and does not give the Kiro agent access to issues.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.5",
+      "2.1.12",
+      "2.3.4"
+    ]
+  },
+  {
+    "id": "og-2.3.6-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A company has built an AI agent in code using an open-source framework (LangGraph). It now needs to run the agent in production with automatic scaling and isolated user sessions, without managing servers and without rewriting the agent. Which solution meets these requirements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deploy the agent to Amazon Bedrock AgentCore Runtime."
+      },
+      {
+        "key": "B",
+        "text": "Rebuild the agent as an Amazon Bedrock Agent using action groups."
+      },
+      {
+        "key": "C",
+        "text": "Run the agent on a self-managed fleet of Amazon EC2 instances."
+      },
+      {
+        "key": "D",
+        "text": "Deploy the agent with Amazon SageMaker JumpStart."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "AgentCore Runtime is serverless hosting for agents built with any framework, including LangGraph and Strands, and it provides isolated sessions without a rewrite. Rebuilding as an Amazon Bedrock Agent means rewriting the agent, which the company wants to avoid. A self-managed EC2 fleet requires managing servers and scaling. SageMaker JumpStart deploys pre-trained models, not agent applications.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.6",
+      "2.1.11"
+    ]
+  },
+  {
+    "id": "og-2.3.6-2",
+    "source": "original",
+    "type": "multi",
+    "stem": "A company is running a customer-support agent on Amazon Bedrock AgentCore. The agent must remember each customer's preferences across separate sessions. It must also call several existing internal REST APIs and AWS Lambda functions, which the company wants to expose as MCP tools without writing an MCP server for each one. Which TWO AgentCore services meet these requirements? (Select TWO.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "AgentCore Memory"
+      },
+      {
+        "key": "B",
+        "text": "AgentCore Gateway"
+      },
+      {
+        "key": "C",
+        "text": "AgentCore Observability"
+      },
+      {
+        "key": "D",
+        "text": "AgentCore Code Interpreter"
+      },
+      {
+        "key": "E",
+        "text": "AgentCore Browser"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "AgentCore Memory provides managed short-term and long-term memory, so preferences persist across sessions. AgentCore Gateway turns existing APIs and Lambda functions into MCP tools that agents can discover. Observability provides traces and metrics but stores no customer memory and exposes no tools. Code Interpreter runs code in a sandbox, and Browser lets an agent use websites; neither exposes internal APIs as MCP tools.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.6",
+      "2.1.11",
+      "2.1.12"
+    ]
+  },
+  {
+    "id": "og-2.3.6-3",
+    "source": "original",
+    "type": "single",
+    "stem": "A developer wants to write a custom AI agent in Python. The developer wants to supply a model, a system prompt and a list of tools, and let the model plan and call tools in a loop until the task is done. The developer prefers an open-source SDK from AWS that works with Amazon Bedrock models. Which option should the developer use?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Strands Agents"
+      },
+      {
+        "key": "B",
+        "text": "Kiro"
+      },
+      {
+        "key": "C",
+        "text": "Amazon Q Developer"
+      },
+      {
+        "key": "D",
+        "text": "Amazon Bedrock Prompt Management"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Strands Agents is AWS's open-source, model-driven SDK for building agents in code: you give it a model, a prompt and tools, and the model drives the tool-calling loop. Kiro is an AI-powered IDE that helps developers write software, not an agent SDK. Amazon Q Developer is a coding assistant, not a framework for building your own agents. Bedrock Prompt Management stores and versions prompts but does not run an agent loop.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.6",
+      "2.1.11"
+    ]
+  },
+  {
+    "id": "og-2.3.8-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A healthcare company plans to use Amazon Bedrock to summarize clinical notes. The compliance team worries that patient data in prompts will be used to improve the foundation models or be seen by the model provider. Which statement addresses this concern?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Amazon Bedrock does not use prompts and outputs to train the base models and does not share them with model providers."
+      },
+      {
+        "key": "B",
+        "text": "The company must fine-tune its own model, because Bedrock base models learn from every prompt."
+      },
+      {
+        "key": "C",
+        "text": "The company must host the model on Amazon EC2, because managed services share data with model providers."
+      },
+      {
+        "key": "D",
+        "text": "Bedrock removes patient data only if the company buys provisioned throughput."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "In Amazon Bedrock, customer prompts and outputs are not used to train base models and are not shared with model providers. Data is encrypted, and the company chooses the Region. Base models do not learn from each prompt, so fine-tuning is not required for privacy. Self-hosting on EC2 is not required because the managed service already keeps data private. Data privacy does not depend on the pricing option, so provisioned throughput is irrelevant.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.8",
+      "2.3.1"
+    ]
+  },
+  {
+    "id": "og-2.3.8-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A company builds a GenAI application on Amazon Bedrock with a knowledge base of internal documents. Under the AWS shared responsibility model, which task is the company's responsibility?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Controlling which users and roles can invoke the models and access the knowledge base data"
+      },
+      {
+        "key": "B",
+        "text": "Securing the data centers that host the model infrastructure"
+      },
+      {
+        "key": "C",
+        "text": "Maintaining the hardware that runs the foundation models"
+      },
+      {
+        "key": "D",
+        "text": "Operating and patching the managed model-hosting service"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "The customer is responsible for what it puts in and builds: its data, IAM permissions, prompts, application logic and how outputs are used. AWS secures the physical data centers. AWS also maintains the hardware. AWS operates the managed service and model hosting, so patching it is AWS's job.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.8",
+      "2.3.2"
+    ]
+  },
+  {
+    "id": "og-2.3.9-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A startup wants to train its own large language model on AWS. Its top priority is the lowest training cost, and it is willing to use AWS-designed accelerators supported by the AWS Neuron SDK. Which Amazon EC2 instance family should it choose?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trn instances powered by AWS Trainium"
+      },
+      {
+        "key": "B",
+        "text": "Inf instances powered by AWS Inferentia"
+      },
+      {
+        "key": "C",
+        "text": "G instances with NVIDIA GPUs for graphics and inference"
+      },
+      {
+        "key": "D",
+        "text": "General-purpose M instances with CPUs only"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "AWS Trainium is AWS's chip designed for training large models at lower cost, and Trn instances are built on it. Inferentia is designed for inference, not large-scale training. G instances are aimed mainly at inference and graphics rather than cost-efficient large-model training. CPU-only instances lack the parallel compute that large model training needs.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.9",
+      "1.1.3"
+    ]
+  },
+  {
+    "id": "og-2.3.9-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A media company self-hosts an open-source text model that serves millions of predictions per day. It wants to reduce the cost per prediction and improve energy efficiency while keeping high throughput. Which compute option BEST meets these requirements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Amazon EC2 Inf2 instances powered by AWS Inferentia"
+      },
+      {
+        "key": "B",
+        "text": "Amazon EC2 Trn1 instances powered by AWS Trainium"
+      },
+      {
+        "key": "C",
+        "text": "Amazon EC2 P instances with high-end GPUs sized for large training jobs"
+      },
+      {
+        "key": "D",
+        "text": "Burstable general-purpose CPU instances"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "AWS Inferentia is designed for high-throughput, low-cost inference with better energy efficiency, which matches serving millions of predictions. Trainium targets training workloads. P instances are sized for large training jobs and are an expensive choice for inference at scale. Burstable CPU instances lack the accelerator throughput needed for this volume of model inference.",
+    "domain": 2,
+    "step": "2.3",
+    "concepts": [
+      "2.3.9",
+      "1.1.3"
+    ]
+  }
+]

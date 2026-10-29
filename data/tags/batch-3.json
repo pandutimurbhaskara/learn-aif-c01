@@ -1,0 +1,751 @@
+[
+ {
+  "id": "pd-183",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.3",
+   "3.3.2"
+  ]
+ },
+ {
+  "id": "pd-184",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "pd-185",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.3"
+  ]
+ },
+ {
+  "id": "pd-186",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.11"
+  ]
+ },
+ {
+  "id": "pd-187",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.10"
+  ]
+ },
+ {
+  "id": "pd-188",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.3"
+  ]
+ },
+ {
+  "id": "pd-189",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.3",
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-190",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.6",
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "pd-191",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.8"
+  ]
+ },
+ {
+  "id": "pd-192",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.4"
+  ]
+ },
+ {
+  "id": "pd-193",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.6"
+  ]
+ },
+ {
+  "id": "pd-194",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.1",
+   "3.2.5"
+  ]
+ },
+ {
+  "id": "pd-196",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.1"
+  ]
+ },
+ {
+  "id": "pd-197",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.2"
+  ]
+ },
+ {
+  "id": "pd-198",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.3"
+  ]
+ },
+ {
+  "id": "pd-199",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-200",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.2",
+   "3.2.3"
+  ]
+ },
+ {
+  "id": "pd-201",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.4"
+  ]
+ },
+ {
+  "id": "pd-202",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "pd-203",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.3"
+  ]
+ },
+ {
+  "id": "pd-204",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.1",
+   "1.1.6"
+  ]
+ },
+ {
+  "id": "pd-205",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "pd-206",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "pd-207",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.7",
+   "2.1.10"
+  ]
+ },
+ {
+  "id": "pd-208",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4"
+  ]
+ },
+ {
+  "id": "pd-209",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.3"
+  ]
+ },
+ {
+  "id": "pd-210",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.9"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "pd-211",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.3"
+  ]
+ },
+ {
+  "id": "pd-212",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-213",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.9"
+  ]
+ },
+ {
+  "id": "pd-214",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.3",
+   "2.1.10"
+  ]
+ },
+ {
+  "id": "pd-215",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.7",
+   "3.1.4"
+  ]
+ },
+ {
+  "id": "pd-216",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.9"
+  ]
+ },
+ {
+  "id": "pd-217",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4"
+  ]
+ },
+ {
+  "id": "pd-218",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.6",
+   "3.4.2"
+  ]
+ },
+ {
+  "id": "pd-219",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "pd-220",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-221",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.6",
+   "2.1.8"
+  ]
+ },
+ {
+  "id": "pd-222",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.3"
+  ]
+ },
+ {
+  "id": "pd-224",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.8",
+   "1.3.6"
+  ]
+ },
+ {
+  "id": "pd-225",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.6"
+  ]
+ },
+ {
+  "id": "pd-227",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.5"
+  ]
+ },
+ {
+  "id": "pd-228",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.3"
+  ]
+ },
+ {
+  "id": "pd-230",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.5"
+  ],
+  "drop": "ambiguous: directional stimulus prompting as the key is dubious for a public-docs bank chatbot (few-shot/RAG-style answers equally defensible)"
+ },
+ {
+  "id": "pd-231",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.1",
+   "1.3.5"
+  ]
+ },
+ {
+  "id": "pd-232",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.5",
+   "5.2.7"
+  ]
+ },
+ {
+  "id": "pd-233",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.4",
+   "3.4.5"
+  ],
+  "drop": "ambiguous/dubious key: BLEU n-gram overlap vs BERTScore for slang style; no reference-based metric clearly assesses creative spelling"
+ },
+ {
+  "id": "pd-234",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.5"
+  ]
+ },
+ {
+  "id": "pd-235",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.2",
+   "2.1.6"
+  ]
+ },
+ {
+  "id": "pd-236",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.2",
+   "3.4.1"
+  ]
+ },
+ {
+  "id": "pd-237",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.5",
+   "1.2.5"
+  ]
+ },
+ {
+  "id": "pd-238",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.6"
+  ]
+ },
+ {
+  "id": "pd-239",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "pd-240",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.8",
+   "1.3.6"
+  ]
+ },
+ {
+  "id": "pd-241",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "pd-242",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.2",
+   "3.3.3",
+   "3.3.5"
+  ]
+ },
+ {
+  "id": "pd-243",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "pd-244",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.4"
+  ]
+ },
+ {
+  "id": "pd-245",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.3"
+  ]
+ },
+ {
+  "id": "pd-246",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.5",
+   "3.1.7"
+  ]
+ },
+ {
+  "id": "pd-247",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.2",
+   "3.2.2"
+  ]
+ },
+ {
+  "id": "pd-248",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.2"
+  ]
+ },
+ {
+  "id": "pd-249",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.6"
+  ]
+ },
+ {
+  "id": "pd-250",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.3"
+  ]
+ },
+ {
+  "id": "pd-251",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.4",
+   "2.1.3"
+  ]
+ },
+ {
+  "id": "pd-252",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.4"
+  ]
+ },
+ {
+  "id": "pd-254",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4"
+  ]
+ },
+ {
+  "id": "pd-255",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.1.4",
+   "3.2.2"
+  ]
+ },
+ {
+  "id": "pd-256",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.7",
+   "2.1.11"
+  ]
+ },
+ {
+  "id": "pd-257",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.3"
+  ]
+ },
+ {
+  "id": "pd-258",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.1"
+  ]
+ },
+ {
+  "id": "pd-259",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.1"
+  ]
+ },
+ {
+  "id": "pd-260",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.2",
+   "3.4.1"
+  ]
+ },
+ {
+  "id": "pd-261",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3",
+   "2.1.6"
+  ]
+ },
+ {
+  "id": "pd-262",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-263",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.5",
+   "3.4.2"
+  ]
+ },
+ {
+  "id": "pd-264",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.2"
+  ]
+ },
+ {
+  "id": "pd-265",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.1",
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "pd-267",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.10"
+  ]
+ },
+ {
+  "id": "pd-268",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "pd-269",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.1"
+  ]
+ },
+ {
+  "id": "pd-270",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.7",
+   "3.3.2"
+  ]
+ },
+ {
+  "id": "pd-271",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.7"
+  ]
+ },
+ {
+  "id": "pd-272",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.3"
+  ],
+  "drop": "answer key dubious: fine-tuning a pre-trained deep learning model is the standard least-effort choice, not hand-built features with traditional ML"
+ },
+ {
+  "id": "pd-273",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.10",
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "pd-274",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "pd-275",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "pd-276",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.6",
+   "3.4.7"
+  ]
+ },
+ {
+  "id": "pd-277",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.2"
+  ]
+ }
+]

@@ -1,0 +1,2435 @@
+[
+ {
+  "id": "kn-6-40",
+  "domain": 0,
+  "type": "single",
+  "stem": "A media streaming platform wants to provide movie recommendations to users based on the users’ account history. Which AWS service meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Transcribe"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Personalize"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "kn-6-41",
+  "domain": 0,
+  "type": "single",
+  "stem": "A company has developed an ML model to approve or reject loan applications. The model's decision-making process must be transparent and explainable to comply with regulatory requirements. The company must document the decision-making process for audit purposes. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Textract"
+   },
+   {
+    "key": "B",
+    "text": "Amazon SageMaker Model Card"
+   },
+   {
+    "key": "C",
+    "text": "AWS Cloud Formation"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Comprehend"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-6-42",
+  "domain": 0,
+  "type": "multi",
+  "stem": "Which considerations are important when designing prompts for generative AI? (Choose 2)",
+  "options": [
+   {
+    "key": "A",
+    "text": "Providing clear context and instructions"
+   },
+   {
+    "key": "B",
+    "text": "Using as many words as possible"
+   },
+   {
+    "key": "C",
+    "text": "Including relevant examples when helpful"
+   },
+   {
+    "key": "D",
+    "text": "Always using technical jargon"
+   },
+   {
+    "key": "E",
+    "text": "Making prompts as vague as possible"
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ]
+ },
+ {
+  "id": "kn-6-43",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary benefit of using Amazon SageMaker JumpStart?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To reduce inference costs"
+   },
+   {
+    "key": "B",
+    "text": "To access pre-trained models and solutions"
+   },
+   {
+    "key": "C",
+    "text": "To automatically label data"
+   },
+   {
+    "key": "D",
+    "text": "To monitor model performance"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-6-44",
+  "domain": 0,
+  "type": "multi",
+  "stem": "Which factors should be considered when implementing MLOps practices? (Choose 2)",
+  "options": [
+   {
+    "key": "A",
+    "text": "Model versioning and reproducibility"
+   },
+   {
+    "key": "B",
+    "text": "Automated testing and validation"
+   },
+   {
+    "key": "C",
+    "text": "Using only cloud-based services"
+   },
+   {
+    "key": "D",
+    "text": "Minimizing documentation"
+   },
+   {
+    "key": "E",
+    "text": "Avoiding monitoring in production"
+   }
+  ],
+  "correct": [
+   "A",
+   "B"
+  ]
+ },
+ {
+  "id": "kn-6-45",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the purpose of embeddings in machine learning?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To compress images"
+   },
+   {
+    "key": "B",
+    "text": "To represent data as dense numerical vectors"
+   },
+   {
+    "key": "C",
+    "text": "To encrypt sensitive information"
+   },
+   {
+    "key": "D",
+    "text": "To reduce training time"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-6-46",
+  "domain": 0,
+  "type": "multi",
+  "stem": "Which Amazon Bedrock features help with content filtering and safety? (Choose 2)",
+  "options": [
+   {
+    "key": "A",
+    "text": "Guardrails for content filtering"
+   },
+   {
+    "key": "B",
+    "text": "Model customization options"
+   },
+   {
+    "key": "C",
+    "text": "Prompt management capabilities"
+   },
+   {
+    "key": "D",
+    "text": "Watermark detection for AI-generated content"
+   },
+   {
+    "key": "E",
+    "text": "Knowledge base integration"
+   }
+  ],
+  "correct": [
+   "A",
+   "D"
+  ]
+ },
+ {
+  "id": "kn-6-47",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the difference between discriminative and generative AI models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Discriminative models are faster than generative models"
+   },
+   {
+    "key": "B",
+    "text": "Discriminative models classify/predict, generative models create new content"
+   },
+   {
+    "key": "C",
+    "text": "Discriminative models are more accurate than generative models"
+   },
+   {
+    "key": "D",
+    "text": "Discriminative models require more data than generative models"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-6-48",
+  "domain": 0,
+  "type": "multi",
+  "stem": "Which metrics are commonly used to evaluate generative AI model performance? (Choose 2)",
+  "options": [
+   {
+    "key": "A",
+    "text": "BLEU score for translation quality"
+   },
+   {
+    "key": "B",
+    "text": "CPU utilization"
+   },
+   {
+    "key": "C",
+    "text": "ROUGE score for summarization quality"
+   },
+   {
+    "key": "D",
+    "text": "Network latency"
+   },
+   {
+    "key": "E",
+    "text": "Storage capacity"
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ]
+ },
+ {
+  "id": "kn-6-49",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary purpose of Amazon Q for Business?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To train custom ML models"
+   },
+   {
+    "key": "B",
+    "text": "To provide AI-powered business intelligence and assistance"
+   },
+   {
+    "key": "C",
+    "text": "To store large datasets"
+   },
+   {
+    "key": "D",
+    "text": "To monitor infrastructure"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-6-50",
+  "domain": 0,
+  "type": "multi",
+  "stem": "Which capabilities of Amazon OpenSearch Service are most relevant for AI/ML workloads? (Choose 2)",
+  "options": [
+   {
+    "key": "A",
+    "text": "Vector similarity search with k-NN"
+   },
+   {
+    "key": "B",
+    "text": "Website hosting"
+   },
+   {
+    "key": "C",
+    "text": "Vector database functionality"
+   },
+   {
+    "key": "D",
+    "text": "Email processing"
+   },
+   {
+    "key": "E",
+    "text": "Log analysis"
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-2",
+  "domain": 0,
+  "type": "single",
+  "stem": "A company is exploring Amazon Nova models in Amazon Bedrock. The company needs a multimodal model that supports multiple languages. Which Nova model will meet these requirements MOST cost-effectively?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Nova Lite"
+   },
+   {
+    "key": "B",
+    "text": "Nova Pro"
+   },
+   {
+    "key": "C",
+    "text": "Nova Canvas"
+   },
+   {
+    "key": "D",
+    "text": "Nova Reel"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "kn-7-5",
+  "domain": 0,
+  "type": "single",
+  "stem": "A company wants to build an AI assistant to provide responses to user queries. The AI assistant must evaluate specific data sources, query external APIs, generate response options, and compare and prioritize response options. Which Amazon Bedrock feature or resource will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Prompt Management"
+   },
+   {
+    "key": "B",
+    "text": "Response streaming"
+   },
+   {
+    "key": "C",
+    "text": "Knowledge Bases"
+   },
+   {
+    "key": "D",
+    "text": "Agents"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "kn-7-6",
+  "domain": 0,
+  "type": "single",
+  "stem": "An AI practitioner notices a large language model (LLM) is generating different responses for the same input across multiple invocations. Which risk of AI does this describe?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Hallucinations"
+   },
+   {
+    "key": "B",
+    "text": "Nondeterminism"
+   },
+   {
+    "key": "C",
+    "text": "Accuracy"
+   },
+   {
+    "key": "D",
+    "text": "Multimodality"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-7",
+  "domain": 0,
+  "type": "single",
+  "stem": "A company is building a generative AI application on AWS. The application will help improve reading comprehension for students. The application must give students the ability to add illustrations to stories. Which solution will meet this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use Amazon Bedrock Stable Diffusion 3.5 Large to generate images based on text inputs."
+   },
+   {
+    "key": "B",
+    "text": "Use Amazon Polly to create an audiobook based on story texts."
+   },
+   {
+    "key": "C",
+    "text": "Use Amazon Rekognition to analyze image contents and detect text attributes."
+   },
+   {
+    "key": "D",
+    "text": "Create a standard prompt template. Use Amazon Q Business to illustrate stories."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "kn-7-8",
+  "domain": 0,
+  "type": "single",
+  "stem": "A healthcare company wants to analyze patient data. The data was gathered over the previous year to detect patterns in disease outbreaks. The company needs to create a trend analysis report for each month to present to public health officials. The company must provide insights into patient data from the most recent month of the current year. Which inference method will meet these requirements MOST cost-effectively?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Real-time inference"
+   },
+   {
+    "key": "B",
+    "text": "Batch transform"
+   },
+   {
+    "key": "C",
+    "text": "Serverless inference"
+   },
+   {
+    "key": "D",
+    "text": "Asynchronous inference"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-14",
+  "domain": 0,
+  "type": "single",
+  "stem": "A company is developing a generative AI application to automatically generate product descriptions for an ecommerce website. The product descriptions must consist of paragraphs of text that are consistent in style and tone. The application must generate thousands of unique descriptions each day. Which type of generative model will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A variational autoencoder (VAE) model"
+   },
+   {
+    "key": "B",
+    "text": "A transformer-based model"
+   },
+   {
+    "key": "C",
+    "text": "A diffusion model"
+   },
+   {
+    "key": "D",
+    "text": "A generative adversarial network (GAN) model"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-16",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary difference between AI and ML?",
+  "options": [
+   {
+    "key": "A",
+    "text": "AI is a subset of ML"
+   },
+   {
+    "key": "B",
+    "text": "ML is a subset of AI"
+   },
+   {
+    "key": "C",
+    "text": "They are completely unrelated fields"
+   },
+   {
+    "key": "D",
+    "text": "AI and ML are the same thing"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-17",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is NOT a type of machine learning?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Supervised learning"
+   },
+   {
+    "key": "B",
+    "text": "Unsupervised learning"
+   },
+   {
+    "key": "C",
+    "text": "Reinforcement learning"
+   },
+   {
+    "key": "D",
+    "text": "Diagnostic learning"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "kn-7-18",
+  "domain": 0,
+  "type": "single",
+  "stem": "What type of data is most suitable for training a computer vision model?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Tabular data"
+   },
+   {
+    "key": "B",
+    "text": "Time-series data"
+   },
+   {
+    "key": "C",
+    "text": "Image data"
+   },
+   {
+    "key": "D",
+    "text": "Text data"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-19",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which AWS service is best suited for natural language processing tasks?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon SageMaker"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Transcribe"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-20",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary purpose of exploratory data analysis (EDA) in the ML development lifecycle?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To train the model"
+   },
+   {
+    "key": "B",
+    "text": "To deploy the model"
+   },
+   {
+    "key": "C",
+    "text": "To understand the characteristics of the data"
+   },
+   {
+    "key": "D",
+    "text": "To monitor the model in production"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-21",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is NOT a typical stage in an ML pipeline?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Data collection"
+   },
+   {
+    "key": "B",
+    "text": "Feature engineering"
+   },
+   {
+    "key": "C",
+    "text": "Model training"
+   },
+   {
+    "key": "D",
+    "text": "Customer acquisition"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "kn-7-22",
+  "domain": 0,
+  "type": "single",
+  "stem": "What does AUC stand for in the context of model performance metrics?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Average User Cost"
+   },
+   {
+    "key": "B",
+    "text": "Area Under the Curve"
+   },
+   {
+    "key": "C",
+    "text": "Automated Universal Calculation"
+   },
+   {
+    "key": "D",
+    "text": "Augmented Use Case"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-23",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which type of learning is most appropriate when you have a large dataset of labeled examples?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Unsupervised learning"
+   },
+   {
+    "key": "B",
+    "text": "Reinforcement learning"
+   },
+   {
+    "key": "C",
+    "text": "Supervised learning"
+   },
+   {
+    "key": "D",
+    "text": "Semi-supervised learning"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-24",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the main advantage of using pre-trained models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "They always perform better than custom models"
+   },
+   {
+    "key": "B",
+    "text": "They require less computational resources to train"
+   },
+   {
+    "key": "C",
+    "text": "They are always more accurate"
+   },
+   {
+    "key": "D",
+    "text": "They can be used immediately without any training data"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "kn-7-25",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which AWS service is best suited for automating the process of identifying the best hyperparameters for a model?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon SageMaker Autopilot"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Transcribe"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "kn-7-26",
+  "domain": 0,
+  "type": "single",
+  "stem": "What does MLOps stand for?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Machine Learning Operations"
+   },
+   {
+    "key": "B",
+    "text": "Multiple Learning Optimizations"
+   },
+   {
+    "key": "C",
+    "text": "Model Learning Objectives"
+   },
+   {
+    "key": "D",
+    "text": "Managed Learning Outputs"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "kn-7-27",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is NOT a typical business metric for evaluating ML models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Cost per user"
+   },
+   {
+    "key": "B",
+    "text": "Development costs"
+   },
+   {
+    "key": "C",
+    "text": "Customer feedback"
+   },
+   {
+    "key": "D",
+    "text": "F1 score"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "kn-7-30",
+  "domain": 0,
+  "type": "single",
+  "stem": "What type of learning is most appropriate when you want an agent to learn from its interactions with an environment?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Supervised learning"
+   },
+   {
+    "key": "B",
+    "text": "Unsupervised learning"
+   },
+   {
+    "key": "C",
+    "text": "Reinforcement learning"
+   },
+   {
+    "key": "D",
+    "text": "Transfer learning"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-31",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which AWS service is best suited for converting text to speech?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Translate"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Transcribe"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Polly"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "kn-7-32",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary purpose of feature engineering in the ML development lifecycle?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To collect more data"
+   },
+   {
+    "key": "B",
+    "text": "To create new features or transform existing ones to improve model performance"
+   },
+   {
+    "key": "C",
+    "text": "To evaluate the model’s performance"
+   },
+   {
+    "key": "D",
+    "text": "To deploy the model to production"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-33",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is an example of unsupervised learning?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Spam detection"
+   },
+   {
+    "key": "B",
+    "text": "Image classification"
+   },
+   {
+    "key": "C",
+    "text": "Clustering customer segments"
+   },
+   {
+    "key": "D",
+    "text": "Predicting house prices"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-34",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the main difference between batch inferencing and real-time inferencing?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Batch inferencing is always more accurate"
+   },
+   {
+    "key": "B",
+    "text": "Real-time inferencing can only be done on small datasets"
+   },
+   {
+    "key": "C",
+    "text": "Batch inferencing processes multiple inputs at once, while real-time inferencing processes individual inputs as they arrive"
+   },
+   {
+    "key": "D",
+    "text": "Real-time inferencing is always faster than batch inferencing"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-35",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which AWS service is best suited for managing the entire machine learning lifecycle?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "B",
+    "text": "Amazon SageMaker"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Translate"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-36",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary purpose of model monitoring in production?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To train new models"
+   },
+   {
+    "key": "B",
+    "text": "To collect more data"
+   },
+   {
+    "key": "C",
+    "text": "To detect issues like model drift or data drift"
+   },
+   {
+    "key": "D",
+    "text": "To perform feature engineering"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-37",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is NOT a typical use case for AI/ML?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Fraud detection"
+   },
+   {
+    "key": "B",
+    "text": "Recommendation systems"
+   },
+   {
+    "key": "C",
+    "text": "Manual data entry"
+   },
+   {
+    "key": "D",
+    "text": "Speech recognition"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-38",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is a token in the context of generative AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A security feature"
+   },
+   {
+    "key": "B",
+    "text": "A unit of text processed by the model"
+   },
+   {
+    "key": "C",
+    "text": "A type of neural network"
+   },
+   {
+    "key": "D",
+    "text": "A model evaluation metric"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-39",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is NOT a typical use case for generative AI models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Image generation"
+   },
+   {
+    "key": "B",
+    "text": "Summarization"
+   },
+   {
+    "key": "C",
+    "text": "Data encryption"
+   },
+   {
+    "key": "D",
+    "text": "Code generation"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-40",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary advantage of generative AI’s adaptability?",
+  "options": [
+   {
+    "key": "A",
+    "text": "It can only work with structured data"
+   },
+   {
+    "key": "B",
+    "text": "It can handle a wide range of tasks and domains"
+   },
+   {
+    "key": "C",
+    "text": "It always produces perfect results"
+   },
+   {
+    "key": "D",
+    "text": "It eliminates the need for human oversight"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-41",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is a hallucination in the context of generative AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A visual output produced by the model"
+   },
+   {
+    "key": "B",
+    "text": "A type of model architecture"
+   },
+   {
+    "key": "C",
+    "text": "An incorrect or fabricated output presented as fact"
+   },
+   {
+    "key": "D",
+    "text": "A method of model training"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-42",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which AWS service is designed specifically for developing generative AI applications?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon EC2"
+   },
+   {
+    "key": "B",
+    "text": "Amazon S3"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Bedrock"
+   },
+   {
+    "key": "D",
+    "text": "Amazon RDS"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-43",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is a foundation model in generative AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A model that can only generate text"
+   },
+   {
+    "key": "B",
+    "text": "A large, pre-trained model that can be adapted for various tasks"
+   },
+   {
+    "key": "C",
+    "text": "A model specifically designed for image generation"
+   },
+   {
+    "key": "D",
+    "text": "A model that requires no training data"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-44",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is NOT a stage in the foundation model lifecycle?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Data selection"
+   },
+   {
+    "key": "B",
+    "text": "Pre-training"
+   },
+   {
+    "key": "C",
+    "text": "Deployment"
+   },
+   {
+    "key": "D",
+    "text": "Marketing"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "kn-7-45",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary advantage of using AWS generative AI services for building applications?",
+  "options": [
+   {
+    "key": "A",
+    "text": "They are always free"
+   },
+   {
+    "key": "B",
+    "text": "They provide a lower barrier to entry"
+   },
+   {
+    "key": "C",
+    "text": "They guarantee 100% accuracy"
+   },
+   {
+    "key": "D",
+    "text": "They eliminate the need for any coding"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-46",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is prompt engineering in the context of generative AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A method of hardware optimization"
+   },
+   {
+    "key": "B",
+    "text": "A technique for designing the physical structure of AI models"
+   },
+   {
+    "key": "C",
+    "text": "The process of crafting effective input prompts to guide model outputs"
+   },
+   {
+    "key": "D",
+    "text": "A way to reduce energy consumption in AI systems"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-47",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is a potential disadvantage of generative AI solutions?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Adaptability"
+   },
+   {
+    "key": "B",
+    "text": "Responsiveness"
+   },
+   {
+    "key": "C",
+    "text": "Inaccuracy"
+   },
+   {
+    "key": "D",
+    "text": "Simplicity"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "kn-7-48",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the difference between zero-shot, one-shot, and few-shot learning in generative AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "They refer to different model architectures"
+   },
+   {
+    "key": "B",
+    "text": "They refer to the number of examples provided in the prompt"
+   },
+   {
+    "key": "C",
+    "text": "They refer to different training datasets"
+   },
+   {
+    "key": "D",
+    "text": "They refer to different inference speeds"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-49",
+  "domain": 0,
+  "type": "multi",
+  "stem": "Which AWS services can be used for document analysis and information extraction? (Choose 2)",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Textract"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Translate"
+   },
+   {
+    "key": "E",
+    "text": "Amazon Transcribe"
+   }
+  ],
+  "correct": [
+   "A",
+   "B"
+  ]
+ },
+ {
+  "id": "kn-7-50",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the purpose of Amazon SageMaker Model Monitor?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To train models faster"
+   },
+   {
+    "key": "B",
+    "text": "To detect data drift and model performance degradation"
+   },
+   {
+    "key": "C",
+    "text": "To serve models for inference"
+   },
+   {
+    "key": "D",
+    "text": "To create training datasets"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-01-1",
+  "domain": 1,
+  "type": "single",
+  "stem": "What is the primary difference between AI and Machine Learning?",
+  "options": [
+   {
+    "key": "A",
+    "text": "AI is data-driven while Machine Learning is rule-based"
+   },
+   {
+    "key": "B",
+    "text": "Machine Learning is a subset of AI that focuses on systems that can learn from data"
+   },
+   {
+    "key": "C",
+    "text": "AI requires supervised learning while Machine Learning can be unsupervised"
+   },
+   {
+    "key": "D",
+    "text": "There is no significant difference between AI and Machine Learning"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-01-2",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which of the following is an example of unsupervised learning?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Predicting house prices based on historical sales data"
+   },
+   {
+    "key": "B",
+    "text": "Classifying emails as spam or not spam"
+   },
+   {
+    "key": "C",
+    "text": "Clustering customer data to identify market segments"
+   },
+   {
+    "key": "D",
+    "text": "Recognizing handwritten digits in images"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-01-3",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which AWS service is most appropriate for natural language processing tasks?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Rekognition"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon SageMaker"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Polly"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-01-4",
+  "domain": 1,
+  "type": "single",
+  "stem": "What is the primary purpose of feature engineering in the ML development lifecycle?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To reduce the number of features in the dataset"
+   },
+   {
+    "key": "B",
+    "text": "To create new input features that better represent the underlying problem to predictive models"
+   },
+   {
+    "key": "C",
+    "text": "To normalize all features to the same scale"
+   },
+   {
+    "key": "D",
+    "text": "To remove outliers from the dataset"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-01-5",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which of the following is a key component of MLOps?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Manual data cleansing"
+   },
+   {
+    "key": "B",
+    "text": "One-time model deployment"
+   },
+   {
+    "key": "C",
+    "text": "Continuous integration and continuous delivery (CI/CD) for ML models"
+   },
+   {
+    "key": "D",
+    "text": "Ad-hoc model retraining"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-02-1",
+  "domain": 2,
+  "type": "single",
+  "stem": "What is a key characteristic of foundation models in generative AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "They are small, task-specific models"
+   },
+   {
+    "key": "B",
+    "text": "They require minimal computational resources"
+   },
+   {
+    "key": "C",
+    "text": "They are trained on large, diverse datasets and can be adapted to a wide range of tasks"
+   },
+   {
+    "key": "D",
+    "text": "They can only be used for text generation tasks"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-02-2",
+  "domain": 2,
+  "type": "single",
+  "stem": "What is prompt engineering in the context of generative AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A technique for training AI models"
+   },
+   {
+    "key": "B",
+    "text": "The practice of designing and refining input prompts to get desired outputs from AI models"
+   },
+   {
+    "key": "C",
+    "text": "A method for compressing AI models"
+   },
+   {
+    "key": "D",
+    "text": "A way to visualize AI model outputs"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-02-3",
+  "domain": 2,
+  "type": "single",
+  "stem": "Which AWS service provides a fully managed environment for building generative AI applications?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon SageMaker"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Bedrock"
+   },
+   {
+    "key": "D",
+    "text": "AWS Lambda"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-02-4",
+  "domain": 2,
+  "type": "single",
+  "stem": "What is a potential limitation of generative AI models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "They can only process text data"
+   },
+   {
+    "key": "B",
+    "text": "They require small datasets to function"
+   },
+   {
+    "key": "C",
+    "text": "They may produce hallucinations or false information"
+   },
+   {
+    "key": "D",
+    "text": "They are always 100% accurate"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-02-5",
+  "domain": 2,
+  "type": "single",
+  "stem": "What is the primary advantage of using AWS generative AI services for building applications?",
+  "options": [
+   {
+    "key": "A",
+    "text": "They are always free to use"
+   },
+   {
+    "key": "B",
+    "text": "They provide accessibility and lower barriers to entry for AI development"
+   },
+   {
+    "key": "C",
+    "text": "They guarantee 100% accuracy in all outputs"
+   },
+   {
+    "key": "D",
+    "text": "They eliminate the need for any programming knowledge"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-03-2",
+  "domain": 3,
+  "type": "single",
+  "stem": "Which AWS service is suitable for storing embeddings within a vector database for use with foundation models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon DynamoDB"
+   },
+   {
+    "key": "B",
+    "text": "Amazon S3"
+   },
+   {
+    "key": "C",
+    "text": "Amazon OpenSearch Service"
+   },
+   {
+    "key": "D",
+    "text": "Amazon RDS for MySQL"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-03-3",
+  "domain": 3,
+  "type": "single",
+  "stem": "What is the purpose of the 'temperature' parameter in text generation with foundation models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To set the maximum length of the generated text"
+   },
+   {
+    "key": "B",
+    "text": "To control the processing speed of the model"
+   },
+   {
+    "key": "C",
+    "text": "To control the randomness and creativity of the generated text"
+   },
+   {
+    "key": "D",
+    "text": "To adjust the model's learning rate"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-03-4",
+  "domain": 3,
+  "type": "single",
+  "stem": "What is 'few-shot learning' in the context of prompt engineering?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A method for training models on very small datasets"
+   },
+   {
+    "key": "B",
+    "text": "A technique where a small number of examples are provided in the prompt to guide the model's response"
+   },
+   {
+    "key": "C",
+    "text": "A way to reduce the size of the model"
+   },
+   {
+    "key": "D",
+    "text": "A process for rapidly fine-tuning a model"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-03-5",
+  "domain": 3,
+  "type": "single",
+  "stem": "What is a key consideration when fine-tuning a foundation model for a specific task?",
+  "options": [
+   {
+    "key": "A",
+    "text": "The size of the original pre-training dataset"
+   },
+   {
+    "key": "B",
+    "text": "The quality and relevance of the fine-tuning dataset"
+   },
+   {
+    "key": "C",
+    "text": "The number of parameters in the model"
+   },
+   {
+    "key": "D",
+    "text": "The hardware used for training"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-04-1",
+  "domain": 5,
+  "type": "single",
+  "stem": "What is a key principle of responsible AI development?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Maximizing model complexity"
+   },
+   {
+    "key": "B",
+    "text": "Prioritizing speed over accuracy"
+   },
+   {
+    "key": "C",
+    "text": "Fairness and non-discrimination in AI system outputs"
+   },
+   {
+    "key": "D",
+    "text": "Keeping AI development processes secret"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-04-2",
+  "domain": 5,
+  "type": "single",
+  "stem": "Which AWS service can help detect and monitor bias in machine learning models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Rekognition"
+   },
+   {
+    "key": "B",
+    "text": "Amazon SageMaker Clarify"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "D",
+    "text": "AWS CloudTrail"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-04-3",
+  "domain": 5,
+  "type": "single",
+  "stem": "What is a key benefit of using explainable AI models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "They always produce more accurate results than black-box models"
+   },
+   {
+    "key": "B",
+    "text": "They require less computational resources"
+   },
+   {
+    "key": "C",
+    "text": "They provide transparency in decision-making processes, building trust with users and stakeholders"
+   },
+   {
+    "key": "D",
+    "text": "They eliminate the need for human oversight"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-04-4",
+  "domain": 5,
+  "type": "single",
+  "stem": "Which AWS service can help with maintaining regulatory compliance for AI systems?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon SageMaker"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Rekognition"
+   },
+   {
+    "key": "C",
+    "text": "AWS Audit Manager"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Comprehend"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-04-5",
+  "domain": 5,
+  "type": "single",
+  "stem": "What is a key aspect of data governance in AI systems?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Collecting as much data as possible without restrictions"
+   },
+   {
+    "key": "B",
+    "text": "Ensuring data quality, privacy, and appropriate usage throughout its lifecycle"
+   },
+   {
+    "key": "C",
+    "text": "Keeping all data indefinitely"
+   },
+   {
+    "key": "D",
+    "text": "Sharing all data publicly to promote transparency"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-1",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary purpose of Amazon SageMaker?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To provide database services"
+   },
+   {
+    "key": "B",
+    "text": "To build, train, and deploy machine learning models at scale"
+   },
+   {
+    "key": "C",
+    "text": "To manage EC2 instances"
+   },
+   {
+    "key": "D",
+    "text": "To provide content delivery services"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-2",
+  "domain": 0,
+  "type": "single",
+  "stem": "In the context of generative AI, what is a 'token'?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A security credential"
+   },
+   {
+    "key": "B",
+    "text": "A unit of computational power"
+   },
+   {
+    "key": "C",
+    "text": "A unit of text that the model processes, which can be a word, part of a word, or a character"
+   },
+   {
+    "key": "D",
+    "text": "A type of neural network layer"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-05-3",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the purpose of 'fine-tuning' a foundation model?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To reduce the model's size"
+   },
+   {
+    "key": "B",
+    "text": "To increase the model's general knowledge"
+   },
+   {
+    "key": "C",
+    "text": "To adapt the model to perform well on a specific task or domain"
+   },
+   {
+    "key": "D",
+    "text": "To make the model forget its previous training"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-05-4",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is a key principle of responsible AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Maximizing profit"
+   },
+   {
+    "key": "B",
+    "text": "Fairness and non-discrimination"
+   },
+   {
+    "key": "C",
+    "text": "Rapid development at any cost"
+   },
+   {
+    "key": "D",
+    "text": "Keeping AI development processes secret"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-5",
+  "domain": 0,
+  "type": "single",
+  "stem": "What AWS service would you use to detect and redact sensitive information in documents?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Rekognition"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Macie"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Textract"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-05-6",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary function of Amazon Bedrock?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A database service for AI applications"
+   },
+   {
+    "key": "B",
+    "text": "A fully managed service that provides foundation models via API"
+   },
+   {
+    "key": "C",
+    "text": "A tool for creating custom neural network architectures"
+   },
+   {
+    "key": "D",
+    "text": "A service for managing AI model versioning"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-7",
+  "domain": 0,
+  "type": "single",
+  "stem": "In machine learning, what does the term 'overfitting' refer to?",
+  "options": [
+   {
+    "key": "A",
+    "text": "When a model is too simple to capture the underlying patterns in the data"
+   },
+   {
+    "key": "B",
+    "text": "When a model learns the training data too well, including its noise and peculiarities"
+   },
+   {
+    "key": "C",
+    "text": "When a model takes too long to train"
+   },
+   {
+    "key": "D",
+    "text": "When a model requires too much computational power"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-8",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the purpose of the 'top-p' (or nucleus) sampling parameter in text generation?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To set the maximum length of generated text"
+   },
+   {
+    "key": "B",
+    "text": "To control the diversity of generated text by limiting the cumulative probability of considered tokens"
+   },
+   {
+    "key": "C",
+    "text": "To determine the processing speed of the model"
+   },
+   {
+    "key": "D",
+    "text": "To set the minimum probability threshold for each word"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-9",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which AWS service would you use to build a conversational AI chatbot?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Lex"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Transcribe"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Comprehend"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-10",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is Retrieval Augmented Generation (RAG) in the context of generative AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A method for compressing large language models"
+   },
+   {
+    "key": "B",
+    "text": "A technique that combines information retrieval with text generation to produce more accurate and contextually relevant responses"
+   },
+   {
+    "key": "C",
+    "text": "A type of generative adversarial network"
+   },
+   {
+    "key": "D",
+    "text": "A way to visualize the internal workings of a neural network"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-11",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is NOT a typical stage in the machine learning development lifecycle?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Feature engineering"
+   },
+   {
+    "key": "B",
+    "text": "Model training"
+   },
+   {
+    "key": "C",
+    "text": "Hardware optimization"
+   },
+   {
+    "key": "D",
+    "text": "Model deployment"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-05-12",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the main advantage of using pre-trained foundation models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "They always provide perfect accuracy for any task"
+   },
+   {
+    "key": "B",
+    "text": "They reduce the need for any task-specific data"
+   },
+   {
+    "key": "C",
+    "text": "They reduce the time and resources needed to develop AI applications for specific tasks"
+   },
+   {
+    "key": "D",
+    "text": "They eliminate the need for any further training or fine-tuning"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-05-13",
+  "domain": 0,
+  "type": "single",
+  "stem": "In the context of AI security, what is 'prompt injection'?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A method for optimizing model training"
+   },
+   {
+    "key": "B",
+    "text": "A technique where malicious inputs are crafted to manipulate an AI model's behavior"
+   },
+   {
+    "key": "C",
+    "text": "A way to inject new knowledge into a model without retraining"
+   },
+   {
+    "key": "D",
+    "text": "A process for rapidly fine-tuning a model"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-14",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which AWS service would you use to monitor the performance of a deployed machine learning model?",
+  "options": [
+   {
+    "key": "A",
+    "text": "AWS CloudWatch"
+   },
+   {
+    "key": "B",
+    "text": "Amazon SageMaker Model Monitor"
+   },
+   {
+    "key": "C",
+    "text": "AWS Config"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Inspector"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-15",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the purpose of the 'few-shot learning' technique in prompt engineering?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To train a model on very small datasets"
+   },
+   {
+    "key": "B",
+    "text": "To guide the model's response by providing a small number of examples in the prompt"
+   },
+   {
+    "key": "C",
+    "text": "To reduce the model's memory usage"
+   },
+   {
+    "key": "D",
+    "text": "To increase the model's processing speed"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-16",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which of the following is a key consideration for responsible AI development?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Maximizing model complexity"
+   },
+   {
+    "key": "B",
+    "text": "Keeping AI development processes secret"
+   },
+   {
+    "key": "C",
+    "text": "Ensuring AI systems are transparent and explainable"
+   },
+   {
+    "key": "D",
+    "text": "Prioritizing speed over accuracy in all cases"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "jw-05-17",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is the primary purpose of Amazon Comprehend?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Image and video analysis"
+   },
+   {
+    "key": "B",
+    "text": "Natural Language Processing (NLP) tasks such as sentiment analysis and entity recognition"
+   },
+   {
+    "key": "C",
+    "text": "Text-to-speech conversion"
+   },
+   {
+    "key": "D",
+    "text": "Database management"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-18",
+  "domain": 0,
+  "type": "single",
+  "stem": "In the context of AI governance, what is the purpose of a model card?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To create a physical representation of a neural network"
+   },
+   {
+    "key": "B",
+    "text": "To provide transparent documentation about a model's development, use, and limitations"
+   },
+   {
+    "key": "C",
+    "text": "To encrypt model parameters for security"
+   },
+   {
+    "key": "D",
+    "text": "To optimize model performance"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-19",
+  "domain": 0,
+  "type": "single",
+  "stem": "Which AWS service would you use to convert speech to text?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Transcribe"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Translate"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Comprehend"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "jw-05-20",
+  "domain": 0,
+  "type": "single",
+  "stem": "What is a potential risk of using generative AI models in content creation?",
+  "options": [
+   {
+    "key": "A",
+    "text": "The model may generate content too slowly"
+   },
+   {
+    "key": "B",
+    "text": "The model may generate content that infringes on copyrights or contains biased information"
+   },
+   {
+    "key": "C",
+    "text": "The model may consume too much storage space"
+   },
+   {
+    "key": "D",
+    "text": "The model may only generate content in a single language"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ }
+]

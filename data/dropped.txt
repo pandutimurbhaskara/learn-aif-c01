@@ -1,0 +1,15 @@
+pd-75: Likely wrong key: the AWS Trusted Advisor 'Comprehend underutilized endpoints' check flags endpoints unused for 15 days (key says CloudWatch); also tests a niche cost-optimization check
+pd-102: out of scope: AWS Glue ETL
+pd-113: answer key questionable: with SSE-S3 no key permission is needed to decrypt; failure would be S3 read permission on the role
+pd-164: ambiguous: 'training data not representative' is also a standard cause of overfitting; key picks 'too many features'
+pd-230: ambiguous: directional stimulus prompting as the key is dubious for a public-docs bank chatbot (few-shot/RAG-style answers equally defensible)
+pd-233: ambiguous/dubious key: BLEU n-gram overlap vs BERTScore for slang style; no reference-based metric clearly assesses creative spelling
+pd-272: answer key dubious: fine-tuning a pre-trained deep learning model is the standard least-effort choice, not hand-built features with traditional ML
+pd-325: ambiguous: options A, C and D are also accurate descriptions of prompt engineering limitations/risks
+pd-344: ambiguous key: data leakage and model misuse are both commonly classed as output vulnerabilities
+pd-356: answer key doubtful: Model Cards document models but do not enforce use of only approved training data (SageMaker Catalog governance fits better)
+kn-2-42: ambiguous: option B (code recommendation software in developer tools, e.g. Amazon Q Developer) is at least as valid as marked D
+kn-4-42: answer key wrong: F1 is not the standard summarization metric; ROUGE is (not offered); BLEU is for translation
+kn-5-7: options truncated/unreadable, cannot determine answer
+kn-7-24: ambiguous: "require less computational resources to train" (B) is also a true advantage of pre-trained models; key D overstated
+jw-05-5: answer key doubtful: Macie only detects sensitive data in S3 and does not redact; Amazon Comprehend detects and redacts PII in documents

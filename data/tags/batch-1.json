@@ -1,0 +1,762 @@
+[
+ {
+  "id": "pd-1",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.3"
+  ]
+ },
+ {
+  "id": "pd-2",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.6",
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-3",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.8"
+  ]
+ },
+ {
+  "id": "pd-4",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-5",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.2"
+  ]
+ },
+ {
+  "id": "pd-6",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.1"
+  ]
+ },
+ {
+  "id": "pd-7",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.2"
+  ]
+ },
+ {
+  "id": "pd-8",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-9",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.3"
+  ]
+ },
+ {
+  "id": "pd-10",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.2",
+   "1.1.6"
+  ]
+ },
+ {
+  "id": "pd-11",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.3",
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-12",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.4",
+   "1.1.2",
+   "1.1.5"
+  ]
+ },
+ {
+  "id": "pd-13",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.1",
+   "1.2.9"
+  ]
+ },
+ {
+  "id": "pd-14",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.4"
+  ],
+  "noteRename": "Amazon Q in QuickSight → Amazon Quick"
+ },
+ {
+  "id": "pd-15",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.3",
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-16",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "pd-17",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "1.2.7",
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "pd-18",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.8"
+  ]
+ },
+ {
+  "id": "pd-19",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4",
+   "3.1.5",
+   "3.1.7"
+  ]
+ },
+ {
+  "id": "pd-20",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.4"
+  ]
+ },
+ {
+  "id": "pd-21",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.5"
+  ]
+ },
+ {
+  "id": "pd-22",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.10"
+  ]
+ },
+ {
+  "id": "pd-23",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.2.5",
+   "1.3.6"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "pd-25",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.3",
+   "1.1.4"
+  ]
+ },
+ {
+  "id": "pd-26",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.6"
+  ]
+ },
+ {
+  "id": "pd-27",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.9"
+  ]
+ },
+ {
+  "id": "pd-28",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.2"
+  ]
+ },
+ {
+  "id": "pd-29",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.7"
+  ]
+ },
+ {
+  "id": "pd-30",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.5"
+  ]
+ },
+ {
+  "id": "pd-31",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.8",
+   "2.1.11"
+  ]
+ },
+ {
+  "id": "pd-32",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "pd-33",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.4"
+  ]
+ },
+ {
+  "id": "pd-34",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.3"
+  ]
+ },
+ {
+  "id": "pd-35",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.7"
+  ]
+ },
+ {
+  "id": "pd-36",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.1.2",
+   "1.2.4"
+  ]
+ },
+ {
+  "id": "pd-37",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.1",
+   "3.2.5"
+  ]
+ },
+ {
+  "id": "pd-38",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.1",
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "pd-39",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.5"
+  ]
+ },
+ {
+  "id": "pd-40",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "1.2.6",
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "pd-41",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.6"
+  ]
+ },
+ {
+  "id": "pd-42",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7",
+   "2.1.1"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "pd-43",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4",
+   "3.1.7"
+  ]
+ },
+ {
+  "id": "pd-44",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.4"
+  ],
+  "noteRename": "Amazon Q in QuickSight → Amazon Quick"
+ },
+ {
+  "id": "pd-45",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.5",
+   "3.1.8"
+  ]
+ },
+ {
+  "id": "pd-46",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.7"
+  ]
+ },
+ {
+  "id": "pd-47",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.6"
+  ]
+ },
+ {
+  "id": "pd-48",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.4",
+   "2.1.3"
+  ]
+ },
+ {
+  "id": "pd-49",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.5",
+   "3.1.8"
+  ]
+ },
+ {
+  "id": "pd-50",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.6",
+   "2.1.11"
+  ]
+ },
+ {
+  "id": "pd-51",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.1.2",
+   "1.2.4"
+  ]
+ },
+ {
+  "id": "pd-52",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.8"
+  ]
+ },
+ {
+  "id": "pd-53",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "pd-54",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.6",
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "pd-55",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.8"
+  ]
+ },
+ {
+  "id": "pd-56",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.6"
+  ]
+ },
+ {
+  "id": "pd-57",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.10",
+   "1.1.4"
+  ]
+ },
+ {
+  "id": "pd-58",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.7"
+  ]
+ },
+ {
+  "id": "pd-59",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "1.2.8",
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "pd-60",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.5",
+   "2.1.11"
+  ]
+ },
+ {
+  "id": "pd-61",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "pd-62",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.8",
+   "1.2.5"
+  ]
+ },
+ {
+  "id": "pd-63",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.8"
+  ]
+ },
+ {
+  "id": "pd-64",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.3",
+   "1.1.6"
+  ]
+ },
+ {
+  "id": "pd-65",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.7"
+  ]
+ },
+ {
+  "id": "pd-66",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.4"
+  ]
+ },
+ {
+  "id": "pd-67",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4",
+   "3.1.7"
+  ]
+ },
+ {
+  "id": "pd-68",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.5"
+  ]
+ },
+ {
+  "id": "pd-69",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "pd-71",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.8"
+  ]
+ },
+ {
+  "id": "pd-72",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4",
+   "3.1.5"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "pd-73",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.2.5",
+   "1.3.6"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "pd-74",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1",
+   "2.1.6"
+  ]
+ },
+ {
+  "id": "pd-75",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.6"
+  ],
+  "drop": "Likely wrong key: the AWS Trusted Advisor 'Comprehend underutilized endpoints' check flags endpoints unused for 15 days (key says CloudWatch); also tests a niche cost-optimization check"
+ },
+ {
+  "id": "pd-76",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1",
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "pd-77",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.10"
+  ]
+ },
+ {
+  "id": "pd-78",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.6",
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "pd-79",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.6",
+   "1.2.7"
+  ]
+ },
+ {
+  "id": "pd-80",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.5"
+  ]
+ },
+ {
+  "id": "pd-81",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1",
+   "2.3.7"
+  ]
+ },
+ {
+  "id": "pd-82",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.5"
+  ]
+ },
+ {
+  "id": "pd-83",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.2",
+   "2.1.11"
+  ]
+ },
+ {
+  "id": "pd-84",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.5"
+  ]
+ },
+ {
+  "id": "pd-85",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.1"
+  ]
+ },
+ {
+  "id": "pd-86",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.3",
+   "1.1.2"
+  ]
+ },
+ {
+  "id": "pd-87",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "pd-88",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.8"
+  ]
+ },
+ {
+  "id": "pd-89",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.8",
+   "2.1.11"
+  ]
+ },
+ {
+  "id": "pd-90",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.8"
+  ]
+ },
+ {
+  "id": "pd-91",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.5"
+  ]
+ }
+]

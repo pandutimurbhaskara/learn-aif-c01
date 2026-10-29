@@ -1,0 +1,343 @@
+[
+  {
+    "id": "og-5.1.1-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A healthcare company builds a patient FAQ assistant on Amazon Bedrock. The security team is assigning tasks under the AWS shared responsibility model. Which task is the company's responsibility?",
+    "options": [
+      {"key": "A", "text": "Patching the servers that host the foundation models"},
+      {"key": "B", "text": "Physically securing the data centers where Bedrock runs"},
+      {"key": "C", "text": "Defining which IAM roles may invoke the models and which data the assistant can access"},
+      {"key": "D", "text": "Maintaining the network hardware between AWS Regions"}
+    ],
+    "correct": ["C"],
+    "explanation": "Under the shared responsibility model the customer is always responsible for security in the cloud, including identity and access management and its own data, even on a fully managed service like Bedrock. Patching the model hosting servers, physical data center security and AWS network hardware are all security of the cloud, which AWS handles.",
+    "domain": 5,
+    "step": "5.1",
+    "concepts": ["5.1.1", "5.1.2"]
+  },
+  {
+    "id": "og-5.1.3-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A financial services firm fine-tunes a model in Amazon Bedrock using confidential trading data. Its compliance policy requires that the firm controls the encryption key for the custom model, sets the key's rotation and access policy, and can disable the key to make the data unreadable. Which solution meets these requirements?",
+    "options": [
+      {"key": "A", "text": "Rely on the default AWS owned key that Bedrock uses"},
+      {"key": "B", "text": "Encrypt the custom model with an AWS KMS customer managed key"},
+      {"key": "C", "text": "Enable TLS for all calls to the Bedrock API"},
+      {"key": "D", "text": "Store the key material in a Lambda environment variable"}
+    ],
+    "correct": ["B"],
+    "explanation": "A KMS customer managed key gives the firm control over the key policy, rotation, auditing and the ability to disable the key, and Bedrock supports customer managed keys for custom models. An AWS owned key is managed entirely by AWS and invisible to the customer. TLS protects data in transit, not the stored model. Keeping key material in an environment variable is insecure and is not how KMS encryption works.",
+    "domain": 5,
+    "step": "5.1",
+    "concepts": ["5.1.3", "5.1.1"]
+  },
+  {
+    "id": "og-5.1.5-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A telecom company has 5 million customer support transcripts in Amazon S3 that it wants to load into an Amazon Bedrock knowledge base. Before ingestion, it must find which transcripts contain credit card numbers or passport numbers. Which solution meets this requirement with the LEAST operational overhead?",
+    "options": [
+      {"key": "A", "text": "Run Amazon Macie sensitive data discovery jobs on the S3 buckets"},
+      {"key": "B", "text": "Configure an Amazon Bedrock Guardrails sensitive information filter on the knowledge base"},
+      {"key": "C", "text": "Enable Amazon Inspector scanning on the S3 buckets"},
+      {"key": "D", "text": "Create AWS Config rules that check the bucket encryption settings"}
+    ],
+    "correct": ["A"],
+    "explanation": "Amazon Macie is a managed service that uses machine learning and pattern matching to discover sensitive data such as card and passport numbers in S3, which is exactly what is needed before ingestion. Guardrails masks PII in live prompts and responses at runtime, not in stored data before it is ingested. Inspector scans compute workloads for software vulnerabilities, not S3 contents. Config checks resource configurations, not the data inside objects.",
+    "domain": 5,
+    "step": "5.1",
+    "concepts": ["5.1.5", "3.1.5"]
+  },
+  {
+    "id": "og-5.1.6-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A company runs a scheduling agent on Amazon Bedrock AgentCore. The agent must read and update each signed-in employee's calendar in a third-party SaaS application on that employee's behalf. The security team forbids hard-coding OAuth client secrets or tokens in the agent code. Which solution meets these requirements?",
+    "options": [
+      {"key": "A", "text": "Policy in AgentCore"},
+      {"key": "B", "text": "Amazon Bedrock AgentCore Identity"},
+      {"key": "C", "text": "Amazon Bedrock Guardrails"},
+      {"key": "D", "text": "AgentCore Memory"}
+    ],
+    "correct": ["B"],
+    "explanation": "AgentCore Identity handles authentication and credentials, including outbound access where the agent calls other services on behalf of a user using OAuth tokens and API keys kept in a secure token vault instead of in code. Policy in AgentCore decides which tool calls are allowed but does not supply credentials. Guardrails filters content in prompts and responses. AgentCore Memory stores conversation context, not credentials.",
+    "domain": 5,
+    "step": "5.1",
+    "concepts": ["5.1.6", "2.3.6"]
+  },
+  {
+    "id": "og-5.1.6-2",
+    "source": "original",
+    "type": "single",
+    "stem": "An e-commerce company's customer service agent can call an issue_refund tool. The company requires that refunds above 500 dollars are never issued by the agent, even if a customer uses prompt injection to convince the model otherwise. The control must be enforced outside the model's reasoning. Which solution meets these requirements?",
+    "options": [
+      {"key": "A", "text": "Add an instruction to the agent's system prompt that refunds must not exceed 500 dollars"},
+      {"key": "B", "text": "Configure an Amazon Bedrock Guardrails denied topic for refunds"},
+      {"key": "C", "text": "Define a rule in Policy in AgentCore that limits the issue_refund tool call to amounts of 500 dollars or less"},
+      {"key": "D", "text": "Use AgentCore Identity to authenticate customers before they chat with the agent"}
+    ],
+    "correct": ["C"],
+    "explanation": "Policy in AgentCore applies deterministic rules to tool calls at the AgentCore Gateway, outside the agent, so a manipulated model cannot bypass them. A system prompt instruction can be overridden by prompt injection. A denied topic would block all refund conversations rather than enforce an amount limit on a tool call. AgentCore Identity verifies who the user is but does not limit what actions the agent may take.",
+    "domain": 5,
+    "step": "5.1",
+    "concepts": ["5.1.6", "5.1.9"]
+  },
+  {
+    "id": "og-5.1.6-3",
+    "source": "original",
+    "type": "multi",
+    "stem": "A company is deploying an internal IT operations agent on Amazon Bedrock AgentCore. Only employees who sign in through the company's existing corporate identity provider may invoke the agent. The agent may call its delete_user_account tool only when the requesting employee belongs to the administrators group. Which features should the company use? (Select TWO.)",
+    "options": [
+      {"key": "A", "text": "AgentCore Identity for inbound authentication through the corporate identity provider"},
+      {"key": "B", "text": "AgentCore Memory to remember which employees are administrators"},
+      {"key": "C", "text": "Amazon Bedrock Guardrails word filters that block the word delete"},
+      {"key": "D", "text": "Policy in AgentCore rules that permit the delete_user_account tool only for administrators"},
+      {"key": "E", "text": "Amazon Macie to classify employee accounts"}
+    ],
+    "correct": ["A", "D"],
+    "explanation": "AgentCore Identity authenticates who may invoke the agent, including through an existing identity provider, and Policy in AgentCore enforces which tool calls are allowed and under what conditions. Memory stores context and is not an authorization control. A word filter would block legitimate conversations and does not check group membership. Macie finds sensitive data in S3 and has no role in agent authorization.",
+    "domain": 5,
+    "step": "5.1",
+    "concepts": ["5.1.6", "5.1.2"]
+  },
+  {
+    "id": "og-5.1.6-4",
+    "source": "original",
+    "type": "match",
+    "stem": "A bank is securing a customer-facing agent built on Amazon Bedrock AgentCore. Match each requirement to the feature that meets it.",
+    "pairs": [
+      {"prompt": "Verify that callers signed in through the bank's identity provider before they can invoke the agent.", "answer": "AgentCore Identity"},
+      {"prompt": "Block the agent from calling the transfer_funds tool for amounts above the customer's daily limit.", "answer": "Policy in AgentCore"},
+      {"prompt": "Mask account numbers that appear in the agent's responses.", "answer": "Amazon Bedrock Guardrails"},
+      {"prompt": "Trace each step and tool call the agent made while handling a request.", "answer": "AgentCore Observability"}
+    ],
+    "termBank": ["AgentCore Identity", "Policy in AgentCore", "Amazon Bedrock Guardrails", "AgentCore Observability"],
+    "explanation": "AgentCore Identity authenticates users and manages the agent's credentials. Policy in AgentCore enforces deterministic rules on which tool calls are allowed and under what conditions. Bedrock Guardrails sensitive information filters mask or block PII in prompts and responses. AgentCore Observability traces agent steps and tool calls for monitoring and debugging.",
+    "domain": 5,
+    "step": "5.1",
+    "concepts": ["5.1.6", "4.1.5", "5.1.10", "2.3.6"]
+  },
+  {
+    "id": "og-5.1.7-1",
+    "source": "original",
+    "type": "single",
+    "stem": "An insurance company learns that a dataset used last year was collected without proper consent. It must quickly identify every model trained on that dataset and every SageMaker AI endpoint serving those models. Which capability meets this requirement?",
+    "options": [
+      {"key": "A", "text": "Amazon SageMaker ML Lineage Tracking"},
+      {"key": "B", "text": "Amazon Bedrock Guardrails contextual grounding check"},
+      {"key": "C", "text": "Amazon Macie sensitive data discovery"},
+      {"key": "D", "text": "AWS Trusted Advisor checks"}
+    ],
+    "correct": ["A"],
+    "explanation": "Data lineage records the links between datasets, training jobs, models and endpoints, so SageMaker ML Lineage Tracking can show everything that depends on the problem dataset. The contextual grounding check scores responses at runtime and has nothing to do with training history. Macie finds sensitive data in S3 but does not trace which models used it. Trusted Advisor gives account-wide best-practice recommendations, not lineage.",
+    "domain": 5,
+    "step": "5.1",
+    "concepts": ["5.1.7"]
+  },
+  {
+    "id": "og-5.1.7-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A retail company's data scientists waste days finding out which datasets exist in its data lake, what their schemas are and who owns them, before they can start training models. The company wants a central, searchable inventory of dataset metadata. Which AWS service should it use?",
+    "options": [
+      {"key": "A", "text": "AWS CloudTrail"},
+      {"key": "B", "text": "Amazon SageMaker Model Cards"},
+      {"key": "C", "text": "AWS Glue Data Catalog"},
+      {"key": "D", "text": "Amazon Inspector"}
+    ],
+    "correct": ["C"],
+    "explanation": "The AWS Glue Data Catalog is the central metadata store that catalogs datasets with their schemas and descriptive metadata, making them discoverable. CloudTrail records API calls, not dataset metadata. Model Cards document models, not the datasets in a data lake. Inspector scans workloads for software vulnerabilities.",
+    "domain": 5,
+    "step": "5.1",
+    "concepts": ["5.1.7", "1.3.2"]
+  },
+  {
+    "id": "og-5.1.10-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A legal firm's auditors require a complete record of the text of every prompt sent to, and every response returned from, the foundation models used by the firm's Amazon Bedrock application. Which solution meets this requirement?",
+    "options": [
+      {"key": "A", "text": "Rely on the AWS CloudTrail event history for Bedrock"},
+      {"key": "B", "text": "Enable Amazon Bedrock model invocation logging to Amazon CloudWatch Logs or Amazon S3"},
+      {"key": "C", "text": "Create AWS Config rules for the Bedrock resources"},
+      {"key": "D", "text": "Enable Amazon Inspector for the account"}
+    ],
+    "correct": ["B"],
+    "explanation": "Bedrock model invocation logging captures the prompt and response content and delivers it to CloudWatch Logs or S3; it is off by default and must be enabled. CloudTrail records who called which API and when, not the prompt and response text. Config tracks resource configurations, and Inspector scans for software vulnerabilities, so neither records model interactions.",
+    "domain": 5,
+    "step": "5.1",
+    "concepts": ["5.1.10"]
+  },
+  {
+    "id": "og-5.2.3-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A company's security policy states that Amazon SageMaker AI notebook instances must never have direct internet access and that S3 buckets holding training data must be encrypted. The security team wants continuous evaluation of these settings, with noncompliant resources flagged automatically. Which service meets these requirements with the LEAST operational overhead?",
+    "options": [
+      {"key": "A", "text": "AWS Artifact"},
+      {"key": "B", "text": "Amazon Inspector"},
+      {"key": "C", "text": "AWS Config with managed rules"},
+      {"key": "D", "text": "Amazon Macie"}
+    ],
+    "correct": ["C"],
+    "explanation": "AWS Config continuously records resource configurations and evaluates them against managed or custom rules, marking resources compliant or noncompliant and optionally triggering remediation. Artifact provides AWS's own compliance reports, not checks on customer resources. Inspector scans for software vulnerabilities rather than configuration policy. Macie finds sensitive data in S3 and does not evaluate notebook settings.",
+    "domain": 5,
+    "step": "5.2",
+    "concepts": ["5.2.3", "5.1.4", "5.1.3"]
+  },
+  {
+    "id": "og-5.2.3-2",
+    "source": "original",
+    "type": "single",
+    "stem": "During an audit, a company must show what the bucket policy on its S3 training data bucket looked like three months ago and when it was changed. Which AWS service provides this information?",
+    "options": [
+      {"key": "A", "text": "AWS Config"},
+      {"key": "B", "text": "AWS Trusted Advisor"},
+      {"key": "C", "text": "AWS Artifact"},
+      {"key": "D", "text": "Amazon Inspector"}
+    ],
+    "correct": ["A"],
+    "explanation": "AWS Config keeps a configuration history of resources over time, so it can show a past bucket policy and when it changed, linked to the API events behind the change. Trusted Advisor shows current best-practice recommendations, not configuration history. Artifact holds AWS compliance documents. Inspector reports software vulnerabilities and network exposure.",
+    "domain": 5,
+    "step": "5.2",
+    "concepts": ["5.2.3"]
+  },
+  {
+    "id": "og-5.2.4-1",
+    "source": "original",
+    "type": "single",
+    "stem": "An ML team packages its custom inference code as container images stored in Amazon ECR and deploys them to SageMaker AI endpoints. The team must continuously scan these images for known software vulnerabilities (CVEs) in operating system packages and libraries. Which service meets this requirement?",
+    "options": [
+      {"key": "A", "text": "Amazon Macie"},
+      {"key": "B", "text": "Amazon Inspector"},
+      {"key": "C", "text": "AWS CloudTrail"},
+      {"key": "D", "text": "Amazon SageMaker Model Monitor"}
+    ],
+    "correct": ["B"],
+    "explanation": "Amazon Inspector continuously scans container images in Amazon ECR, as well as EC2 instances and Lambda functions, for known CVEs. Macie discovers sensitive data in S3. CloudTrail logs API activity. Model Monitor watches a model's data quality, model quality and drift, not software vulnerabilities in containers.",
+    "domain": 5,
+    "step": "5.2",
+    "concepts": ["5.2.4", "5.1.10"]
+  },
+  {
+    "id": "og-5.2.4-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A company hosts an open-source model on Amazon EC2 instances and uses AWS Lambda functions to pre-process requests. A critical CVE was just published for a widely used Python library. The security team wants to know automatically which of its instances and functions are affected, without running manual scans. Which solution meets this requirement with the LEAST operational overhead?",
+    "options": [
+      {"key": "A", "text": "Write AWS Config custom rules that check each instance's library versions"},
+      {"key": "B", "text": "Search AWS CloudTrail logs for calls made by the library"},
+      {"key": "C", "text": "Enable Amazon Inspector, which rescans workloads automatically when new CVEs are published"},
+      {"key": "D", "text": "Run Amazon Macie discovery jobs on the Lambda deployment packages"}
+    ],
+    "correct": ["C"],
+    "explanation": "Amazon Inspector continuously scans EC2 instances and Lambda functions and automatically rescans when new vulnerabilities are published, producing risk-scored findings. Building custom Config rules for library versions adds significant effort and Config is meant for configuration compliance. CloudTrail records AWS API calls, not which software packages are installed. Macie looks for sensitive data in S3, not vulnerabilities.",
+    "domain": 5,
+    "step": "5.2",
+    "concepts": ["5.2.4"]
+  },
+  {
+    "id": "og-5.2.6-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A startup's AWS account has grown quickly. The CTO wants automated, account-wide recommendations that point out idle resources wasting money, S3 buckets with open access and services approaching their quotas. Which AWS service meets this requirement?",
+    "options": [
+      {"key": "A", "text": "AWS Trusted Advisor"},
+      {"key": "B", "text": "AWS Well-Architected Tool"},
+      {"key": "C", "text": "Amazon Inspector"},
+      {"key": "D", "text": "AWS Artifact"}
+    ],
+    "correct": ["A"],
+    "explanation": "Trusted Advisor automatically inspects the account and gives best-practice recommendations across cost optimization, security, performance, fault tolerance and service limits. The Well-Architected Tool is a guided review of one workload that you answer questions for, not automated account-wide checks. Inspector focuses on software vulnerabilities. Artifact provides AWS compliance reports and agreements.",
+    "domain": 5,
+    "step": "5.2",
+    "concepts": ["5.2.6"]
+  },
+  {
+    "id": "og-5.2.6-2",
+    "source": "original",
+    "type": "single",
+    "stem": "Before launching a new generative AI customer support assistant, an architecture board wants a structured review of that specific workload against AWS best practices, including questions specific to generative AI, and an improvement plan for high-risk findings. Which solution meets these requirements?",
+    "options": [
+      {"key": "A", "text": "Review the Trusted Advisor security checks for the account"},
+      {"key": "B", "text": "Use the AWS Well-Architected Tool with the Generative AI Lens"},
+      {"key": "C", "text": "Enable AWS Config conformance packs"},
+      {"key": "D", "text": "Download the AWS ISO/IEC 42001 certificate from AWS Artifact"}
+    ],
+    "correct": ["B"],
+    "explanation": "The Well-Architected Tool reviews a specific workload against the framework's pillars, and the Generative AI Lens adds GenAI-specific questions, producing high and medium risks with an improvement plan. Trusted Advisor runs automated account-wide checks rather than a workload design review. Config conformance packs evaluate resource configurations against rules. The ISO/IEC 42001 certificate is evidence about AWS, not a review of the company's workload.",
+    "domain": 5,
+    "step": "5.2",
+    "concepts": ["5.2.6", "5.2.1"]
+  },
+  {
+    "id": "og-5.2.6-3",
+    "source": "original",
+    "type": "match",
+    "stem": "A company's governance team is assigning AWS services to its AI compliance tasks. Match each task to the service that performs it.",
+    "pairs": [
+      {"prompt": "Give an external auditor AWS's SOC 2 report for the infrastructure hosting the AI application.", "answer": "AWS Artifact"},
+      {"prompt": "Continuously flag S3 buckets with training data that are not encrypted.", "answer": "AWS Config"},
+      {"prompt": "Find known CVEs in the EC2 instances that host a self-managed model.", "answer": "Amazon Inspector"},
+      {"prompt": "Get account-wide recommendations on cost, security and service quotas.", "answer": "AWS Trusted Advisor"}
+    ],
+    "termBank": ["AWS Artifact", "AWS Config", "Amazon Inspector", "AWS Trusted Advisor"],
+    "explanation": "AWS Artifact provides AWS's own compliance reports and agreements. AWS Config evaluates the configuration of your resources against rules. Amazon Inspector scans EC2, ECR images and Lambda for software vulnerabilities. Trusted Advisor gives automated, account-wide best-practice recommendations.",
+    "domain": 5,
+    "step": "5.2",
+    "concepts": ["5.2.6", "5.2.2", "5.2.3", "5.2.4"]
+  },
+  {
+    "id": "og-5.2.9-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A travel company builds its own itinerary assistant that calls a foundation model in Amazon Bedrock through the API and uses a knowledge base of the company's travel policies for RAG. The model is not fine-tuned or otherwise customized. According to the Generative AI Security Scoping Matrix, which scope does this use case fall into?",
+    "options": [
+      {"key": "A", "text": "Scope 2: Enterprise app"},
+      {"key": "B", "text": "Scope 3: Pre-trained models"},
+      {"key": "C", "text": "Scope 4: Fine-tuned models"},
+      {"key": "D", "text": "Scope 5: Self-trained models"}
+    ],
+    "correct": ["B"],
+    "explanation": "Building your own application on an existing foundation model through an API, including with RAG, is Scope 3. Scope 2 is using a third-party SaaS application that has GenAI features, not building your own app. Scope 4 requires fine-tuning the model with your data, and RAG does not change the model. Scope 5 means training a model from scratch.",
+    "domain": 5,
+    "step": "5.2",
+    "concepts": ["5.2.9", "3.1.4"]
+  },
+  {
+    "id": "og-5.2.9-2",
+    "source": "original",
+    "type": "single",
+    "stem": "Employees at a law firm have started pasting client documents into a free, public consumer generative AI chatbot. The firm has no contract with the chatbot provider. This is Scope 1 of the Generative AI Security Scoping Matrix. What is the firm's MOST important control for this use case?",
+    "options": [
+      {"key": "A", "text": "Encrypt the chatbot provider's model weights with an AWS KMS customer managed key"},
+      {"key": "B", "text": "Fine-tune the chatbot's model so that it refuses legal questions"},
+      {"key": "C", "text": "Set up AWS PrivateLink to the chatbot provider"},
+      {"key": "D", "text": "Enforce an acceptable use policy on what data employees may enter, backed by employee training"}
+    ],
+    "correct": ["D"],
+    "explanation": "In Scope 1 the organization does not control the application or model, so its main control is governing usage: an acceptable use policy about which data may be entered, supported by training. The firm cannot encrypt or fine-tune a third party's model. PrivateLink connects VPCs to AWS services and endpoint services, not to a public consumer chatbot.",
+    "domain": 5,
+    "step": "5.2",
+    "concepts": ["5.2.9", "5.2.8"]
+  },
+  {
+    "id": "og-5.2.9-3",
+    "source": "original",
+    "type": "match",
+    "stem": "A company uses generative AI in four ways. Put these steps in order, from the LEAST to the MOST security and governance responsibility for the company under the Generative AI Security Scoping Matrix.",
+    "pairs": [
+      {"prompt": "Staff use a public consumer chatbot.", "answer": "1st"},
+      {"prompt": "Staff use a third-party SaaS app with GenAI features under an enterprise agreement.", "answer": "2nd"},
+      {"prompt": "The company fine-tunes a Bedrock foundation model on its own data.", "answer": "3rd"},
+      {"prompt": "The company trains its own foundation model from scratch.", "answer": "4th"}
+    ],
+    "termBank": ["1st", "2nd", "3rd", "4th"],
+    "explanation": "The scopes run from buying to building: a consumer app is Scope 1, an enterprise SaaS app is Scope 2, a fine-tuned model is Scope 4 and a self-trained model is Scope 5. Each higher scope adds responsibility, because the company owns more of the solution, from usage and contracts up to the training data and the model itself.",
+    "domain": 5,
+    "step": "5.2",
+    "concepts": ["5.2.9", "5.1.1"]
+  }
+]

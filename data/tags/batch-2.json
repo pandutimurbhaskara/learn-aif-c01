@@ -1,0 +1,746 @@
+[
+ {
+  "id": "pd-92",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.1.11",
+   "2.3.2"
+  ]
+ },
+ {
+  "id": "pd-93",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.1"
+  ]
+ },
+ {
+  "id": "pd-94",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1",
+   "2.1.6"
+  ]
+ },
+ {
+  "id": "pd-95",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.4"
+  ]
+ },
+ {
+  "id": "pd-96",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.6",
+   "1.2.4"
+  ]
+ },
+ {
+  "id": "pd-97",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.4"
+  ],
+  "noteRename": "Amazon Q Business → part of Amazon Quick"
+ },
+ {
+  "id": "pd-98",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.6"
+  ]
+ },
+ {
+  "id": "pd-99",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.6"
+  ]
+ },
+ {
+  "id": "pd-100",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "pd-101",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2"
+  ]
+ },
+ {
+  "id": "pd-102",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2"
+  ],
+  "drop": "out of scope: AWS Glue ETL"
+ },
+ {
+  "id": "pd-103",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.5"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "pd-104",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.2"
+  ]
+ },
+ {
+  "id": "pd-105",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.5",
+   "3.3.2"
+  ]
+ },
+ {
+  "id": "pd-106",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2"
+  ]
+ },
+ {
+  "id": "pd-107",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.5"
+  ]
+ },
+ {
+  "id": "pd-108",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2"
+  ]
+ },
+ {
+  "id": "pd-109",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.2"
+  ]
+ },
+ {
+  "id": "pd-110",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.5"
+  ]
+ },
+ {
+  "id": "pd-111",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.6",
+   "1.3.2"
+  ]
+ },
+ {
+  "id": "pd-112",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.4"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "pd-113",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.3",
+   "5.1.2"
+  ],
+  "drop": "answer key questionable: with SSE-S3 no key permission is needed to decrypt; failure would be S3 read permission on the role"
+ },
+ {
+  "id": "pd-114",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.7"
+  ]
+ },
+ {
+  "id": "pd-115",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.4"
+  ]
+ },
+ {
+  "id": "pd-116",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "pd-117",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.5"
+  ]
+ },
+ {
+  "id": "pd-118",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.10"
+  ]
+ },
+ {
+  "id": "pd-119",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.7"
+  ]
+ },
+ {
+  "id": "pd-120",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.5"
+  ]
+ },
+ {
+  "id": "pd-121",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.2",
+   "4.1.4"
+  ]
+ },
+ {
+  "id": "pd-122",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.1"
+  ]
+ },
+ {
+  "id": "pd-123",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.7",
+   "2.3.10"
+  ]
+ },
+ {
+  "id": "pd-124",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.5"
+  ]
+ },
+ {
+  "id": "pd-125",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.3"
+  ]
+ },
+ {
+  "id": "pd-126",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.4"
+  ]
+ },
+ {
+  "id": "pd-127",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "pd-128",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4",
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "pd-129",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.7"
+  ]
+ },
+ {
+  "id": "pd-130",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2",
+   "1.3.6"
+  ]
+ },
+ {
+  "id": "pd-131",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "1.1.4",
+   "2.3.10"
+  ]
+ },
+ {
+  "id": "pd-132",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2"
+  ]
+ },
+ {
+  "id": "pd-133",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.3"
+  ]
+ },
+ {
+  "id": "pd-134",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.2"
+  ]
+ },
+ {
+  "id": "pd-135",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2"
+  ],
+  "noteRename": "Amazon QuickSight → Amazon Quick Sight, part of Amazon Quick"
+ },
+ {
+  "id": "pd-136",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.6"
+  ]
+ },
+ {
+  "id": "pd-138",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.1"
+  ]
+ },
+ {
+  "id": "pd-139",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.1.4",
+   "1.3.5"
+  ]
+ },
+ {
+  "id": "pd-140",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4"
+  ]
+ },
+ {
+  "id": "pd-141",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.9"
+  ]
+ },
+ {
+  "id": "pd-142",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.2"
+  ]
+ },
+ {
+  "id": "pd-143",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.1"
+  ]
+ },
+ {
+  "id": "pd-144",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.6"
+  ]
+ },
+ {
+  "id": "pd-145",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "2.2.2",
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "pd-146",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.8"
+  ]
+ },
+ {
+  "id": "pd-147",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.8"
+  ]
+ },
+ {
+  "id": "pd-148",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.1",
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "pd-149",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.3"
+  ]
+ },
+ {
+  "id": "pd-150",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.4"
+  ]
+ },
+ {
+  "id": "pd-151",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.3"
+  ]
+ },
+ {
+  "id": "pd-152",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.1"
+  ]
+ },
+ {
+  "id": "pd-153",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "pd-154",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.3"
+  ]
+ },
+ {
+  "id": "pd-155",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.9"
+  ]
+ },
+ {
+  "id": "pd-156",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "pd-158",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "pd-159",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.5",
+   "3.1.4"
+  ]
+ },
+ {
+  "id": "pd-160",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.1"
+  ]
+ },
+ {
+  "id": "pd-161",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.2"
+  ]
+ },
+ {
+  "id": "pd-162",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.2"
+  ]
+ },
+ {
+  "id": "pd-163",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.2",
+   "2.1.9"
+  ]
+ },
+ {
+  "id": "pd-164",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.9"
+  ],
+  "drop": "ambiguous: 'training data not representative' is also a standard cause of overfitting; key picks 'too many features'"
+ },
+ {
+  "id": "pd-165",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "pd-166",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.5"
+  ]
+ },
+ {
+  "id": "pd-167",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.8"
+  ]
+ },
+ {
+  "id": "pd-168",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.1"
+  ]
+ },
+ {
+  "id": "pd-169",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.3"
+  ]
+ },
+ {
+  "id": "pd-170",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.3"
+  ]
+ },
+ {
+  "id": "pd-171",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.4"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "pd-172",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.7",
+   "1.3.8"
+  ]
+ },
+ {
+  "id": "pd-173",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.1",
+   "3.4.2"
+  ]
+ },
+ {
+  "id": "pd-174",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4",
+   "2.1.5",
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "pd-175",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.4"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "pd-176",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.6"
+  ]
+ },
+ {
+  "id": "pd-177",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.6"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "pd-178",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.5"
+  ]
+ },
+ {
+  "id": "pd-179",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.2",
+   "3.3.5"
+  ]
+ },
+ {
+  "id": "pd-180",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.5",
+   "3.3.2"
+  ]
+ },
+ {
+  "id": "pd-181",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.9"
+  ]
+ },
+ {
+  "id": "pd-182",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.2"
+  ]
+ }
+]

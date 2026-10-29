@@ -1,0 +1,2414 @@
+[
+ {
+  "id": "pd-1",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company built a deep learning model for object detection and deployed the model to production. Which AI process occurs when the model analyzes a new image to identify objects?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Training"
+   },
+   {
+    "key": "B",
+    "text": "Inference"
+   },
+   {
+    "key": "C",
+    "text": "Model deployment"
+   },
+   {
+    "key": "D",
+    "text": "Bias correction"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-2",
+  "domain": 1,
+  "type": "match",
+  "stem": "AI and ML Concepts A company wants to develop ML applications to improve business operations and efficiency. Select the correct ML paradigm from the following list for each use case. Each ML paradigm should be selected one or more times. (Select FOUR.)",
+  "pairs": [
+   {
+    "prompt": "Binary classification",
+    "answer": "Supervised learning"
+   },
+   {
+    "prompt": "Multi-class classification",
+    "answer": "Supervised learning"
+   },
+   {
+    "prompt": "K-means clustering",
+    "answer": "Unsupervised learning"
+   },
+   {
+    "prompt": "Dimensionality reduction",
+    "answer": "Unsupervised learning"
+   }
+  ],
+  "termBank": [
+   "Supervised learning",
+   "Unsupervised learning"
+  ]
+ },
+ {
+  "id": "pd-3",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is building a customer service chatbot. The company wants the chatbot to improve its responses by learning from past interactions and online resources. Which AI learning strategy provides this self-improvement capability?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Supervised learning with a manually curated dataset of good responses and bad responses"
+   },
+   {
+    "key": "B",
+    "text": "Reinforcement learning with rewards for positive customer feedback"
+   },
+   {
+    "key": "C",
+    "text": "Unsupervised learning to find clusters of similar customer inquiries"
+   },
+   {
+    "key": "D",
+    "text": "Supervised learning with a continuously updated FAQ database"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-4",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which option is an example of unsupervised learning?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A model that groups customers based on their purchase history"
+   },
+   {
+    "key": "B",
+    "text": "A model that classifies images as dogs or cats"
+   },
+   {
+    "key": "C",
+    "text": "A model that predicts a house's price based on various features"
+   },
+   {
+    "key": "D",
+    "text": "A model that learns to play chess by using trial and error"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-5",
+  "domain": 2,
+  "type": "single",
+  "stem": "Sometimes generative AI models generate data unrelated to the input or the task. Which term is used for this disadvantage of using generative AI for business problems?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Interpretability"
+   },
+   {
+    "key": "B",
+    "text": "Hallucinations"
+   },
+   {
+    "key": "C",
+    "text": "Data bias"
+   },
+   {
+    "key": "D",
+    "text": "Nondeterminism"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-6",
+  "domain": 1,
+  "type": "match",
+  "stem": "Select the correct AI term from the following list for each statement. Each AI term should be selected one time. (Select THREE.)",
+  "pairs": [
+   {
+    "prompt": "Simulates human problem-solving capabilities",
+    "answer": "AI"
+   },
+   {
+    "prompt": "Applies data-driven learning techniques to make predictions",
+    "answer": "ML"
+   },
+   {
+    "prompt": "Focuses on processing data through intricate neural networks",
+    "answer": "Deep learning"
+   }
+  ],
+  "termBank": [
+   "AI",
+   "ML",
+   "Deep learning"
+  ]
+ },
+ {
+  "id": "pd-7",
+  "domain": 1,
+  "type": "single",
+  "stem": "Sentiment analysis is a subset of which broader field of AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Computer vision"
+   },
+   {
+    "key": "B",
+    "text": "Robotics"
+   },
+   {
+    "key": "C",
+    "text": "Natural language processing (NLP)"
+   },
+   {
+    "key": "D",
+    "text": "Time series forecasting"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-8",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which option is an example of unsupervised learning?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Clustering data points into groups based on their similarity"
+   },
+   {
+    "key": "B",
+    "text": "Training a model to recognize images of animals"
+   },
+   {
+    "key": "C",
+    "text": "Predicting the price of a house based on the house's features"
+   },
+   {
+    "key": "D",
+    "text": "Generating human-like text based on a given prompt"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-9",
+  "domain": 1,
+  "type": "single",
+  "stem": "What does inference refer to in the context of AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "The process of creating new AI algorithms"
+   },
+   {
+    "key": "B",
+    "text": "The use of a trained model to make predictions or decisions on unseen data"
+   },
+   {
+    "key": "C",
+    "text": "The process of combining multiple AI models into one model"
+   },
+   {
+    "key": "D",
+    "text": "The method of collecting training data for AI systems"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-10",
+  "domain": 1,
+  "type": "single",
+  "stem": "A customer service team is developing an application to analyze customer feedback and automatically classify the feedback into different categories. The categories include product quality, customer service, and delivery experience. Which AI concept does this scenario present?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Computer vision"
+   },
+   {
+    "key": "B",
+    "text": "Natural language processing (NLP)"
+   },
+   {
+    "key": "C",
+    "text": "Recommendation systems"
+   },
+   {
+    "key": "D",
+    "text": "Fraud detection"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-11",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company needs an automated solution to group its customers into multiple categories. The company does not want to manually define the categories. Which ML technique should the company use?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Classification"
+   },
+   {
+    "key": "B",
+    "text": "Linear regression"
+   },
+   {
+    "key": "C",
+    "text": "Logistic regression"
+   },
+   {
+    "key": "D",
+    "text": "Clustering"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-12",
+  "domain": 1,
+  "type": "multi",
+  "stem": "A company has multiple datasets that contain historical data. The company wants to use ML technologies to process each dataset (text-based customer reviews, a dataset of animal images, and daily sales volumes). Which ML technologies are directly applicable to these datasets? (Select THREE.)",
+  "options": [
+   {
+    "key": "A",
+    "text": "Natural language processing (NLP)"
+   },
+   {
+    "key": "B",
+    "text": "Computer vision"
+   },
+   {
+    "key": "C",
+    "text": "Reinforcement learning"
+   },
+   {
+    "key": "D",
+    "text": "Time series forecasting"
+   }
+  ],
+  "correct": [
+   "A",
+   "B",
+   "D"
+  ]
+ },
+ {
+  "id": "pd-13",
+  "domain": 4,
+  "type": "single",
+  "stem": "A company wants to use an AI model to generate labels for online news articles that the company publishes. The company selects a foundation model (FM) instead of a conventional ML model for this task. What is one advantage of using an FM instead of a conventional ML model to meet this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "An FM does not require training."
+   },
+   {
+    "key": "B",
+    "text": "An FM is smaller and faster."
+   },
+   {
+    "key": "C",
+    "text": "An FM is more transparent."
+   },
+   {
+    "key": "D",
+    "text": "An FM is not biased."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-14",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to display the total sales for its top-selling products across various retail locations in the past 12 months. Which AWS solution should the company use to automate the generation of graphs?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Q in Amazon EC2"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Q Developer"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Q in Amazon QuickSight"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Q in AWS Chatbot"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-15",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company has petabytes of unlabeled customer data to use for an advertisement campaign. The company wants to classify its customers into tiers to advertise and promote the company's products. Which methodology should the company use to meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Supervised learning"
+   },
+   {
+    "key": "B",
+    "text": "Unsupervised learning"
+   },
+   {
+    "key": "C",
+    "text": "Reinforcement learning"
+   },
+   {
+    "key": "D",
+    "text": "Reinforcement learning from human feedback (RLHF)"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-16",
+  "domain": 2,
+  "type": "single",
+  "stem": "Which option is a use case for generative AI models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Improving network security by using intrusion detection systems"
+   },
+   {
+    "key": "B",
+    "text": "Creating photorealistic images from text descriptions for digital marketing"
+   },
+   {
+    "key": "C",
+    "text": "Enhancing database performance by using optimized indexing"
+   },
+   {
+    "key": "D",
+    "text": "Analyzing financial data to forecast stock market trends"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-17",
+  "domain": 1,
+  "type": "match",
+  "stem": "AWS AI/ML Services and Tools A company wants to create an application to summarize meetings by using meeting audio recordings. Select and order the correct steps from the following list to create the application. Each step should be selected one time or not at all. (Select and order THREE.)",
+  "pairs": [
+   {
+    "prompt": "Step 1",
+    "answer": "Store meeting audio recordings in an Amazon S3 bucket."
+   },
+   {
+    "prompt": "Step 2",
+    "answer": "Convert meeting audio recordings to meeting text files by using Amazon Transcribe."
+   },
+   {
+    "prompt": "Step 3",
+    "answer": "Summarize meeting text files by using Amazon Bedrock."
+   }
+  ],
+  "termBank": [
+   "Store meeting audio recordings in an Amazon S3 bucket.",
+   "Convert meeting audio recordings to meeting text files by using Amazon Transcribe.",
+   "Summarize meeting text files by using Amazon Bedrock."
+  ]
+ },
+ {
+  "id": "pd-18",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company manually reviews all submitted resumes in PDF format. As the company grows, the company expects the volume of resumes to exceed the company's review capacity. The company needs an automated system to convert the PDF resumes into plain text format for additional processing. Which AWS service meets this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Textract"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Personalize"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Lex"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Transcribe"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-19",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to use large language models (LLMs) with Amazon Bedrock to develop a chat interface for the company's product manuals. The manuals are stored as PDF files. Which solution meets these requirements MOST cost-effectively?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use prompt engineering to add one PDF file as context to the user prompt when the prompt is submitted to Amazon Bedrock."
+   },
+   {
+    "key": "B",
+    "text": "Use prompt engineering to add all the PDF files as context to the user prompt when the prompt is submitted to Amazon Bedrock."
+   },
+   {
+    "key": "C",
+    "text": "Use all the PDF documents to fine-tune a model with Amazon Bedrock. Use the fine-tuned model to process user prompts."
+   },
+   {
+    "key": "D",
+    "text": "Upload PDF documents to an Amazon Bedrock knowledge base. Use the knowledge base to provide context when users submit prompts to Amazon Bedrock."
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-20",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to use generative AI to increase developer productivity and software development. The company wants to use Amazon Q Developer. What can Amazon Q Developer do to help the company meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Create software snippets, reference tracking, and open-source license tracking."
+   },
+   {
+    "key": "B",
+    "text": "Run an application without provisioning or managing servers."
+   },
+   {
+    "key": "C",
+    "text": "Enable voice commands for coding and providing natural language search."
+   },
+   {
+    "key": "D",
+    "text": "Convert audio files to text documents by using ML models."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-21",
+  "domain": 1,
+  "type": "match",
+  "stem": "Responsible AI and Governance An ecommerce company is developing a generative Al solution to create personalized product recommendations for its application users. The company wants to track how effectively the Al solution increases product sales and user engagement in the application. Select the correct business metric from the following list for each business goal. Each business metric should be selected one time. (Select THREE.) Average order value (AOV) Click-through rate (CTR) Retention rate",
+  "pairs": [
+   {
+    "prompt": "Measure how engaging the product recommendations are to users",
+    "answer": "Click-through rate (CTR)"
+   },
+   {
+    "prompt": "Determine the effect of the AI solution on the total value of user purchases",
+    "answer": "Average order value (AOV)"
+   },
+   {
+    "prompt": "Assess the AI solution's ability to encourage users to return to the platform",
+    "answer": "Retention rate"
+   }
+  ],
+  "termBank": [
+   "Click-through rate (CTR)",
+   "Average order value (AOV)",
+   "Retention rate"
+  ]
+ },
+ {
+  "id": "pd-22",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to create an application by using Amazon Bedrock. The company has a limited budget and prefers flexibility without long-term commitment. Which Amazon Bedrock pricing model meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "On-Demand"
+   },
+   {
+    "key": "B",
+    "text": "Model customization"
+   },
+   {
+    "key": "C",
+    "text": "Provisioned Throughput"
+   },
+   {
+    "key": "D",
+    "text": "Spot Instance"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-23",
+  "domain": 1,
+  "type": "single",
+  "stem": "A digital devices company wants to predict customer demand for memory hardware. The company does not have coding experience or knowledge of ML algorithms and needs to develop a data-driven predictive model. The company needs to perform analysis on internal data and external data. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Store the data in Amazon S3. Create ML models and demand forecast predictions by using Amazon SageMaker built-in algorithms that use the data from Amazon S3."
+   },
+   {
+    "key": "B",
+    "text": "Import the data into Amazon SageMaker Data Wrangler. Create ML models and demand forecast predictions by using SageMaker built-in algorithms."
+   },
+   {
+    "key": "C",
+    "text": "Import the data into Amazon SageMaker Data Wrangler. Build ML models and demand forecast predictions by using an Amazon Personalize Trending-Now recipe."
+   },
+   {
+    "key": "D",
+    "text": "Import the data into Amazon SageMaker Canvas. Build ML models and demand forecast predictions by selecting the values in the data from SageMaker Canvas."
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-25",
+  "domain": 1,
+  "type": "match",
+  "stem": "AWS AI/ML Services and Tools A company has developed a large language model (LLM) and wants to make the LLM available to multiple internal teams. The company needs to select the appropriate inference mode for each team. Select the correct inference mode from the following list for each use case. Each inference mode should be selected one or more times. (Select THREE.)",
+  "pairs": [
+   {
+    "prompt": "Scenario 1 (Chatbot / minimal latency)",
+    "answer": "Real-time inference"
+   },
+   {
+    "prompt": "Scenario 2 (Data processing job / gigabytes of text / weekends)",
+    "answer": "Batch transform"
+   },
+   {
+    "prompt": "Scenario 3 (API / small pieces of text / low-latency predictions)",
+    "answer": "Real-time inference"
+   }
+  ],
+  "termBank": [
+   "Real-time inference",
+   "Batch transform"
+  ]
+ },
+ {
+  "id": "pd-26",
+  "domain": 2,
+  "type": "single",
+  "stem": "An education company wants to build a private tutor application. The application will give users the ability to enter text or provide a picture of a question. The application will respond with a written answer and an explanation of the written Answer. Which model type meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Computer vision model"
+   },
+   {
+    "key": "B",
+    "text": "Multimodal LLM"
+   },
+   {
+    "key": "C",
+    "text": "Diffusion model"
+   },
+   {
+    "key": "D",
+    "text": "Text-to-speech model"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-27",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to assess the costs that are associated with using a large language model (LLM) to generate inferences. The company wants to use Amazon Bedrock to build generative AI applications. Which factor will drive the inference costs?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Number of tokens consumed"
+   },
+   {
+    "key": "B",
+    "text": "Temperature value"
+   },
+   {
+    "key": "C",
+    "text": "Amount of data used to train the LLM"
+   },
+   {
+    "key": "D",
+    "text": "Total training time"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-28",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to develop an educational game where users answer questions such as the following: \"A jar contains six red, four green, and three yellow marbles. What is the probability of choosing a green marble from the jar?\" Which solution meets these requirements with the LEAST operational overhead?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use supervised learning to create a regression model that will predict probability."
+   },
+   {
+    "key": "B",
+    "text": "Use reinforcement learning to train a model to return the probability."
+   },
+   {
+    "key": "C",
+    "text": "Use code that will calculate probability by using simple rules and computations."
+   },
+   {
+    "key": "D",
+    "text": "Use unsupervised learning to create a model that will estimate probability density."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-29",
+  "domain": 4,
+  "type": "single",
+  "stem": "A software company has deployed an AI model to translate paragraphs of text into a user's chosen language. The model can produce a confidence score for the translations. The company wants to incorporate its employees into a review process to validate and improve the model's translations. Which AWS solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon SageMaker Clarify"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Augmented AI (Amazon A2I)"
+   },
+   {
+    "key": "C",
+    "text": "Amazon SageMaker Model Monitor"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Bedrock Agents"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-30",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is building a large language model (LLM) question answering chatbot. The company wants to decrease the number of actions call center employees need to take to respond to customer questions. Which business objective should the company use to evaluate the effect of the LLM chatbot?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Website engagement rate"
+   },
+   {
+    "key": "B",
+    "text": "Average call duration"
+   },
+   {
+    "key": "C",
+    "text": "Corporate social responsibility"
+   },
+   {
+    "key": "D",
+    "text": "Regulatory compliance"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-31",
+  "domain": 2,
+  "type": "single",
+  "stem": "A large retailer receives thousands of customer support inquiries about products every day. The customer support inquiries need to be processed and responded to quickly. The company wants to implement Agents for Amazon Bedrock. What are the key benefits of using Amazon Bedrock agents that could help this retailer?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Generation of custom foundation models (FMs) to predict customer needs"
+   },
+   {
+    "key": "B",
+    "text": "Automation of repetitive tasks and orchestration of complex workflows"
+   },
+   {
+    "key": "C",
+    "text": "Automatically calling multiple foundation models (FMs) and consolidating the results"
+   },
+   {
+    "key": "D",
+    "text": "Selecting the foundation model (FM) based on predefined criteria and metrics"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-32",
+  "domain": 2,
+  "type": "single",
+  "stem": "A law firm wants to build an AI application by using large language models (LLMs). The application will read legal documents and extract key points from the documents. Which solution meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Build an automatic named entity recognition system."
+   },
+   {
+    "key": "B",
+    "text": "Create a recommendation engine."
+   },
+   {
+    "key": "C",
+    "text": "Develop a summarization chatbot."
+   },
+   {
+    "key": "D",
+    "text": "Develop a multi-language translation system."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-33",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to use language models to create an application for inference on edge devices. The inference must have the lowest latency possible. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Deploy optimized small language models (SLMs) on edge devices."
+   },
+   {
+    "key": "B",
+    "text": "Deploy optimized large language models (LLMs) on edge devices."
+   },
+   {
+    "key": "C",
+    "text": "Incorporate a centralized small language model (SLM) API for asynchronous communication with edge devices."
+   },
+   {
+    "key": "D",
+    "text": "Incorporate a centralized large language model (LLM) API for asynchronous communication with edge devices."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-34",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to implement a single environment for both data and AI development. Developers across different teams must be able to access the environment and work together. The developers must be able to build and share models and generative AI applications securely in the environment. Which AWS solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Lex"
+   },
+   {
+    "key": "B",
+    "text": "Amazon SageMaker Unified Studio"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Bedrock PartyRock"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Q Developer"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-35",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is building a contact center application and wants to gain insights from customer conversations. The company wants to analyze and extract key information from the audio of the customer calls. Which solution meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Build a conversational chatbot by using Amazon Lex."
+   },
+   {
+    "key": "B",
+    "text": "Transcribe call recordings by using Amazon Transcribe."
+   },
+   {
+    "key": "C",
+    "text": "Extract information from call recordings by using Amazon SageMaker Model Monitor."
+   },
+   {
+    "key": "D",
+    "text": "Create classification labels by using Amazon Comprehend."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-36",
+  "domain": 1,
+  "type": "single",
+  "stem": "An AI practitioner has a database of animal photos. The AI practitioner wants to automatically identify and categorize the animals in the photos without manual human effort. Which strategy meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Object detection"
+   },
+   {
+    "key": "B",
+    "text": "Anomaly detection"
+   },
+   {
+    "key": "C",
+    "text": "Named entity recognition"
+   },
+   {
+    "key": "D",
+    "text": "Inpainting"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-37",
+  "domain": 1,
+  "type": "single",
+  "stem": "An education provider is building a question and answer application that uses a generative AI model to explain complex concepts. The education provider wants to automatically change the style of the model response depending on who is asking the question. The education provider will give the model the age range of the user who has asked the question. Which solution meets these requirements with the LEAST implementation effort?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Fine-tune the model by using additional training data that is representative of the various age ranges that the application will support."
+   },
+   {
+    "key": "B",
+    "text": "Add a role description to the prompt context that instructs the model of the age range that the response should target."
+   },
+   {
+    "key": "C",
+    "text": "Use chain-of-thought reasoning to deduce the correct style and complexity for a response suitable for that user."
+   },
+   {
+    "key": "D",
+    "text": "Summarize the response text depending on the age of the user so that younger users receive shorter responses."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-38",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company has terabytes of data in a database that the company can use for business analysis. The company wants to build an AI-based application that can build a SQL query from input text that employees provide. The employees have minimal experience with technology. Which solution meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Generative pre-trained transformers (GPT)"
+   },
+   {
+    "key": "B",
+    "text": "Residual neural network"
+   },
+   {
+    "key": "C",
+    "text": "Support vector machine"
+   },
+   {
+    "key": "D",
+    "text": "WaveNet"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-39",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company has deployed an ML model. The company wants to provide external customers with secure access to the model through the customers' own applications. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use a custom script in the customers' application for authentication."
+   },
+   {
+    "key": "B",
+    "text": "Store model credentials and share them with the customers directly for authentication."
+   },
+   {
+    "key": "C",
+    "text": "Create a secure API endpoint that customers can use."
+   },
+   {
+    "key": "D",
+    "text": "Embed the model directly into the customers' applications."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-40",
+  "domain": 1,
+  "type": "multi",
+  "stem": "An e-commerce company wants to build a solution to determine customer sentiments based on written customer reviews of products. Which AWS services meet these requirements? (Select TWO.)",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Lex"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Bedrock"
+   },
+   {
+    "key": "E",
+    "text": "Amazon Rekognition"
+   }
+  ],
+  "correct": [
+   "B",
+   "D"
+  ]
+ },
+ {
+  "id": "pd-41",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company has thousands of customer support interactions per day and wants to analyze these interactions to identify frequently asked questions and develop insights. Which AWS service can the company use to meet this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Lex"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Transcribe"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Translate"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-42",
+  "domain": 2,
+  "type": "single",
+  "stem": "A pharmaceutical company wants to analyze user reviews of new medications and provide a concise overview for each medication. Which solution meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Create a time-series forecasting model to analyze the medication reviews by using Amazon Personalize."
+   },
+   {
+    "key": "B",
+    "text": "Create medication review summaries by using Amazon Bedrock large language models (LLMs)."
+   },
+   {
+    "key": "C",
+    "text": "Create a classification model that categorizes medications into different groups by using Amazon SageMaker."
+   },
+   {
+    "key": "D",
+    "text": "Create medication review summaries by using Amazon Rekognition."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-43",
+  "domain": 3,
+  "type": "single",
+  "stem": "A company deployed an AI/ML solution to help customer service agents respond to frequently asked questions. The questions can change over time. The company wants to give customer service agents the ability to ask questions and receive automatically generated answers to common customer questions. Which strategy will meet these requirements MOST cost-effectively?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Fine-tune the model regularly."
+   },
+   {
+    "key": "B",
+    "text": "Train the model by using context data."
+   },
+   {
+    "key": "C",
+    "text": "Pre-train and benchmark the model by using context data."
+   },
+   {
+    "key": "D",
+    "text": "Use Retrieval Augmented Generation (RAG) with prompt engineering techniques."
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-44",
+  "domain": 2,
+  "type": "single",
+  "stem": "Which AWS service creates business intelligence reports and automatically generates executive summaries based on data that users provide?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Q in QuickSight"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Rekognition"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Textract"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Polly"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-45",
+  "domain": 2,
+  "type": "single",
+  "stem": "An airline company wants to build a conversational AI assistant to answer customer questions about flight schedules, booking, and payments. The company wants to use large language models (LLMs) and a knowledge base to create a text-based chatbot interface. Which solution will meet these requirements with the LEAST development effort?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Train models on Amazon SageMaker Autopilot."
+   },
+   {
+    "key": "B",
+    "text": "Develop a Retrieval Augmented Generation (RAG) agent by using Amazon Bedrock."
+   },
+   {
+    "key": "C",
+    "text": "Create a Python application by using Amazon Q Developer."
+   },
+   {
+    "key": "D",
+    "text": "Fine-tune models on Amazon SageMaker Jumpstart."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-46",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is building a mobile app for users who have a visual impairment. The app must be able to hear what users say and provide voice responses. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use a deep learning neural network to perform speech recognition."
+   },
+   {
+    "key": "B",
+    "text": "Build ML models to search for patterns in numeric data."
+   },
+   {
+    "key": "C",
+    "text": "Use generative AI summarization to generate human-like text."
+   },
+   {
+    "key": "D",
+    "text": "Build custom models for image classification and recognition."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-47",
+  "domain": 1,
+  "type": "single",
+  "stem": "A manufacturing company wants to create product descriptions in multiple languages. Which AWS service will automate this task?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Translate"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Transcribe"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Kendra"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Polly"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-48",
+  "domain": 2,
+  "type": "single",
+  "stem": "A research company needs to analyze legal documents. The documents are up to 1 million tokens long and include embedded high-resolution charts. The company also needs to ingest video summaries to generate compliance reports. Which Amazon Nova model meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Nova Micro"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Nova Lite"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Nova Pro"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Nova Premier"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-49",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to develop an Al application to help its employees check open customer claims, identify details for a specific claim, and access documents for a claim. Which solution meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use Agents for Amazon Bedrock with Amazon Fraud Detector to build the application."
+   },
+   {
+    "key": "B",
+    "text": "Use Agents for Amazon Bedrock with Amazon Bedrock knowledge bases to build the application."
+   },
+   {
+    "key": "C",
+    "text": "Use Amazon Personalize with Amazon Bedrock knowledge bases to build the application."
+   },
+   {
+    "key": "D",
+    "text": "Use Amazon SageMaker AI to build the application by training a new ML model."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-50",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is building a conversational AI assistant by using Amazon Bedrock AgentCore. The assistant must maintain context across multiple user interactions without requiring the company to manage infrastructure. Which AgentCore feature meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Gateway"
+   },
+   {
+    "key": "B",
+    "text": "Browser Tool"
+   },
+   {
+    "key": "C",
+    "text": "Memory"
+   },
+   {
+    "key": "D",
+    "text": "Code Interpreter"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-51",
+  "domain": 1,
+  "type": "single",
+  "stem": "A manufacturing company uses AI to inspect products and find any damages or defects. Which type of AI application is the company using?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Recommendation system"
+   },
+   {
+    "key": "B",
+    "text": "Natural language processing (NLP)"
+   },
+   {
+    "key": "C",
+    "text": "Computer vision"
+   },
+   {
+    "key": "D",
+    "text": "Image processing"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-52",
+  "domain": 1,
+  "type": "single",
+  "stem": "An ecommerce company wants to improve search engine recommendations by customizing the results for each user of the company's ecommerce platform. Which AWS service meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Personalize"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Kendra"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Rekognition"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Transcribe"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-53",
+  "domain": 2,
+  "type": "single",
+  "stem": "Which scenario represents a practical use case for generative AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Using an ML model to forecast product demand"
+   },
+   {
+    "key": "B",
+    "text": "Employing a chatbot to provide human-like responses to customer queries in real time"
+   },
+   {
+    "key": "C",
+    "text": "Using an analytics dashboard to track website traffic and user behavior"
+   },
+   {
+    "key": "D",
+    "text": "Implementing a rule-based recommendation engine to suggest products to customers"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-54",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is implementing intelligent agents to provide conversational search experiences for its customers. The company needs a database service that will support storage and queries of embeddings from a generative AI model as vectors in the database. Which AWS service will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Athena"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Aurora PostgreSQL"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Redshift"
+   },
+   {
+    "key": "D",
+    "text": "Amazon EMR"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-55",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company uses a foundation model (FM) on Amazon Bedrock to generate meeting summaries and insights from discussion transcripts. However, productivity has not improved. Which solution will help determine if the FM meets company business objectives?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Compare pre-deployment and post-deployment metrics such as time saved in documentation, number of actionable tasks created, and employee adoption rates."
+   },
+   {
+    "key": "B",
+    "text": "Evaluate the FM's outputs by using technical quality metrics such as precision, recall, or Bilingual Evaluation Understudy (BLEU) scores to confirm summarization accuracy."
+   },
+   {
+    "key": "C",
+    "text": "Extend the summarization workflow with a Retrieval Augmented Generation (RAG) layer so the FM includes project notes and documents for better insights."
+   },
+   {
+    "key": "D",
+    "text": "Review employee satisfaction surveys to understand general sentiment toward the summaries."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-56",
+  "domain": 1,
+  "type": "single",
+  "stem": "A medical company wants to develop an AI application that can access structured patient records, extract relevant information, and generate concise summaries. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use Amazon Comprehend Medical to extract relevant medical entities and relationships. Apply rule-based logic to structure and format summaries."
+   },
+   {
+    "key": "B",
+    "text": "Use Amazon Personalize to analyze patient engagement patterns. Integrate the output with a general purpose text summarization tool."
+   },
+   {
+    "key": "C",
+    "text": "Use Amazon Textract to convert scanned documents into digital text. Design a keyword extraction system to generate summaries."
+   },
+   {
+    "key": "D",
+    "text": "Implement Amazon Kendra to provide a searchable index for medical records. Use a template- based system to format summaries."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-57",
+  "domain": 1,
+  "type": "single",
+  "stem": "A fitness company has an application that uses LLMs to create new personalized exercise routines for users. The company generates the routines every week for all users in the company's database. The company wants to reduce costs for this repetitive workload. The workload processes large volumes of requests and does not require immediate responses. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use Amazon Bedrock AgentCore for automated exercise generation."
+   },
+   {
+    "key": "B",
+    "text": "Use real-time inference with Amazon Bedrock with on-demand endpoints."
+   },
+   {
+    "key": "C",
+    "text": "Use batch inference with Amazon Bedrock."
+   },
+   {
+    "key": "D",
+    "text": "Use real-time inference with Amazon SageMaker AI hosted endpoints."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-58",
+  "domain": 1,
+  "type": "single",
+  "stem": "An animation company wants to provide subtitles for its content. Which AWS service meets this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Transcribe"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Translate"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-59",
+  "domain": 1,
+  "type": "multi",
+  "stem": "A company stores millions of PDF documents in an Amazon S3 bucket. The company needs to extract the text from the PDFs, generate summaries of the text, and index the summaries for fast searching. Which combination of AWS services will meet these requirements? (Select TWO.)",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Translate"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Bedrock"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Transcribe"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "E",
+    "text": "Amazon Textract"
+   }
+  ],
+  "correct": [
+   "B",
+   "E"
+  ]
+ },
+ {
+  "id": "pd-60",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company deployed AI agents to automate manual decision-making processes. Which metric measures the immediate value of this deployment?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Size of the network effect"
+   },
+   {
+    "key": "B",
+    "text": "Reduction of the cost for each decision"
+   },
+   {
+    "key": "C",
+    "text": "Additional revenue from market expansion"
+   },
+   {
+    "key": "D",
+    "text": "Potential value of additional vertical solutions"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-61",
+  "domain": 1,
+  "type": "single",
+  "stem": "A financial company is using ML to help with some of the company's tasks. Which option is a use of generative AI models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Summarizing customer complaints"
+   },
+   {
+    "key": "B",
+    "text": "Classifying customers based on product usage"
+   },
+   {
+    "key": "C",
+    "text": "Segmenting customers based on type of investments"
+   },
+   {
+    "key": "D",
+    "text": "Forecasting revenue for certain products"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-62",
+  "domain": 1,
+  "type": "single",
+  "stem": "A food service company wants to develop an ML model to help decrease daily food waste and increase sales revenue. The company needs to continuously improve the model's accuracy. Which solution meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use Amazon SageMaker AI and iterate with the most recent data."
+   },
+   {
+    "key": "B",
+    "text": "Use Amazon Personalize and iterate with historical data."
+   },
+   {
+    "key": "C",
+    "text": "Use Amazon CloudWatch to analyze customer orders."
+   },
+   {
+    "key": "D",
+    "text": "Use Amazon Rekognition to optimize the model."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-63",
+  "domain": 1,
+  "type": "single",
+  "stem": "An online learning company with large volumes of educational materials wants to use enterprise search. Which AWS service meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Textract"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Kendra"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Personalize"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-64",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which task represents a practical use case to apply a regression model?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Suggest a genre of music for a listener from a list of genres."
+   },
+   {
+    "key": "B",
+    "text": "Cluster movies based on movie ratings and viewers."
+   },
+   {
+    "key": "C",
+    "text": "Use historical data to predict future temperatures in a specific city."
+   },
+   {
+    "key": "D",
+    "text": "Create a picture that shows a specific object."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-65",
+  "domain": 2,
+  "type": "single",
+  "stem": "A hospital wants to use a generative AI solution with speech-to-text functionality to help improve employee skills in dictating clinical notes.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Q Developer"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Rekognition"
+   },
+   {
+    "key": "D",
+    "text": "AWS HealthScribe"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-66",
+  "domain": 2,
+  "type": "single",
+  "stem": "An AI practitioner is writing software code. The AI practitioner wants to quickly develop a test case and create documentation for the code.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Upload the code to an online coding assistant."
+   },
+   {
+    "key": "B",
+    "text": "Develop an application to use foundation models (FMs)."
+   },
+   {
+    "key": "C",
+    "text": "Use Amazon Q Developer in an integrated development environment (IDE)."
+   },
+   {
+    "key": "D",
+    "text": "Research and write test cases. Then, create test cases and add documentation."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-67",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to implement a large language model (LLM)-based chatbot to provide customer service agents with real-time contextual responses to customers' inquiries. The company will use the company's policies as the knowledge base.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Retrain the LLM on the company policy data."
+   },
+   {
+    "key": "B",
+    "text": "Fine-tune the LLM on the company policy data."
+   },
+   {
+    "key": "C",
+    "text": "Implement Retrieval Augmented Generation (RAG) for in-context responses."
+   },
+   {
+    "key": "D",
+    "text": "Use pre-training and data augmentation on the company policy data."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-68",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company uses Amazon Bedrock to implement a generative AI assistant on a website. The AI assistant helps customers with product recommendations and purchasing decisions. The company wants to measure the direct impact of the AI assistant on sales performance.",
+  "options": [
+   {
+    "key": "A",
+    "text": "The conversion rate of customers who purchase products after AI assistant interactions"
+   },
+   {
+    "key": "B",
+    "text": "The number of customer interactions with the AI assistant"
+   },
+   {
+    "key": "C",
+    "text": "Sentiment analysis scores from customer feedback after AI assistant interactions"
+   },
+   {
+    "key": "D",
+    "text": "Natural language understanding accuracy rates"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-69",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to extract key insights from large policy documents to increase employee efficiency.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Regression"
+   },
+   {
+    "key": "B",
+    "text": "Clustering"
+   },
+   {
+    "key": "C",
+    "text": "Summarization"
+   },
+   {
+    "key": "D",
+    "text": "Classification"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-71",
+  "domain": 1,
+  "type": "single",
+  "stem": "A media streaming platform wants to provide movie recommendations to users based on the users' account history.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Transcribe"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Personalize"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-72",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to create a chatbot to answer employee questions about company policies. Company policies are updated frequently. The chatbot must reflect the changes in near real time. The company wants to choose a large language model (LLM).",
+  "options": [
+   {
+    "key": "A",
+    "text": "Fine-tune an LLM on the company policy text by using Amazon SageMaker."
+   },
+   {
+    "key": "B",
+    "text": "Select a foundation model (FM) from Amazon Bedrock to build an application."
+   },
+   {
+    "key": "C",
+    "text": "Create a Retrieval Augmented Generation (RAG) workflow by using Amazon Bedrock Knowledge Bases."
+   },
+   {
+    "key": "D",
+    "text": "Use Amazon Q Business to build a custom Q App."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-73",
+  "domain": 1,
+  "type": "single",
+  "stem": "An AI practitioner who has minimal ML knowledge wants to predict employee attrition without writing code. Which Amazon SageMaker feature meets this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "SageMaker Canvas"
+   },
+   {
+    "key": "B",
+    "text": "SageMaker Clarify"
+   },
+   {
+    "key": "C",
+    "text": "SageMaker Model Monitor"
+   },
+   {
+    "key": "D",
+    "text": "SageMaker Data Wrangler"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-74",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company creates video content. The company wants to use generative AI to generate new creative content and to reduce video creation time. Which solution will meet these requirements in the MOST operationally efficient way?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use the Amazon Titan Image Generator model on Amazon Bedrock to generate intermediate images. Use video editing software to create videos."
+   },
+   {
+    "key": "B",
+    "text": "Use the Amazon Nova Canvas model on Amazon Bedrock to generate intermediate images. Use video editing software to create videos."
+   },
+   {
+    "key": "C",
+    "text": "Use the Amazon Nova Reel model on Amazon Bedrock to generate videos."
+   },
+   {
+    "key": "D",
+    "text": "Use the Amazon Nova Pro model on Amazon Bedrock to generate videos."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-75",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company uses Amazon Comprehend to analyze customer feedback. A customer has several unique trained models. The company uses Comprehend to assign each model an endpoint. The company wants to automate a report on each endpoint that is not used for more than 15 days.",
+  "options": [
+   {
+    "key": "A",
+    "text": "AWS Trusted Advisor"
+   },
+   {
+    "key": "B",
+    "text": "Amazon CloudWatch"
+   },
+   {
+    "key": "C",
+    "text": "AWS CloudTrail"
+   },
+   {
+    "key": "D",
+    "text": "AWS Config"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-76",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company runs a website for users to make travel reservations. The company wants an AI solution to help create consistent branding for hotels on the website. The AI solution needs to generate hotel descriptions for the website in a consistent writing style. Which AWS service will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Personalize"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Rekognition"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Bedrock"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-77",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is developing an editorial assistant application that uses generative AI. During the pilot phase, usage is low and application performance is not a concern. The company cannot predict application usage after the application is fully deployed and wants to minimize application costs. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use GPU-powered Amazon EC2 instances."
+   },
+   {
+    "key": "B",
+    "text": "Use Amazon Bedrock with Provisioned Throughput."
+   },
+   {
+    "key": "C",
+    "text": "Use Amazon Bedrock with On-Demand Throughput."
+   },
+   {
+    "key": "D",
+    "text": "Use Amazon SageMaker JumpStart."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-78",
+  "domain": 2,
+  "type": "single",
+  "stem": "An online media streaming company wants to give its customers the ability to perform natural language-based image search and filtering. The company needs a vector database that can help with similarity searches and nearest neighbor queries. Which AWS service meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Personalize"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Polly"
+   },
+   {
+    "key": "D",
+    "text": "Amazon OpenSearch Service"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-79",
+  "domain": 1,
+  "type": "multi",
+  "stem": "A documentary filmmaker wants to reach more viewers. The filmmaker wants to automatically add subtitles and voice-overs in multiple languages to their films. Which combination of steps will meet these requirements? (Select TWO.)",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use Amazon Transcribe and Amazon Translate to generate subtitles in other languages"
+   },
+   {
+    "key": "B",
+    "text": "Use Amazon Textract and Amazon Translate to generate subtitles in other languages"
+   },
+   {
+    "key": "C",
+    "text": "Use Amazon Polly to generate voice-overs in other languages"
+   },
+   {
+    "key": "D",
+    "text": "Use Amazon Translate to generate voice-overs in other languages"
+   },
+   {
+    "key": "E",
+    "text": "Use Amazon Textract to generate voice-overs in other languages"
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ]
+ },
+ {
+  "id": "pd-80",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to use AWS services to build an AI assistant for internal company use. The AI assistant's responses must reference internal documentation. The company stores internal documentation as PDF, CSV, and image files. Which solution will meet these requirements with the LEAST operational overhead?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use Amazon SageMaker AI to fine-tune a model."
+   },
+   {
+    "key": "B",
+    "text": "Use Amazon Bedrock Knowledge Bases to create a knowledge base."
+   },
+   {
+    "key": "C",
+    "text": "Configure a guardrail in Amazon Bedrock Guardrails."
+   },
+   {
+    "key": "D",
+    "text": "Select a pre-trained model from Amazon SageMaker JumpStart."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-81",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to learn about generative AI applications in an experimental environment. Which solution will meet this requirement MOST cost-effectively?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Q Developer"
+   },
+   {
+    "key": "B",
+    "text": "Amazon SageMaker JumpStart"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Bedrock PartyRock"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Q Business"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-82",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company has implemented a generative AI solution to create personalized exercise routines for premium subscription users. The company offers free basic subscriptions and paid premium subscriptions. The company wants to evaluate the AI solution's return on investment over time.",
+  "options": [
+   {
+    "key": "A",
+    "text": "The average revenue per user (ARPU) over the past month"
+   },
+   {
+    "key": "B",
+    "text": "The number of daily interactions by basic subscription users"
+   },
+   {
+    "key": "C",
+    "text": "The conversion rate and the customer retention rate"
+   },
+   {
+    "key": "D",
+    "text": "The decrease in the number of premium customer queries and issue volume"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-83",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is using Amazon Bedrock Agents to build an application to automate business workflows.",
+  "options": [
+   {
+    "key": "A",
+    "text": "To invoke foundation models (FMs) to process visual, audio, and text inputs"
+   },
+   {
+    "key": "B",
+    "text": "To enhance foundation models (FMs) with a prompting strategy"
+   },
+   {
+    "key": "C",
+    "text": "To provide users with full control of querying external data sources and APIs"
+   },
+   {
+    "key": "D",
+    "text": "To evaluate user inputs and orchestrate actions for multiple tasks"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-84",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to implement a generative AI solution to improve its marketing operations. The company wants to increase its revenue in the next 6 months. Which approach will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Immediately start training a custom FM by using the company's existing data."
+   },
+   {
+    "key": "B",
+    "text": "Conduct stakeholder interviews to refine use cases and set measurable goals."
+   },
+   {
+    "key": "C",
+    "text": "Implement a prebuilt AI assistant solution and measure its impact on customer satisfaction."
+   },
+   {
+    "key": "D",
+    "text": "Analyze industry AI implementations and replicate the most successful features."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-85",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to implement a generative AI assistant to provide consistent responses to various phrasings of user questions. Which advantages can generative AI provide in this use case?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Low latency and high throughput"
+   },
+   {
+    "key": "B",
+    "text": "Adaptability and responsiveness"
+   },
+   {
+    "key": "C",
+    "text": "Deterministic outputs and fixed responses"
+   },
+   {
+    "key": "D",
+    "text": "Hardware acceleration and GPU optimization"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-86",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to use an ML model to analyze customer reviews on social media. The model must determine if each review has a neutral, positive, or negative sentiment.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Open-ended generation"
+   },
+   {
+    "key": "B",
+    "text": "Text summarization"
+   },
+   {
+    "key": "C",
+    "text": "Machine translation"
+   },
+   {
+    "key": "D",
+    "text": "Classification"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-87",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to use AI to protect its application from threats. The AI solution needs to check if an IP address is from a suspicious source.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Build a speech recognition system."
+   },
+   {
+    "key": "B",
+    "text": "Create a natural language processing (NLP) named entity recognition system."
+   },
+   {
+    "key": "C",
+    "text": "Develop an anomaly detection system."
+   },
+   {
+    "key": "D",
+    "text": "Create a fraud forecasting system."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-88",
+  "domain": 1,
+  "type": "single",
+  "stem": "An online learning company with large volumes of education materials wants to use enterprise search.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Textract"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Kendra"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Personalize"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-89",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company stores customer data in OpenSearch. The company wants an AI solution to retrieve specific customer information from the stored data. The AI solution must convert queries into data requests and generate CSV files from the results. Then, the AI solution must upload the CSV files to Amazon S3.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Create an AI agent to perform the required steps."
+   },
+   {
+    "key": "B",
+    "text": "Use a single foundation model (FM) with few-shot prompting."
+   },
+   {
+    "key": "C",
+    "text": "Create a software application without using AI to perform the required steps."
+   },
+   {
+    "key": "D",
+    "text": "Train a decision tree model to generate a solution based on user questions."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-90",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which task describes a use case for intelligent document processing (IDP)?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Predict fraudulent transactions."
+   },
+   {
+    "key": "B",
+    "text": "Personalize product offerings."
+   },
+   {
+    "key": "C",
+    "text": "Analyze user feedback and perform sentiment analysis."
+   },
+   {
+    "key": "D",
+    "text": "Automatically extract and format data from scanned files."
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-91",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company uses Amazon Bedrock to implement a generative AI solution. The AI solution provides customers with personalized product recommendations. The company wants to evaluate the impact of the AI solution on sales revenue. Which metric will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Cross-domain performance"
+   },
+   {
+    "key": "B",
+    "text": "Solution efficiency"
+   },
+   {
+    "key": "C",
+    "text": "User satisfaction"
+   },
+   {
+    "key": "D",
+    "text": "Conversion rate"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ }
+]

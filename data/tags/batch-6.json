@@ -1,0 +1,747 @@
+[
+ {
+  "id": "kn-6-40",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.8"
+  ]
+ },
+ {
+  "id": "kn-6-41",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.1",
+   "4.2.3"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "kn-6-42",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.1",
+   "3.2.2",
+   "3.2.5"
+  ]
+ },
+ {
+  "id": "kn-6-43",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.3"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "kn-6-44",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.7"
+  ]
+ },
+ {
+  "id": "kn-6-45",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "kn-6-46",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "kn-6-47",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "1.1.1",
+   "2.1.1"
+  ]
+ },
+ {
+  "id": "kn-6-48",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.3",
+   "3.4.4"
+  ]
+ },
+ {
+  "id": "kn-6-49",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.4"
+  ]
+ },
+ {
+  "id": "kn-6-50",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "2.1.4",
+   "3.1.6"
+  ]
+ },
+ {
+  "id": "kn-7-2",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.1"
+  ]
+ },
+ {
+  "id": "kn-7-5",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "2.1.11",
+   "3.1.8"
+  ]
+ },
+ {
+  "id": "kn-7-6",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.3"
+  ]
+ },
+ {
+  "id": "kn-7-7",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.6",
+   "2.1.7"
+  ],
+  "noteRename": "Amazon Q Business → Amazon Quick"
+ },
+ {
+  "id": "kn-7-8",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.4"
+  ]
+ },
+ {
+  "id": "kn-7-14",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.2"
+  ]
+ },
+ {
+  "id": "kn-7-16",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.1"
+  ]
+ },
+ {
+  "id": "kn-7-17",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.6",
+   "1.1.7",
+   "1.1.8"
+  ]
+ },
+ {
+  "id": "kn-7-18",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.2",
+   "1.1.5"
+  ]
+ },
+ {
+  "id": "kn-7-19",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.6"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "kn-7-20",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2"
+  ]
+ },
+ {
+  "id": "kn-7-21",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.1"
+  ]
+ },
+ {
+  "id": "kn-7-22",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "kn-7-23",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.5",
+   "1.1.6"
+  ]
+ },
+ {
+  "id": "kn-7-24",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.4"
+  ],
+  "drop": "ambiguous: \"require less computational resources to train\" (B) is also a true advantage of pre-trained models; key D overstated"
+ },
+ {
+  "id": "kn-7-25",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.3",
+   "1.3.6"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "kn-7-26",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.7"
+  ]
+ },
+ {
+  "id": "kn-7-27",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.11"
+  ]
+ },
+ {
+  "id": "kn-7-30",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.8"
+  ]
+ },
+ {
+  "id": "kn-7-31",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.7"
+  ]
+ },
+ {
+  "id": "kn-7-32",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2"
+  ]
+ },
+ {
+  "id": "kn-7-33",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "kn-7-34",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.4"
+  ]
+ },
+ {
+  "id": "kn-7-35",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.6"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "kn-7-36",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.8"
+  ]
+ },
+ {
+  "id": "kn-7-37",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.2",
+   "1.2.4"
+  ]
+ },
+ {
+  "id": "kn-7-38",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.3"
+  ]
+ },
+ {
+  "id": "kn-7-39",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "kn-7-40",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.1"
+  ]
+ },
+ {
+  "id": "kn-7-41",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.2"
+  ]
+ },
+ {
+  "id": "kn-7-42",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "kn-7-43",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.1"
+  ]
+ },
+ {
+  "id": "kn-7-44",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.8"
+  ]
+ },
+ {
+  "id": "kn-7-45",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.7"
+  ]
+ },
+ {
+  "id": "kn-7-46",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.10"
+  ]
+ },
+ {
+  "id": "kn-7-47",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.3"
+  ]
+ },
+ {
+  "id": "kn-7-48",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.2"
+  ]
+ },
+ {
+  "id": "kn-7-49",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.6",
+   "1.2.8"
+  ]
+ },
+ {
+  "id": "kn-7-50",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.8"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "jw-01-1",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.1"
+  ]
+ },
+ {
+  "id": "jw-01-2",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "jw-01-3",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.6"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "jw-01-4",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2"
+  ]
+ },
+ {
+  "id": "jw-01-5",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.7"
+  ]
+ },
+ {
+  "id": "jw-02-1",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.1"
+  ]
+ },
+ {
+  "id": "jw-02-2",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.10"
+  ]
+ },
+ {
+  "id": "jw-02-3",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "jw-02-4",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.2"
+  ]
+ },
+ {
+  "id": "jw-02-5",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.7"
+  ]
+ },
+ {
+  "id": "jw-03-2",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "2.1.4",
+   "3.1.6"
+  ]
+ },
+ {
+  "id": "jw-03-3",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "jw-03-4",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.2"
+  ]
+ },
+ {
+  "id": "jw-03-5",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.2",
+   "3.3.5"
+  ]
+ },
+ {
+  "id": "jw-04-1",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.1"
+  ]
+ },
+ {
+  "id": "jw-04-2",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.6"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "jw-04-3",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.1"
+  ]
+ },
+ {
+  "id": "jw-04-4",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.1"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "jw-04-5",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.7"
+  ]
+ },
+ {
+  "id": "jw-05-1",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.5"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "jw-05-2",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.3"
+  ]
+ },
+ {
+  "id": "jw-05-3",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.2"
+  ]
+ },
+ {
+  "id": "jw-05-4",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.1"
+  ]
+ },
+ {
+  "id": "jw-05-5",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.5"
+  ],
+  "drop": "answer key doubtful: Macie only detects sensitive data in S3 and does not redact; Amazon Comprehend detects and redacts PII in documents"
+ },
+ {
+  "id": "jw-05-6",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "jw-05-7",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.9"
+  ]
+ },
+ {
+  "id": "jw-05-8",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "jw-05-9",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.7"
+  ]
+ },
+ {
+  "id": "jw-05-10",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.4"
+  ]
+ },
+ {
+  "id": "jw-05-11",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.1"
+  ]
+ },
+ {
+  "id": "jw-05-12",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.1"
+  ]
+ },
+ {
+  "id": "jw-05-13",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "3.2.6",
+   "5.1.9"
+  ]
+ },
+ {
+  "id": "jw-05-14",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.8"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "jw-05-15",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.2"
+  ]
+ },
+ {
+  "id": "jw-05-16",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.1"
+  ]
+ },
+ {
+  "id": "jw-05-17",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.6"
+  ]
+ },
+ {
+  "id": "jw-05-18",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.3"
+  ]
+ },
+ {
+  "id": "jw-05-19",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.7"
+  ]
+ },
+ {
+  "id": "jw-05-20",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.8"
+  ]
+ }
+]

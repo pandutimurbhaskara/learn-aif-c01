@@ -1,0 +1,751 @@
+[
+ {
+  "id": "pd-373",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "pd-374",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.4",
+   "3.3.7"
+  ]
+ },
+ {
+  "id": "pd-375",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.5",
+   "4.2.1"
+  ]
+ },
+ {
+  "id": "pd-376",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.1"
+  ]
+ },
+ {
+  "id": "pd-377",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.4",
+   "3.4.2"
+  ]
+ },
+ {
+  "id": "pd-378",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "4.1.5",
+   "5.1.11"
+  ]
+ },
+ {
+  "id": "pd-379",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.6"
+  ]
+ },
+ {
+  "id": "pd-380",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.9"
+  ]
+ },
+ {
+  "id": "pd-381",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.2"
+  ]
+ },
+ {
+  "id": "pd-382",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.1"
+  ]
+ },
+ {
+  "id": "pd-383",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.2",
+   "4.1.6"
+  ]
+ },
+ {
+  "id": "pd-384",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.2"
+  ]
+ },
+ {
+  "id": "pd-385",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.1",
+   "5.2.2"
+  ]
+ },
+ {
+  "id": "pd-386",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5",
+   "2.3.2"
+  ]
+ },
+ {
+  "id": "pd-388",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.9",
+   "3.3.3"
+  ]
+ },
+ {
+  "id": "pd-389",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.4"
+  ]
+ },
+ {
+  "id": "pd-390",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.3"
+  ]
+ },
+ {
+  "id": "pd-391",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.6",
+   "4.2.2"
+  ]
+ },
+ {
+  "id": "pd-392",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.3",
+   "3.3.7"
+  ]
+ },
+ {
+  "id": "pd-393",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.4"
+  ]
+ },
+ {
+  "id": "pd-394",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.7"
+  ]
+ },
+ {
+  "id": "pd-395",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.1"
+  ]
+ },
+ {
+  "id": "pd-396",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.5"
+  ]
+ },
+ {
+  "id": "pd-397",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.7"
+  ]
+ },
+ {
+  "id": "kn-1-23",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.3"
+  ]
+ },
+ {
+  "id": "kn-2-42",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7"
+  ],
+  "drop": "ambiguous: option B (code recommendation software in developer tools, e.g. Amazon Q Developer) is at least as valid as marked D"
+ },
+ {
+  "id": "kn-2-46",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.1",
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "kn-2-47",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3",
+   "2.1.6"
+  ]
+ },
+ {
+  "id": "kn-3-3",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.3",
+   "1.1.6"
+  ]
+ },
+ {
+  "id": "kn-3-5",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "kn-3-6",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.3"
+  ]
+ },
+ {
+  "id": "kn-3-7",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.1"
+  ]
+ },
+ {
+  "id": "kn-3-8",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.5",
+   "3.2.1"
+  ]
+ },
+ {
+  "id": "kn-3-9",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.9"
+  ]
+ },
+ {
+  "id": "kn-3-22",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.5"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "kn-3-37",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.8"
+  ]
+ },
+ {
+  "id": "kn-3-41",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "kn-3-44",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "kn-4-12",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.2"
+  ]
+ },
+ {
+  "id": "kn-4-13",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.1"
+  ]
+ },
+ {
+  "id": "kn-4-14",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "kn-4-21",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "2.1.5",
+   "3.1.4"
+  ]
+ },
+ {
+  "id": "kn-4-23",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "kn-4-30",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.2",
+   "3.1.8"
+  ]
+ },
+ {
+  "id": "kn-4-31",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.7"
+  ]
+ },
+ {
+  "id": "kn-4-32",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.2",
+   "3.3.5"
+  ]
+ },
+ {
+  "id": "kn-4-33",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.8"
+  ]
+ },
+ {
+  "id": "kn-4-35",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.3",
+   "1.1.6"
+  ]
+ },
+ {
+  "id": "kn-4-39",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.4",
+   "3.3.7"
+  ]
+ },
+ {
+  "id": "kn-4-41",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "kn-4-42",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.3"
+  ],
+  "drop": "answer key wrong: F1 is not the standard summarization metric; ROUGE is (not offered); BLEU is for translation"
+ },
+ {
+  "id": "kn-4-44",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.7",
+   "3.3.2"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "kn-4-46",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "kn-4-47",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "kn-4-48",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.6",
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "kn-4-50",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.6"
+  ]
+ },
+ {
+  "id": "kn-5-1",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.6"
+  ]
+ },
+ {
+  "id": "kn-5-3",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.4"
+  ]
+ },
+ {
+  "id": "kn-5-4",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "kn-5-5",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.4"
+  ]
+ },
+ {
+  "id": "kn-5-7",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.4"
+  ],
+  "drop": "options truncated/unreadable, cannot determine answer"
+ },
+ {
+  "id": "kn-5-9",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ],
+  "noteRename": "Amazon SageMaker → Amazon SageMaker AI"
+ },
+ {
+  "id": "kn-5-10",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.4"
+  ]
+ },
+ {
+  "id": "kn-5-11",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.7",
+   "1.3.8"
+  ]
+ },
+ {
+  "id": "kn-5-12",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.2"
+  ]
+ },
+ {
+  "id": "kn-5-13",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.6",
+   "1.1.5"
+  ]
+ },
+ {
+  "id": "kn-5-14",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "kn-5-18",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.3",
+   "2.1.11"
+  ]
+ },
+ {
+  "id": "kn-5-21",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.3",
+   "1.1.7"
+  ]
+ },
+ {
+  "id": "kn-5-25",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2",
+   "1.3.6"
+  ]
+ },
+ {
+  "id": "kn-5-26",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.1"
+  ]
+ },
+ {
+  "id": "kn-5-27",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.9"
+  ]
+ },
+ {
+  "id": "kn-5-33",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.11",
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "kn-5-34",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.6",
+   "1.3.7"
+  ]
+ },
+ {
+  "id": "kn-5-37",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.6"
+  ]
+ },
+ {
+  "id": "kn-5-44",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.3"
+  ]
+ },
+ {
+  "id": "kn-5-48",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.6"
+  ]
+ },
+ {
+  "id": "kn-5-49",
+  "domain": 1,
+  "step": "1.2",
+  "concepts": [
+   "1.2.8"
+  ]
+ },
+ {
+  "id": "kn-5-50",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "kn-6-5",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.5"
+  ]
+ },
+ {
+  "id": "kn-6-8",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.8",
+   "4.1.1"
+  ]
+ },
+ {
+  "id": "kn-6-14",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.3"
+  ]
+ },
+ {
+  "id": "kn-6-19",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.3"
+  ]
+ },
+ {
+  "id": "kn-6-21",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.2"
+  ],
+  "noteRename": "Amazon QuickSight → Amazon Quick Sight, part of Amazon Quick"
+ },
+ {
+  "id": "kn-6-24",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7",
+   "1.1.2"
+  ]
+ },
+ {
+  "id": "kn-6-25",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.1"
+  ]
+ },
+ {
+  "id": "kn-6-31",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.2"
+  ]
+ },
+ {
+  "id": "kn-6-32",
+  "domain": 2,
+  "step": "2.1",
+  "concepts": [
+   "2.1.7"
+  ]
+ },
+ {
+  "id": "kn-6-39",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.6"
+  ]
+ }
+]

@@ -1,0 +1,558 @@
+[
+  {
+    "id": "og-1.1.10-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A bank trains a loan-approval model on 10 years of past lending decisions. After launch, the model approves applicants from one age group far less often than other applicants with similar finances. The past decisions are known to have favoured younger applicants. What is the MOST likely cause of this problem?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The model was trained for too few epochs and is underfitting the data."
+      },
+      {
+        "key": "B",
+        "text": "The training data reflects biased historical decisions, so the model learned that unfair pattern."
+      },
+      {
+        "key": "C",
+        "text": "The model uses real-time inference instead of batch inference."
+      },
+      {
+        "key": "D",
+        "text": "The training data was labeled, so supervised learning was used instead of unsupervised learning."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "A model learns whatever patterns are in its training data, so historical decisions that already favoured one group produce an unfair model. Underfitting would make the model perform poorly for everyone, not treat one group differently. The inference type affects latency and cost, not fairness. Using labeled data for supervised learning is correct for a loan-approval task and does not cause bias by itself.",
+    "domain": 1,
+    "step": "1.1",
+    "concepts": [
+      "1.1.10",
+      "1.1.5"
+    ]
+  },
+  {
+    "id": "og-1.1.10-2",
+    "source": "original",
+    "type": "multi",
+    "stem": "A recruiting company is building a model to rank job applicants. The company wants to avoid unfair outcomes for any group of applicants. Which factors could introduce unfair bias into the model? (Select TWO.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The training data contains very few examples of applicants from some groups."
+      },
+      {
+        "key": "B",
+        "text": "A postal code feature is included that closely tracks applicants' ethnicity."
+      },
+      {
+        "key": "C",
+        "text": "The data is split into training, validation and test sets."
+      },
+      {
+        "key": "D",
+        "text": "The model is served through a serverless inference endpoint."
+      },
+      {
+        "key": "E",
+        "text": "The model is retrained when new applicant data arrives."
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Under-representation of some groups in the training data and features that act as proxies for protected attributes are both common sources of unfair bias. Splitting data into training, validation and test sets is standard practice for honest evaluation and does not create bias. Serverless inference only changes how the model is hosted. Retraining on new data keeps the model current and is not itself a source of unfair bias.",
+    "domain": 1,
+    "step": "1.1",
+    "concepts": [
+      "1.1.10"
+    ]
+  },
+  {
+    "id": "og-1.1.10-3",
+    "source": "original",
+    "type": "single",
+    "stem": "A healthcare company's model predicts patient readmission. Overall accuracy is 92%, but accuracy for patients from rural clinics is only 70%. Rural patients make up a small share of the training data. Which action should the company take FIRST to address this issue?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Add more hidden layers to the neural network so it can learn more complex patterns."
+      },
+      {
+        "key": "B",
+        "text": "Collect more representative data from rural patients and evaluate the model's results for each patient group."
+      },
+      {
+        "key": "C",
+        "text": "Stop training earlier to reduce overfitting on the training data."
+      },
+      {
+        "key": "D",
+        "text": "Replace the model with reinforcement learning so it learns from rewards."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Much worse performance for one group that is under-represented in the data is a fairness problem, and the first fix is more representative training data plus checking results per group. Adding hidden layers or stopping training earlier address statistical model fit, not the gap between groups. Reinforcement learning is a different learning type for trial-and-error decisions and does not fix missing data for a group.",
+    "domain": 1,
+    "step": "1.1",
+    "concepts": [
+      "1.1.10",
+      "1.1.9"
+    ]
+  },
+  {
+    "id": "og-1.2.1-1",
+    "source": "original",
+    "type": "single",
+    "stem": "An insurance company wants to speed up claim reviews. A model will give each claim a fraud-risk score, and an experienced adjuster will read the score and make the final approval decision. Which benefit of AI/ML does this solution primarily provide?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Full automation of the claims process with no human involvement"
+      },
+      {
+        "key": "B",
+        "text": "Assisting human decision making"
+      },
+      {
+        "key": "C",
+        "text": "Guaranteed, deterministic results for every claim"
+      },
+      {
+        "key": "D",
+        "text": "Replacing the need for any historical claims data"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "The model provides a score while a person makes the final decision, which is AI assisting human decision making. It is not full automation because the adjuster still decides. ML outputs predictions with some uncertainty, so it never guarantees deterministic results. A fraud-risk model needs historical claims data to learn from, so it does not remove that need.",
+    "domain": 1,
+    "step": "1.2",
+    "concepts": [
+      "1.2.1"
+    ]
+  },
+  {
+    "id": "og-1.2.1-2",
+    "source": "original",
+    "type": "single",
+    "stem": "An online marketplace receives about 2 million product reviews every day in many languages. A small moderation team can read only a few thousand reviews per day, and the company wants every review checked around the clock. Which benefit of AI/ML BEST addresses this requirement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Scalability: a model can process very large volumes continuously at a steady cost per request"
+      },
+      {
+        "key": "B",
+        "text": "Explainability: a model can explain every decision better than a person"
+      },
+      {
+        "key": "C",
+        "text": "Exactness: a model returns the same correct answer every time"
+      },
+      {
+        "key": "D",
+        "text": "Lower data needs: a model works without any example data"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Handling millions of items around the clock, far beyond what a team can do, is the scalability benefit of AI/ML. Models are not generally more explainable than people, and complex models are often harder to explain. ML outputs are predictions with some uncertainty, not guaranteed exact answers. Models still need relevant example data to learn from.",
+    "domain": 1,
+    "step": "1.2",
+    "concepts": [
+      "1.2.1"
+    ]
+  },
+  {
+    "id": "og-1.2.1-3",
+    "source": "original",
+    "type": "multi",
+    "stem": "A company is reviewing several project ideas and wants to fund only the ones where AI/ML adds clear value. Which projects are good candidates for AI/ML? (Select TWO.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Detecting card fraud, where criminals change tactics often and years of labeled transaction history are available"
+      },
+      {
+        "key": "B",
+        "text": "Calculating sales tax on each order by using fixed published tax rates"
+      },
+      {
+        "key": "C",
+        "text": "Spotting surface defects in product photos, where the defects are too varied to describe with hand-written rules"
+      },
+      {
+        "key": "D",
+        "text": "Adding up the line items on each invoice to produce a total"
+      },
+      {
+        "key": "E",
+        "text": "Routing orders by using three simple if/then rules that already work reliably"
+      }
+    ],
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "Fraud detection fits ML because the patterns change over time and labeled history exists. Defect detection in images fits because the rules are too complex to write by hand. Tax calculation and invoice totals need exact, deterministic results, so a formula is the right tool. Simple rules that already work reliably make ML an unnecessary cost.",
+    "domain": 1,
+    "step": "1.2",
+    "concepts": [
+      "1.2.1",
+      "1.2.2"
+    ]
+  },
+  {
+    "id": "og-1.2.9-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A bank wants to automate credit-limit decisions by using its labeled history of customer data in tables. Regulators require the bank to explain which factors drove each individual decision, and the same application must always receive the same result. Which approach BEST meets these requirements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Send each application to a large foundation model through a managed API and ask it to decide."
+      },
+      {
+        "key": "B",
+        "text": "Train an explainable traditional ML classification model, such as a decision tree, on the labeled historical data."
+      },
+      {
+        "key": "C",
+        "text": "Use a clustering model to group customers into segments without labels."
+      },
+      {
+        "key": "D",
+        "text": "Use reinforcement learning so the model learns approvals by trial and error."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Strict explainability, repeatable outputs and labeled tabular data all favour a simpler traditional ML model that can show which features drove each decision. A foundation model is harder to explain and can give varied answers to the same input. Clustering finds groups but does not make an approve or reject decision from labeled outcomes. Reinforcement learning by trial and error is unsuitable and hard to justify for regulated credit decisions.",
+    "domain": 1,
+    "step": "1.2",
+    "concepts": [
+      "1.2.9",
+      "1.2.3"
+    ]
+  },
+  {
+    "id": "og-1.2.9-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A law firm wants to summarize and answer questions about thousands of contracts written in many different formats. The firm has no labeled training data and wants a working solution as quickly as possible. A plausible, well-written answer that a lawyer reviews is acceptable. Which approach is MOST appropriate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Train a custom regression model on the contracts."
+      },
+      {
+        "key": "B",
+        "text": "Label thousands of contracts by hand and train a classification model from scratch."
+      },
+      {
+        "key": "C",
+        "text": "Use a pre-trained foundation model."
+      },
+      {
+        "key": "D",
+        "text": "Use k-means clustering to group the contracts by similarity."
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "Open-ended language tasks such as summarizing and answering questions over varied documents, with little labeled data and a need to start quickly, favour a pre-trained foundation model. Regression predicts numbers and cannot write summaries. Labeling data and training a classifier from scratch is slow and still would not produce summaries. Clustering only groups similar contracts and does not answer questions.",
+    "domain": 1,
+    "step": "1.2",
+    "concepts": [
+      "1.2.9"
+    ]
+  },
+  {
+    "id": "og-1.3.3-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A data science team changes the learning rate and number of epochs many times. After each change, they check the score on the test set and keep the best setting. The model then performs much worse in production than the reported test score. What should the team do differently?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tune hyperparameters by using a separate validation set, and use the test set only once for the final evaluation."
+      },
+      {
+        "key": "B",
+        "text": "Merge the test set into the training set so the model sees more data."
+      },
+      {
+        "key": "C",
+        "text": "Measure performance on the training set instead of the test set."
+      },
+      {
+        "key": "D",
+        "text": "Stop using hyperparameters and let the model set the learning rate during inference."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "The validation set is for comparing settings during development, and the test set must stay unseen until the final check; tuning on the test set made its score overly optimistic. Merging the test set into training leaves no unbiased evaluation at all. Training-set scores hide overfitting and are even more optimistic. Hyperparameters are always chosen before training, not set during inference.",
+    "domain": 1,
+    "step": "1.3",
+    "concepts": [
+      "1.3.3",
+      "1.1.9"
+    ]
+  },
+  {
+    "id": "og-1.3.4-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A small company wants to add text summarization to its customer portal. It has no ML team, no training data and a limited budget, and general-purpose summaries are good enough. Which approach is the MOST cost-effective?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pre-train a new foundation model from scratch on public web data."
+      },
+      {
+        "key": "B",
+        "text": "Collect and label a large dataset, then train a custom model with Amazon SageMaker AI."
+      },
+      {
+        "key": "C",
+        "text": "Use a pre-trained foundation model as is through Amazon Bedrock."
+      },
+      {
+        "key": "D",
+        "text": "Fine-tune an open-source model on thousands of labeled company examples."
+      }
+    ],
+    "correct": [
+      "C"
+    ],
+    "explanation": "When a general model already does the task well and there is no training data, using a pre-trained model as is gives the fastest and cheapest result. Pre-training from scratch is the most expensive option and needs huge datasets and compute. Labeling data and training a custom model adds cost, time and skills the company does not have. Fine-tuning needs labeled examples the company lacks and is unnecessary when general summaries are acceptable.",
+    "domain": 1,
+    "step": "1.3",
+    "concepts": [
+      "1.3.4"
+    ]
+  },
+  {
+    "id": "og-1.3.4-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A medical device company uses a pre-trained open-source language model. It handles general text well but often misreads the company's specialist terminology. The company has about 5,000 labeled examples from its domain and wants better domain performance without the cost of building a model from nothing. Which approach BEST meets these requirements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pre-train a new model from scratch on the 5,000 examples."
+      },
+      {
+        "key": "B",
+        "text": "Fine-tune the pre-trained model on the company's labeled domain examples."
+      },
+      {
+        "key": "C",
+        "text": "Switch to a different pre-trained model and use it as is without any changes."
+      },
+      {
+        "key": "D",
+        "text": "Use an unsupervised clustering model on the examples."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Fine-tuning further trains an existing pre-trained model on a smaller labeled dataset to add domain-specific behaviour, without the cost of training from scratch. Pre-training from scratch needs far more data and compute than 5,000 examples and is the most expensive option. Using another model as is ignores the labeled data and may have the same gap. Clustering groups data but does not improve how a language model handles terminology.",
+    "domain": 1,
+    "step": "1.3",
+    "concepts": [
+      "1.3.4"
+    ]
+  },
+  {
+    "id": "og-1.3.4-3",
+    "source": "original",
+    "type": "multi",
+    "stem": "A company is deciding whether to train its own custom model instead of using a pre-trained model. Which situations justify training a custom model? (Select TWO.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The task depends on unique proprietary data that no available pre-trained model handles well, and the budget supports a large project."
+      },
+      {
+        "key": "B",
+        "text": "The company needs full control over the model and its training data for strict internal requirements."
+      },
+      {
+        "key": "C",
+        "text": "The company wants the fastest possible time to value."
+      },
+      {
+        "key": "D",
+        "text": "The company has no training data available."
+      },
+      {
+        "key": "E",
+        "text": "The company wants the lowest possible development cost."
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Custom training makes sense for a unique task or data, strict control needs, and a budget to match. Fastest time to value and lowest development cost both point to a pre-trained model instead. Without training data, a custom model cannot be trained at all.",
+    "domain": 1,
+    "step": "1.3",
+    "concepts": [
+      "1.3.4"
+    ]
+  },
+  {
+    "id": "og-1.3.10-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A utility company uses a regression model to forecast daily electricity demand. Occasional large under-forecasts cause expensive emergency power purchases, while small errors cost little. The company wants an evaluation metric that penalizes large errors more heavily than small ones. Which metric should the company use?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mean absolute error (MAE)"
+      },
+      {
+        "key": "B",
+        "text": "Root mean squared error (RMSE)"
+      },
+      {
+        "key": "C",
+        "text": "Accuracy"
+      },
+      {
+        "key": "D",
+        "text": "F1 score"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "RMSE squares each error before averaging, so large errors count much more, which matches the cost of big under-forecasts. MAE weights every error equally. Accuracy and F1 score are classification metrics and do not apply to a model that predicts numbers.",
+    "domain": 1,
+    "step": "1.3",
+    "concepts": [
+      "1.3.10",
+      "1.3.9"
+    ]
+  },
+  {
+    "id": "og-1.3.10-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A real estate company built a model that predicts house prices. A manager asks for a single number that shows what proportion of the variation in house prices the model explains, on a scale where values closer to 1 are better. Which metric should the data scientist report?",
+    "options": [
+      {
+        "key": "A",
+        "text": "R-squared"
+      },
+      {
+        "key": "B",
+        "text": "Mean absolute error (MAE)"
+      },
+      {
+        "key": "C",
+        "text": "Precision"
+      },
+      {
+        "key": "D",
+        "text": "Area under the ROC curve (AUC)"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "R-squared measures the share of variation in the target that the model explains, usually between 0 and 1, with higher being better. MAE reports average error in the target's units, such as dollars, not a proportion explained. Precision and AUC are classification metrics and do not apply to price prediction.",
+    "domain": 1,
+    "step": "1.3",
+    "concepts": [
+      "1.3.10",
+      "1.3.9"
+    ]
+  },
+  {
+    "id": "og-1.3.10-3",
+    "source": "original",
+    "type": "match",
+    "stem": "Match each evaluation need to the metric that BEST fits it.",
+    "pairs": [
+      {
+        "prompt": "A delivery app wants to tell customers its arrival-time predictions are off by about how many minutes on average, with every error counted equally.",
+        "answer": "MAE"
+      },
+      {
+        "prompt": "A warehouse forecast must flag models that occasionally make very large stock errors, because big misses are far more costly than small ones.",
+        "answer": "RMSE"
+      },
+      {
+        "prompt": "An analyst wants to state what share of the variation in monthly sales the model explains.",
+        "answer": "R-squared"
+      },
+      {
+        "prompt": "A fraud classifier on highly imbalanced data must balance precision and recall in one number.",
+        "answer": "F1 score"
+      }
+    ],
+    "termBank": [
+      "MAE",
+      "RMSE",
+      "R-squared",
+      "F1 score",
+      "Accuracy"
+    ],
+    "explanation": "MAE is the average error size with all errors weighted equally, in the target's units. RMSE squares errors first, so large mistakes are penalized more. R-squared is the proportion of variation the model explains. F1 score balances precision and recall for classification; accuracy is misleading on imbalanced data and fits none of these needs.",
+    "domain": 1,
+    "step": "1.3",
+    "concepts": [
+      "1.3.10",
+      "1.3.9"
+    ]
+  },
+  {
+    "id": "og-1.3.11-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A company launched an AI chatbot six months ago. The CFO asks whether the project has been financially worthwhile, comparing the value it created, such as reduced support staffing costs, with the total amount spent to build and run it. Which metric answers this question?",
+    "options": [
+      {
+        "key": "A",
+        "text": "F1 score"
+      },
+      {
+        "key": "B",
+        "text": "Return on investment (ROI)"
+      },
+      {
+        "key": "C",
+        "text": "Customer feedback ratings"
+      },
+      {
+        "key": "D",
+        "text": "Root mean squared error (RMSE)"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "ROI compares the benefit created with the cost spent, which is exactly whether the project was financially worthwhile. F1 score and RMSE are technical model metrics that say nothing about business value. Customer feedback shows satisfaction but does not compare value with cost.",
+    "domain": 1,
+    "step": "1.3",
+    "concepts": [
+      "1.3.11",
+      "1.3.9"
+    ]
+  }
+]

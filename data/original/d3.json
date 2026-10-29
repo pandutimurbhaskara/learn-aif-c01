@@ -1,0 +1,495 @@
+[
+  {
+    "id": "og-3.1.2-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A legal-tech company calls a model on Amazon Bedrock for an interactive contract assistant. Every request starts with the same 30,000-token drafting guide as the system prompt, followed by a short user question. Users ask many questions in quick bursts. The company wants to reduce response latency and per-request cost without retraining the model or changing the answers. Which solution meets these requirements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fine-tune the model on the drafting guide so the guide no longer needs to be sent."
+      },
+      {
+        "key": "B",
+        "text": "Enable prompt caching with a cache checkpoint placed after the static drafting guide."
+      },
+      {
+        "key": "C",
+        "text": "Switch the assistant to Bedrock batch inference."
+      },
+      {
+        "key": "D",
+        "text": "Lower the maximum output length (max tokens) inference parameter."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Prompt caching stores the processed, identical prefix so later calls skip recomputing it and are billed at a discounted rate for cached input tokens, cutting latency and cost without changing outputs. Fine-tuning requires retraining and changes model behavior. Batch inference is cheaper but asynchronous, so it does not suit interactive users waiting for answers. Lowering max tokens only limits output length and does nothing about the large repeated input prefix.",
+    "domain": 3,
+    "step": "3.1",
+    "concepts": [
+      "3.1.2"
+    ]
+  },
+  {
+    "id": "og-3.1.2-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A developer enabled prompt caching on Amazon Bedrock but sees almost no cache hits. Each prompt begins with the current timestamp and the user's name, followed by a long fixed block of instructions and tool definitions, and ends with the user's question. Which change will MOST improve the cache hit rate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Put the fixed instructions and tool definitions first, and move the timestamp, user name and question to the end of the prompt."
+      },
+      {
+        "key": "B",
+        "text": "Set the temperature inference parameter to 0."
+      },
+      {
+        "key": "C",
+        "text": "Configure the cache to keep entries for 30 days."
+      },
+      {
+        "key": "D",
+        "text": "Store the instructions in an Amazon Bedrock knowledge base."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Prompt caching only reuses an identical prefix, so the changing parts (timestamp, user name, question) must come after the static content. Temperature affects how tokens are sampled in the output, not whether the input prefix matches. The cache is short-lived (minutes, refreshed on each hit), and a longer lifetime would not help anyway because the prefix differs on every call. A knowledge base retrieves different chunks per question and does not make the prefix reusable.",
+    "domain": 3,
+    "step": "3.1",
+    "concepts": [
+      "3.1.2"
+    ]
+  },
+  {
+    "id": "og-3.1.2-3",
+    "source": "original",
+    "type": "multi",
+    "stem": "A software company's coding assistant on Amazon Bedrock sends the same large block of repository context with every request during a developer's working session. The company plans to enable prompt caching for this context. Which outcomes can the company expect? (Select TWO.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lower latency for requests that reuse the identical cached prefix"
+      },
+      {
+        "key": "B",
+        "text": "Lower cost, because cached input tokens are billed at a discounted rate"
+      },
+      {
+        "key": "C",
+        "text": "The model permanently learns the repository code and no longer needs it in prompts"
+      },
+      {
+        "key": "D",
+        "text": "Fewer hallucinations, because caching retrieves the most relevant code for each question"
+      },
+      {
+        "key": "E",
+        "text": "The cached context stays available for weeks between sessions"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Prompt caching saves recomputing an identical prefix, which reduces latency, and cached input tokens are charged at a reduced rate. Caching does not change model weights, so nothing is learned permanently; that would need fine-tuning. It does not retrieve different content per question, which is what RAG does. The cache is short-lived, with a time-to-live of minutes that resets on each hit, so it does not last for weeks.",
+    "domain": 3,
+    "step": "3.1",
+    "concepts": [
+      "3.1.2"
+    ]
+  },
+  {
+    "id": "og-3.1.2-4",
+    "source": "original",
+    "type": "single",
+    "stem": "A manufacturer wants a support chatbot to answer questions from 50,000 product manuals that are updated every week. Each question needs information from different manuals. An engineer proposes putting all the manuals in a cached prompt prefix. Which approach is MOST appropriate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use prompt caching with all manuals included in every prompt."
+      },
+      {
+        "key": "B",
+        "text": "Use Retrieval Augmented Generation (RAG) with Amazon Bedrock Knowledge Bases and sync the data source when manuals change."
+      },
+      {
+        "key": "C",
+        "text": "Fine-tune the model on the manuals every week."
+      },
+      {
+        "key": "D",
+        "text": "Increase the maximum output length so the model can cover all manuals."
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "RAG retrieves only the relevant chunks for each question, and Knowledge Bases stay current by re-syncing the data source, with no retraining. Prompt caching only reuses the same prefix; it adds no per-question knowledge, and 50,000 manuals would not fit in a context window. Weekly fine-tuning is expensive and bakes in knowledge that quickly goes stale. Maximum output length controls answer length, not what the model knows.",
+    "domain": 3,
+    "step": "3.1",
+    "concepts": [
+      "3.1.2",
+      "3.1.4",
+      "3.1.5"
+    ]
+  },
+  {
+    "id": "og-3.3.1-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A model provider trains a new transformer on trillions of tokens of web text, books and code. The model learns by predicting the next token in each passage, and no humans label the data. The result is a base model that continues text well but does not yet reliably follow instructions. Which training stage does this describe?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Supervised fine-tuning"
+      },
+      {
+        "key": "B",
+        "text": "Self-supervised pre-training"
+      },
+      {
+        "key": "C",
+        "text": "Reinforcement learning from human feedback (RLHF)"
+      },
+      {
+        "key": "D",
+        "text": "Model distillation"
+      }
+    ],
+    "correct": [
+      "B"
+    ],
+    "explanation": "Pre-training is self-supervised: the text supplies its own targets through next-token prediction over massive unlabeled data, and it produces a base model. Supervised fine-tuning uses labeled prompt-response pairs. RLHF uses human rankings of responses to align a model that already exists. Distillation trains a smaller student to mimic a teacher model's outputs.",
+    "domain": 3,
+    "step": "3.3",
+    "concepts": [
+      "3.3.1"
+    ]
+  },
+  {
+    "id": "og-3.3.1-2",
+    "source": "original",
+    "type": "match",
+    "stem": "A model provider is building an instruction-following assistant model from scratch. Put these steps in order.",
+    "pairs": [
+      {
+        "prompt": "Collect and filter a massive, broad corpus of unlabeled text and code",
+        "answer": "1st"
+      },
+      {
+        "prompt": "Pre-train with self-supervised next-token prediction to produce a base model",
+        "answer": "2nd"
+      },
+      {
+        "prompt": "Instruction-tune the base model on labeled prompt and response pairs",
+        "answer": "3rd"
+      },
+      {
+        "prompt": "Align the model with human preferences using RLHF on ranked responses",
+        "answer": "4th"
+      }
+    ],
+    "termBank": [
+      "1st",
+      "2nd",
+      "3rd",
+      "4th"
+    ],
+    "explanation": "Pre-training needs the large unlabeled corpus first, and it produces a base model that continues text but does not reliably follow instructions. Instruction tuning then uses labeled examples to teach the model to follow instructions. RLHF comes last: it ranks the outputs of an already fine-tuned model to align tone, helpfulness and safety with human preferences.",
+    "domain": 3,
+    "step": "3.3",
+    "concepts": [
+      "3.3.1",
+      "3.3.2",
+      "3.3.6"
+    ]
+  },
+  {
+    "id": "og-3.3.4-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A bank uses a large model on Amazon Bedrock to categorize and summarize millions of customer messages each month. Accuracy is excellent, but inference cost and latency are too high at this volume. The bank wants a smaller model that keeps similar accuracy for this one task, with minimal human labeling and the LEAST operational overhead. Which solution meets these requirements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use Amazon Bedrock Model Distillation with the large model as the teacher and a smaller model from the same family as the student."
+      },
+      {
+        "key": "B",
+        "text": "Run continued pre-training on the large model with the bank's historical messages."
+      },
+      {
+        "key": "C",
+        "text": "Pre-train a new small model from scratch on SageMaker HyperPod."
+      },
+      {
+        "key": "D",
+        "text": "Raise the temperature so the large model produces shorter, faster answers."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Bedrock Model Distillation is managed: the teacher generates training responses, and a smaller, faster and cheaper student is fine-tuned for the target task, so little human labeling is needed. Continued pre-training keeps the same large, expensive model and does not reduce inference cost. Pre-training from scratch is the most expensive option and carries the most operational overhead. Temperature controls randomness, not model size or cost.",
+    "domain": 3,
+    "step": "3.3",
+    "concepts": [
+      "3.3.4",
+      "3.3.7"
+    ]
+  },
+  {
+    "id": "og-3.3.4-2",
+    "source": "original",
+    "type": "single",
+    "stem": "A team wants to use Amazon Bedrock Model Distillation. They have thousands of real production prompts from their invocation logs but no human-written answers. How are the responses used to train the student model obtained?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The teacher model generates responses to the prompts, and Bedrock uses them as synthetic training data for the student."
+      },
+      {
+        "key": "B",
+        "text": "Human annotators must write an ideal response for every prompt before the job can start."
+      },
+      {
+        "key": "C",
+        "text": "The student model is pre-trained from scratch on the prompts alone."
+      },
+      {
+        "key": "D",
+        "text": "A Bedrock knowledge base retrieves stored answers for each prompt."
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "In distillation, the large teacher answers prompts that resemble real traffic, and the student is trained to reproduce those answers, which reduces the need for human-labeled data. Human-written responses are not required. The student starts from an existing smaller model and is not pre-trained from scratch. A knowledge base supports RAG at query time and plays no part in producing distillation training data.",
+    "domain": 3,
+    "step": "3.3",
+    "concepts": [
+      "3.3.4"
+    ]
+  },
+  {
+    "id": "og-3.3.4-3",
+    "source": "original",
+    "type": "multi",
+    "stem": "A retailer is considering distilling a large model into a smaller student model for its product-question assistant. Which statements about this approach are accurate? (Select TWO.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The student model typically has lower inference cost and lower latency than the teacher."
+      },
+      {
+        "key": "B",
+        "text": "The student model matches the teacher on every task the teacher can perform."
+      },
+      {
+        "key": "C",
+        "text": "There is an upfront cost to distil, and the student may need to be re-distilled if the task changes significantly."
+      },
+      {
+        "key": "D",
+        "text": "Distillation keeps the model's knowledge of daily price changes up to date automatically."
+      },
+      {
+        "key": "E",
+        "text": "Distillation removes the need to host or call the student model for inference."
+      }
+    ],
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "A smaller student serves the target task faster and more cheaply, in exchange for an upfront training cost and re-distillation when the task changes. The student mimics the teacher only on the narrow task it was trained for, not on everything the teacher can do. Like any trained model, its knowledge is frozen at training time, so fresh data such as daily prices needs RAG. The student still has to be served for inference.",
+    "domain": 3,
+    "step": "3.3",
+    "concepts": [
+      "3.3.4"
+    ]
+  },
+  {
+    "id": "og-3.3.6-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A company's fine-tuned chat assistant gives factually correct answers, but users find them overly long and sometimes curt in tone. The company wants to align the model with human judgments of helpfulness and tone. Its reviewers find it much easier to say which of two responses is better than to write the ideal response themselves. Which technique BEST fits these requirements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reinforcement learning from human feedback (RLHF), using human rankings of responses to train a reward model that guides further training"
+      },
+      {
+        "key": "B",
+        "text": "Continued pre-training on a large set of unlabeled company documents"
+      },
+      {
+        "key": "C",
+        "text": "Increasing the temperature inference parameter"
+      },
+      {
+        "key": "D",
+        "text": "Retrieval Augmented Generation (RAG) with a knowledge base of style guides"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "RLHF collects human preference rankings, trains a reward model to predict them, and then optimizes the model with reinforcement learning, which captures subtle qualities such as tone and concision. Continued pre-training on unlabeled text teaches domain vocabulary, not preferences. Temperature only changes randomness, which would make tone less consistent. RAG adds facts at query time and does not reliably change the model's learned style.",
+    "domain": 3,
+    "step": "3.3",
+    "concepts": [
+      "3.3.6"
+    ]
+  },
+  {
+    "id": "og-3.4.5-1",
+    "source": "original",
+    "type": "single",
+    "stem": "An insurer uses an FM to rewrite policy clauses in plain language. Automated ROUGE scores against expert-written plain-language versions are low, but reviewers say the rewrites preserve the meaning well using different wording. The team needs an automatic metric that better reflects whether the meaning is preserved. Which metric should the team use?",
+    "options": [
+      {
+        "key": "A",
+        "text": "BERTScore"
+      },
+      {
+        "key": "B",
+        "text": "BLEU"
+      },
+      {
+        "key": "C",
+        "text": "ROUGE-2"
+      },
+      {
+        "key": "D",
+        "text": "Accuracy from a confusion matrix"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "BERTScore compares contextual embeddings of the tokens, so paraphrases and synonyms that keep the meaning still score well. BLEU and ROUGE-2 both measure surface n-gram overlap and penalize different wording, just as the current ROUGE score does. Confusion-matrix accuracy suits classification with fixed labels, not open-ended generated text.",
+    "domain": 3,
+    "step": "3.4",
+    "concepts": [
+      "3.4.5"
+    ]
+  },
+  {
+    "id": "og-3.4.5-2",
+    "source": "original",
+    "type": "match",
+    "stem": "A team is setting up automatic evaluation for several GenAI features. Match each evaluation need to the MOST appropriate metric or method.",
+    "pairs": [
+      {
+        "prompt": "Score generated meeting summaries by how much of the reference summary's content they cover",
+        "answer": "ROUGE"
+      },
+      {
+        "prompt": "Score machine-translated product descriptions against reference translations, with a brevity penalty",
+        "answer": "BLEU"
+      },
+      {
+        "prompt": "Score chatbot answers by meaning against a reference, giving credit for paraphrases and synonyms",
+        "answer": "BERTScore"
+      },
+      {
+        "prompt": "Grade open-ended answers for helpfulness and coherence against a rubric, with no reference answer available",
+        "answer": "LLM-as-a-judge"
+      }
+    ],
+    "termBank": [
+      "ROUGE",
+      "BLEU",
+      "BERTScore",
+      "LLM-as-a-judge"
+    ],
+    "explanation": "ROUGE is a recall-oriented overlap metric suited to summarization. BLEU is a precision-oriented overlap metric with a brevity penalty, built for translation. BERTScore uses embeddings to measure semantic similarity, so paraphrases score well. LLM-as-a-judge uses a capable model and a rubric to grade open-ended qualities and can work without a reference answer.",
+    "domain": 3,
+    "step": "3.4",
+    "concepts": [
+      "3.4.5",
+      "3.4.3",
+      "3.4.4",
+      "3.4.6"
+    ]
+  },
+  {
+    "id": "og-3.4.7-1",
+    "source": "original",
+    "type": "single",
+    "stem": "A company evaluates its RAG assistant built on Amazon Bedrock Knowledge Bases. The evaluation shows that the retrieved chunks are the correct HR policy sections, but the generated answers sometimes include details, such as a refund window, that do not appear in those chunks. Which evaluation metric identifies this problem?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Faithfulness (groundedness) of the generated answer to the retrieved context"
+      },
+      {
+        "key": "B",
+        "text": "Context relevance of the retrieval step"
+      },
+      {
+        "key": "C",
+        "text": "BLEU score against reference translations"
+      },
+      {
+        "key": "D",
+        "text": "Cost per interaction"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Faithfulness checks whether the answer is supported by the retrieved context, so it flags generation-step hallucinations like an invented refund window. Context relevance measures whether the right chunks were retrieved, and here they were. BLEU is a translation overlap metric and does not check grounding. Cost per interaction is a business metric, not a quality measure for answers.",
+    "domain": 3,
+    "step": "3.4",
+    "concepts": [
+      "3.4.7",
+      "3.1.5"
+    ]
+  },
+  {
+    "id": "og-3.4.7-2",
+    "source": "original",
+    "type": "multi",
+    "stem": "A travel company runs a booking agent on Amazon Bedrock AgentCore. The agent plans steps and calls flight, hotel and payment APIs. The team wants to evaluate both whether the agent achieves users' goals and whether it takes the right path to get there. Which metrics should the team use? (Select TWO.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Task completion (goal success) rate"
+      },
+      {
+        "key": "B",
+        "text": "Tool selection and parameter accuracy for each step in the agent's trace"
+      },
+      {
+        "key": "C",
+        "text": "ROUGE-L between the agent's replies and reference itineraries"
+      },
+      {
+        "key": "D",
+        "text": "The size of the model's context window"
+      },
+      {
+        "key": "E",
+        "text": "BLEU score of the agent's final message"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Agent evaluation judges the outcome, measured by task completion rate, and the trajectory, measured by whether the right tools were called with the right inputs; traces from AgentCore Observability show each step. ROUGE-L and BLEU measure text overlap and say nothing about whether a booking was actually made correctly. Context window size is a model selection criterion, not a performance metric for the agent.",
+    "domain": 3,
+    "step": "3.4",
+    "concepts": [
+      "3.4.7",
+      "3.1.8"
+    ]
+  }
+]

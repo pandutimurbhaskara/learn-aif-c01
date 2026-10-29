@@ -1,0 +1,769 @@
+[
+ {
+  "id": "pd-278",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.4",
+   "3.4.1"
+  ]
+ },
+ {
+  "id": "pd-279",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.4",
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "pd-280",
+  "domain": 1,
+  "step": "1.3",
+  "concepts": [
+   "1.3.8"
+  ]
+ },
+ {
+  "id": "pd-281",
+  "domain": 3,
+  "step": "3.1",
+  "concepts": [
+   "3.1.3"
+  ]
+ },
+ {
+  "id": "pd-282",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.8"
+  ]
+ },
+ {
+  "id": "pd-283",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.7",
+   "3.2.4"
+  ]
+ },
+ {
+  "id": "pd-284",
+  "domain": 1,
+  "step": "1.1",
+  "concepts": [
+   "1.1.9"
+  ]
+ },
+ {
+  "id": "pd-285",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.7"
+  ]
+ },
+ {
+  "id": "pd-286",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.5",
+   "3.3.7"
+  ]
+ },
+ {
+  "id": "pd-287",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "pd-288",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.2"
+  ]
+ },
+ {
+  "id": "pd-289",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.4",
+   "4.1.6"
+  ]
+ },
+ {
+  "id": "pd-290",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.2",
+   "4.1.6"
+  ]
+ },
+ {
+  "id": "pd-291",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "2.3.9",
+   "4.1.9"
+  ]
+ },
+ {
+  "id": "pd-292",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.4"
+  ]
+ },
+ {
+  "id": "pd-293",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.6",
+   "3.2.4"
+  ]
+ },
+ {
+  "id": "pd-295",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.6"
+  ]
+ },
+ {
+  "id": "pd-296",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.4",
+   "4.1.2"
+  ]
+ },
+ {
+  "id": "pd-297",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.9",
+   "5.1.1"
+  ]
+ },
+ {
+  "id": "pd-299",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "4.1.5",
+   "5.2.5"
+  ]
+ },
+ {
+  "id": "pd-300",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.1",
+   "3.4.2"
+  ]
+ },
+ {
+  "id": "pd-301",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.8"
+  ]
+ },
+ {
+  "id": "pd-302",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.5",
+   "5.1.2"
+  ]
+ },
+ {
+  "id": "pd-303",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.2",
+   "4.1.4"
+  ]
+ },
+ {
+  "id": "pd-304",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.3"
+  ]
+ },
+ {
+  "id": "pd-305",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.1",
+   "4.1.4"
+  ]
+ },
+ {
+  "id": "pd-306",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.3"
+  ]
+ },
+ {
+  "id": "pd-307",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.6",
+   "4.1.4"
+  ]
+ },
+ {
+  "id": "pd-308",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "pd-309",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.1",
+   "4.1.4"
+  ]
+ },
+ {
+  "id": "pd-310",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.3"
+  ]
+ },
+ {
+  "id": "pd-311",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.1",
+   "4.2.5"
+  ]
+ },
+ {
+  "id": "pd-312",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "1.3.1",
+   "5.2.1"
+  ]
+ },
+ {
+  "id": "pd-313",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ],
+  "noteRename": "Amazon Bedrock Studio → Amazon SageMaker Unified Studio"
+ },
+ {
+  "id": "pd-314",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.4"
+  ]
+ },
+ {
+  "id": "pd-315",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.8"
+  ]
+ },
+ {
+  "id": "pd-316",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.5",
+   "3.3.2"
+  ]
+ },
+ {
+  "id": "pd-317",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "pd-318",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.5",
+   "3.1.7"
+  ]
+ },
+ {
+  "id": "pd-319",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.4",
+   "4.1.6"
+  ]
+ },
+ {
+  "id": "pd-320",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.7"
+  ]
+ },
+ {
+  "id": "pd-321",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.6"
+  ]
+ },
+ {
+  "id": "pd-322",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.1.6",
+   "4.2.2"
+  ]
+ },
+ {
+  "id": "pd-323",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.1"
+  ]
+ },
+ {
+  "id": "pd-324",
+  "domain": 2,
+  "step": "2.3",
+  "concepts": [
+   "2.3.1",
+   "2.3.8"
+  ]
+ },
+ {
+  "id": "pd-325",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.6",
+   "3.2.5"
+  ],
+  "drop": "ambiguous: options A, C and D are also accurate descriptions of prompt engineering limitations/risks"
+ },
+ {
+  "id": "pd-326",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.2",
+   "5.2.1"
+  ]
+ },
+ {
+  "id": "pd-327",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.11",
+   "4.1.5",
+   "2.2.2"
+  ]
+ },
+ {
+  "id": "pd-328",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.1",
+   "5.2.8"
+  ]
+ },
+ {
+  "id": "pd-329",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.2",
+   "4.1.6"
+  ]
+ },
+ {
+  "id": "pd-330",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.6"
+  ]
+ },
+ {
+  "id": "pd-331",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.6"
+  ]
+ },
+ {
+  "id": "pd-332",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.2"
+  ]
+ },
+ {
+  "id": "pd-333",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.1"
+  ]
+ },
+ {
+  "id": "pd-334",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.3",
+   "4.2.1"
+  ]
+ },
+ {
+  "id": "pd-335",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.3"
+  ]
+ },
+ {
+  "id": "pd-336",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "2.3.3",
+   "5.1.2"
+  ]
+ },
+ {
+  "id": "pd-337",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.2",
+   "5.1.3",
+   "2.3.4"
+  ]
+ },
+ {
+  "id": "pd-338",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.7"
+  ]
+ },
+ {
+  "id": "pd-340",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "pd-341",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.6"
+  ]
+ },
+ {
+  "id": "pd-342",
+  "domain": 3,
+  "step": "3.3",
+  "concepts": [
+   "3.3.6"
+  ]
+ },
+ {
+  "id": "pd-343",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.8"
+  ]
+ },
+ {
+  "id": "pd-344",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.9"
+  ],
+  "drop": "ambiguous key: data leakage and model misuse are both commonly classed as output vulnerabilities"
+ },
+ {
+  "id": "pd-345",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.2"
+  ]
+ },
+ {
+  "id": "pd-346",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.1",
+   "4.2.5"
+  ]
+ },
+ {
+  "id": "pd-347",
+  "domain": 3,
+  "step": "3.2",
+  "concepts": [
+   "3.2.5",
+   "3.2.1"
+  ]
+ },
+ {
+  "id": "pd-348",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.4",
+   "4.1.2"
+  ]
+ },
+ {
+  "id": "pd-349",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.1",
+   "4.1.6"
+  ]
+ },
+ {
+  "id": "pd-350",
+  "domain": 3,
+  "step": "3.4",
+  "concepts": [
+   "3.4.1",
+   "3.4.2"
+  ]
+ },
+ {
+  "id": "pd-352",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "3.2.6",
+   "4.1.5"
+  ]
+ },
+ {
+  "id": "pd-353",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.6"
+  ]
+ },
+ {
+  "id": "pd-354",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.2"
+  ]
+ },
+ {
+  "id": "pd-355",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.9",
+   "3.2.6"
+  ]
+ },
+ {
+  "id": "pd-356",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.7",
+   "4.2.3"
+  ],
+  "drop": "answer key doubtful: Model Cards document models but do not enforce use of only approved training data (SageMaker Catalog governance fits better)"
+ },
+ {
+  "id": "pd-358",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.1",
+   "5.2.3"
+  ]
+ },
+ {
+  "id": "pd-360",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.7"
+  ]
+ },
+ {
+  "id": "pd-361",
+  "domain": 2,
+  "step": "2.2",
+  "concepts": [
+   "2.2.2",
+   "2.2.3"
+  ]
+ },
+ {
+  "id": "pd-362",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.6",
+   "4.1.2"
+  ]
+ },
+ {
+  "id": "pd-363",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.5"
+  ]
+ },
+ {
+  "id": "pd-364",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.5"
+  ]
+ },
+ {
+  "id": "pd-365",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.1",
+   "4.1.2"
+  ]
+ },
+ {
+  "id": "pd-366",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.4"
+  ]
+ },
+ {
+  "id": "pd-367",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.6",
+   "4.1.4"
+  ]
+ },
+ {
+  "id": "pd-368",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.8"
+  ]
+ },
+ {
+  "id": "pd-369",
+  "domain": 5,
+  "step": "5.1",
+  "concepts": [
+   "5.1.2",
+   "2.3.1"
+  ]
+ },
+ {
+  "id": "pd-370",
+  "domain": 5,
+  "step": "5.2",
+  "concepts": [
+   "5.2.1",
+   "5.1.10",
+   "5.1.8"
+  ]
+ },
+ {
+  "id": "pd-371",
+  "domain": 4,
+  "step": "4.2",
+  "concepts": [
+   "4.2.2",
+   "4.2.1"
+  ]
+ },
+ {
+  "id": "pd-372",
+  "domain": 4,
+  "step": "4.1",
+  "concepts": [
+   "4.1.4"
+  ]
+ }
+]

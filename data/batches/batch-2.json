@@ -1,0 +1,2423 @@
+[
+ {
+  "id": "pd-92",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is building a generative AI application to help customers make travel reservations. The application will process customer requests and invoke the appropriate API calls to complete reservation transactions. Which Amazon Bedrock resource will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Agents"
+   },
+   {
+    "key": "B",
+    "text": "Intelligent prompt routing"
+   },
+   {
+    "key": "C",
+    "text": "Knowledge Bases"
+   },
+   {
+    "key": "D",
+    "text": "Guardrails"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-93",
+  "domain": 2,
+  "type": "single",
+  "stem": "A manufacturing company has an application that ingests consumer complaints from publicly available sources. The application uses complex hard-coded logic to process the complaints. The company wants to scale this logic across markets and product lines. Which advantage do generative AI models offer for this scenario?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Predictability of outputs"
+   },
+   {
+    "key": "B",
+    "text": "Adaptability"
+   },
+   {
+    "key": "C",
+    "text": "Less sensitivity to changes in inputs"
+   },
+   {
+    "key": "D",
+    "text": "Explainability"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-94",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to use large language models (LLMs) to create a chatbot. The chatbot will assist customers with product inquiries, order tracking, and returns. The chatbot must be able to process text inputs and image inputs to generate responses. Which AWS service meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Bedrock"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Comprehend"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Q"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Rekognition"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-95",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to increase employee productivity by using a generative AI solution to write code to test software applications. Which solution will meet these requirements with the LEAST operational effort?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Q Business"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Bedrock Agents"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Q Developer"
+   },
+   {
+    "key": "D",
+    "text": "Amazon SageMaker Clarify"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-96",
+  "domain": 3,
+  "type": "single",
+  "stem": "A financial company stores patterns of fraudulent behavior in a database. The company uses this data to conduct investigations. The company wants to use a graph-based ML solution to develop an AI tool that helps with these investigations. Which AWS service will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon OpenSearch Service"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Aurora"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Neptune"
+   },
+   {
+    "key": "D",
+    "text": "Amazon MemoryDB"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-97",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to develop an AI assistant for employees to query internal data. Which AWS service will meet this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Rekognition"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Textract"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Lex"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Q Business"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-98",
+  "domain": 2,
+  "type": "single",
+  "stem": "Which statement describes a generative AI use case for multimodal models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Deploy multiple scalable and cost-effective versions of a model."
+   },
+   {
+    "key": "B",
+    "text": "Process large amounts of data to train multiple models."
+   },
+   {
+    "key": "C",
+    "text": "Write code in multiple programming languages."
+   },
+   {
+    "key": "D",
+    "text": "Process different data types, such as images, audio, and videos."
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-99",
+  "domain": 2,
+  "type": "single",
+  "stem": "Which feature of Amazon OpenSearch Service gives companies the ability to build vector database applications?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Integration with Amazon S3 for object storage"
+   },
+   {
+    "key": "B",
+    "text": "Support for geospatial indexing and queries"
+   },
+   {
+    "key": "C",
+    "text": "Scalable index management and nearest neighbor search capability"
+   },
+   {
+    "key": "D",
+    "text": "Ability to perform real-time analysis on streaming data"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-100",
+  "domain": 2,
+  "type": "single",
+  "stem": "Which term describes the numerical representations of real-world objects and concepts that AI and natural language processing (NLP) models use to improve understanding of textual information?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Embeddings"
+   },
+   {
+    "key": "B",
+    "text": "Tokens"
+   },
+   {
+    "key": "C",
+    "text": "Models"
+   },
+   {
+    "key": "D",
+    "text": "Binaries"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-101",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is building an ML model. The company collected new data and analyzed the data by creating a correlation matrix, calculating statistics, and visualizing the data. Which stage of the ML pipeline is the company currently in?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Data pre-processing"
+   },
+   {
+    "key": "B",
+    "text": "Feature engineering"
+   },
+   {
+    "key": "C",
+    "text": "Exploratory data analysis"
+   },
+   {
+    "key": "D",
+    "text": "Hyperparameter tuning"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-102",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company has a database of petabytes of unstructured data from internal sources. The company wants to transform this data into a structured format so that its data scientists can perform machine learning (ML) tasks. Which service will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Lex"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Rekognition"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Kinesis Data Streams"
+   },
+   {
+    "key": "D",
+    "text": "AWS Glue"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-103",
+  "domain": 1,
+  "type": "single",
+  "stem": "A retail store wants to predict the demand for a specific product for the next few weeks by using the Amazon SageMaker DeepAR forecasting algorithm. Which type of data will meet this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Text data"
+   },
+   {
+    "key": "B",
+    "text": "Image data"
+   },
+   {
+    "key": "C",
+    "text": "Time series data"
+   },
+   {
+    "key": "D",
+    "text": "Binary data"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-104",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to develop a large language model (LLM) application by using Amazon Bedrock and customer data that is uploaded to Amazon S3. The company's security policy states that each team can access data for only the team's own customers. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Create an Amazon Bedrock custom service role for each team that has access to only the team's customer data."
+   },
+   {
+    "key": "B",
+    "text": "Create a custom service role that has Amazon S3 access. Ask teams to specify the customer name on each Amazon Bedrock request."
+   },
+   {
+    "key": "C",
+    "text": "Redact personal data in Amazon S3. Update the S3 bucket policy to allow team access to customer data."
+   },
+   {
+    "key": "D",
+    "text": "Create one Amazon Bedrock role that has full Amazon S3 access. Create IAM roles for each team that have access to only each team's customer folders."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-105",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is introducing a new feature for its application. The feature will refine the style of output messages. The company will fine-tune a large language model (LLM) on Amazon Bedrock to implement the feature. Which type of data does the company need to meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Samples of only input messages"
+   },
+   {
+    "key": "B",
+    "text": "Samples of only output messages"
+   },
+   {
+    "key": "C",
+    "text": "Samples of pairs of input and output messages"
+   },
+   {
+    "key": "D",
+    "text": "Separate samples of input and output messages"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-106",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is creating a model to label credit card transactions. The company has a large volume of sample transaction data to train the model. Most of the transaction data is unlabeled. The data does not contain confidential information. The company needs to obtain labeled sample data to fine-tune the model.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Run batch inference jobs on the unlabeled data"
+   },
+   {
+    "key": "B",
+    "text": "Run an Amazon SageMaker AI training job that uses the PyTorch Distributed library to label data"
+   },
+   {
+    "key": "C",
+    "text": "Use an Amazon SageMaker Ground Truth labeling job with Amazon Mechanical Turk workers"
+   },
+   {
+    "key": "D",
+    "text": "Use an optical character recognition model trained on labeled samples to label unlabeled samples"
+   },
+   {
+    "key": "E",
+    "text": "Run an Amazon SageMaker AI labeling job"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-107",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to assess internet quality in remote areas of the world. The company needs to collect internet speed data and store the data in Amazon RDS. The company will analyze internet speed variation throughout each day. The company wants to create an AI model to predict potential internet disruptions. Which type of data should the company collect for this task?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Tabular data"
+   },
+   {
+    "key": "B",
+    "text": "Text data"
+   },
+   {
+    "key": "C",
+    "text": "Time series data"
+   },
+   {
+    "key": "D",
+    "text": "Audio data"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-108",
+  "domain": 1,
+  "type": "single",
+  "stem": "A healthcare company wants to create a model to improve disease diagnostics by analyzing patient voices. The company has recorded hundreds of patient voices for this project. The company is currently filtering voice recordings according to duration and language.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Data collection"
+   },
+   {
+    "key": "B",
+    "text": "Data preprocessing"
+   },
+   {
+    "key": "C",
+    "text": "Feature engineering"
+   },
+   {
+    "key": "D",
+    "text": "Model training"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-109",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company needs to apply numerical transformations to a set of images to transpose and rotate the images.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Create a deep neural network by using the images as input."
+   },
+   {
+    "key": "B",
+    "text": "Create an AWS Lambda function to perform the transformations."
+   },
+   {
+    "key": "C",
+    "text": "Use an Amazon Bedrock large language model (LLM) with a high temperature."
+   },
+   {
+    "key": "D",
+    "text": "Use AWS Glue Data Quality to make corrections to each image."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-110",
+  "domain": 1,
+  "type": "single",
+  "stem": "What is an example of structured data?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A file of text comments from an online forum"
+   },
+   {
+    "key": "B",
+    "text": "A compilation of video files that contains news broadcasts"
+   },
+   {
+    "key": "C",
+    "text": "A CSV file that consists of measurement data"
+   },
+   {
+    "key": "D",
+    "text": "Transcribed conversations between call center agents and customers"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-111",
+  "domain": 1,
+  "type": "single",
+  "stem": "An AI practitioner has prepared a dataset for training models in Amazon SageMaker AI. The AI practitioner wants to share the dataset within the company so that future employees can discover and reuse the dataset. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Copy the training dataset to Amazon Bedrock Knowledge Bases."
+   },
+   {
+    "key": "B",
+    "text": "Upload the training data to a shared SageMaker notebook instance."
+   },
+   {
+    "key": "C",
+    "text": "Store the training data in SageMaker Feature Store."
+   },
+   {
+    "key": "D",
+    "text": "Upload the training data to AWS Data Exchange."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-112",
+  "domain": 5,
+  "type": "single",
+  "stem": "A company is using Amazon SageMaker Studio notebooks to build and train ML models. The company stores the data in an Amazon S3 bucket. The company needs to manage the flow of data from Amazon S3 to SageMaker Studio notebooks. Which solution will meet this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use Amazon Inspector to monitor SageMaker Studio."
+   },
+   {
+    "key": "B",
+    "text": "Use Amazon Macie to monitor SageMaker Studio."
+   },
+   {
+    "key": "C",
+    "text": "Configure SageMaker to use a VPC with an S3 endpoint."
+   },
+   {
+    "key": "D",
+    "text": "Configure SageMaker to use S3 Glacier Deep Archive."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-113",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to create a chatbot by using a foundation model (FM) on Amazon Bedrock. The FM needs to access encrypted data that is stored in an Amazon S3 bucket. The data is encrypted with Amazon S3 managed keys (SSE-S3). The FM encounters a failure when attempting to access the S3 bucket data. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Ensure that the role that Amazon Bedrock assumes has permission to decrypt data with the correct encryption key."
+   },
+   {
+    "key": "B",
+    "text": "Set the access permissions for the S3 buckets to allow public access to enable access over the internet."
+   },
+   {
+    "key": "C",
+    "text": "Use prompt engineering techniques to tell the model to look for information in Amazon S3."
+   },
+   {
+    "key": "D",
+    "text": "Ensure that the S3 data does not contain sensitive information."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-114",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company has a foundation model (FM) that was customized by using Amazon Bedrock to answer customer queries about products. The company wants to validate the model's responses to new types of queries. The company needs to upload a new dataset that Amazon Bedrock can use for validation. Which AWS service meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon S3"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Elastic Block Store (Amazon EBS)"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Elastic File System (Amazon EFS)"
+   },
+   {
+    "key": "D",
+    "text": "AWS Snowcone"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-115",
+  "domain": 4,
+  "type": "single",
+  "stem": "A food service company wants to collect a dataset to predict customer food preferences. The company wants to ensure that the food preferences of all demographics are included in the data.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Accuracy"
+   },
+   {
+    "key": "B",
+    "text": "Diversity"
+   },
+   {
+    "key": "C",
+    "text": "Recency bias"
+   },
+   {
+    "key": "D",
+    "text": "Reliability"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-116",
+  "domain": 2,
+  "type": "single",
+  "stem": "Which option describes embeddings in the context of AI?",
+  "options": [
+   {
+    "key": "A",
+    "text": "A method for compressing large datasets"
+   },
+   {
+    "key": "B",
+    "text": "An encryption method for securing sensitive data"
+   },
+   {
+    "key": "C",
+    "text": "A method for visualizing high-dimensional data"
+   },
+   {
+    "key": "D",
+    "text": "A numerical method for data representation in a reduced dimensionality space"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-117",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to upload customer service email messages to Amazon S3 to develop a business analysis application. The messages sometimes contain sensitive data. The company wants to receive an alert every time sensitive information is found. Which solution fully automates the sensitive information detection process with the LEAST development effort?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Configure Amazon Macie to detect sensitive information in the documents that are uploaded to Amazon S3."
+   },
+   {
+    "key": "B",
+    "text": "Use Amazon SageMaker endpoints to deploy a large language model (LLM) to redact sensitive data."
+   },
+   {
+    "key": "C",
+    "text": "Develop multiple regex patterns to detect sensitive data. Expose the regex patterns on an Amazon SageMaker notebook."
+   },
+   {
+    "key": "D",
+    "text": "Ask the customers to avoid sharing sensitive information in their email messages."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-118",
+  "domain": 5,
+  "type": "single",
+  "stem": "An AI practitioner is using an Amazon Bedrock base model to summarize session chats from the customer service department. The AI practitioner wants to store invocation logs to monitor model input and output data.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Configure AWS CloudTrail as the logs destination for the model."
+   },
+   {
+    "key": "B",
+    "text": "Enable model invocation logging in Amazon Bedrock."
+   },
+   {
+    "key": "C",
+    "text": "Configure AWS Audit Manager as the logs destination for the model."
+   },
+   {
+    "key": "D",
+    "text": "Configure model invocation logging in Amazon EventBridge."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-119",
+  "domain": 5,
+  "type": "single",
+  "stem": "A company has guidelines for data storage and deletion. Which data governance strategy does this describe?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Data de-identification"
+   },
+   {
+    "key": "B",
+    "text": "Data quality standards"
+   },
+   {
+    "key": "C",
+    "text": "Data retention"
+   },
+   {
+    "key": "D",
+    "text": "Log storage"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-120",
+  "domain": 5,
+  "type": "single",
+  "stem": "A company stores its AI datasets in Amazon S3 buckets. The company wants to share the S3 buckets with its business partners. The company needs to avoid accidentally sharing sensitive data. Which AWS service should the company use to discover sensitive data in the dataset?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Kendra"
+   },
+   {
+    "key": "B",
+    "text": "Amazon Macie"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Textract"
+   },
+   {
+    "key": "D",
+    "text": "AWS Data Exchange"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-121",
+  "domain": 1,
+  "type": "single",
+  "stem": "A financial company is training a generative AI model to predict outcomes of loan applications. The training dataset is small. The dataset categorizes loan applicants as \"younger-aged,\" \"middle-aged,\" or \"older-aged.\" Most individuals in the dataset are characterized as \"middle-aged.\" The company removes the age range feature from the training dataset. Which model behavior will likely happen as a result of this change to the dataset?",
+  "options": [
+   {
+    "key": "A",
+    "text": "The model will inaccurately predict outcomes for younger and older age groups."
+   },
+   {
+    "key": "B",
+    "text": "The model will require less training data."
+   },
+   {
+    "key": "C",
+    "text": "The model will predict accurate outcomes for only younger age groups."
+   },
+   {
+    "key": "D",
+    "text": "The model will accurately predict outcomes for all ages."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-122",
+  "domain": 4,
+  "type": "single",
+  "stem": "A company is building an AI application to automate business processes. The company uses a foundation model (FM) to support the application. The company needs to select datasets to assess the quality of the AI model's behavior. Which type of datasets will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Curated datasets that have had all outliers and correlations removed"
+   },
+   {
+    "key": "B",
+    "text": "Synthetic datasets that have been generated by the newest FM"
+   },
+   {
+    "key": "C",
+    "text": "Diverse datasets that cover various use cases and usage scenarios"
+   },
+   {
+    "key": "D",
+    "text": "Randomized datasets that have arbitrary features and skewed distributions"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-123",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is using an Amazon Bedrock base model to summarize documents for an internal use case. The company trained a custom model to improve the summarization quality. Which action must the company take to use the custom model through Amazon Bedrock?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Purchase Provisioned Throughput for the custom model."
+   },
+   {
+    "key": "B",
+    "text": "Deploy the custom model in an Amazon SageMaker endpoint for real-time inference."
+   },
+   {
+    "key": "C",
+    "text": "Register the model with the Amazon SageMaker Model Registry."
+   },
+   {
+    "key": "D",
+    "text": "Grant access to the custom model in Amazon Bedrock."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-124",
+  "domain": 1,
+  "type": "match",
+  "stem": "AI and ML Concepts An AI practitioner is determining the appropriate data type for various use cases. Select the correct data type from the following list for each use case. Select each data type one time.",
+  "pairs": [
+   {
+    "prompt": "Build a sentiment analysis model for social media posts",
+    "answer": "Text data"
+   },
+   {
+    "prompt": "Train a self-driving car to recognize traffic signs",
+    "answer": "Image data"
+   },
+   {
+    "prompt": "Optimize ad campaigns by using customer demographic data and purchase history",
+    "answer": "Tabular data"
+   },
+   {
+    "prompt": "Forecast stock prices by using historical price data",
+    "answer": "Time series data"
+   }
+  ],
+  "termBank": [
+   "Text data",
+   "Image data",
+   "Tabular data",
+   "Time series data"
+  ]
+ },
+ {
+  "id": "pd-125",
+  "domain": 2,
+  "type": "single",
+  "stem": "What is tokenization used for in natural language processing (NLP)?",
+  "options": [
+   {
+    "key": "A",
+    "text": "To encrypt text data"
+   },
+   {
+    "key": "B",
+    "text": "To compress text files"
+   },
+   {
+    "key": "C",
+    "text": "To break text into smaller units for processing"
+   },
+   {
+    "key": "D",
+    "text": "To translate text between languages"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-126",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to create a new solution by using AWS Glue. The company has minimal programming experience with AWS Glue. Which AWS service can help the company use AWS Glue?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon Q Developer"
+   },
+   {
+    "key": "B",
+    "text": "AWS Config"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Personalize"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Comprehend"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-127",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is making a chatbot. The chatbot uses Amazon Lex and Amazon OpenSearch Service. The chatbot uses the company's private data to answer questions. The company needs to convert the data into a vector representation before storing the data in a database. Which model type should the company use?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Text completion model"
+   },
+   {
+    "key": "B",
+    "text": "Instruction following model"
+   },
+   {
+    "key": "C",
+    "text": "Text embeddings model"
+   },
+   {
+    "key": "D",
+    "text": "Image generation model"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-128",
+  "domain": 1,
+  "type": "multi",
+  "stem": "A publishing company built a Retrieval Augmented Generation (RAG) based solution to give its users the ability to interact with published content. New content is published daily. The company wants to provide a near real-time experience to users. Which steps in the RAG pipeline should the company implement by using offline batch processing to meet these requirements? (Select TWO.)",
+  "options": [
+   {
+    "key": "A",
+    "text": "Generation of content embeddings"
+   },
+   {
+    "key": "B",
+    "text": "Generation of embeddings for user queries"
+   },
+   {
+    "key": "C",
+    "text": "Creation of the search index"
+   },
+   {
+    "key": "D",
+    "text": "Retrieval of relevant content"
+   },
+   {
+    "key": "E",
+    "text": "Response generation for the user"
+   }
+  ],
+  "correct": [
+   "A",
+   "C"
+  ]
+ },
+ {
+  "id": "pd-129",
+  "domain": 5,
+  "type": "single",
+  "stem": "A multinational company is experiencing rapid growth. The company needs to scale AI initiatives and help employees efficiently find, access, and properly use company data in compliance with established policies and standards. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Provide a data asset repository without data integration in Amazon SageMaker AI."
+   },
+   {
+    "key": "B",
+    "text": "Use data storage in Amazon SageMaker AI."
+   },
+   {
+    "key": "C",
+    "text": "Add unified governance, discovery, and collaboration capabilities to Amazon SageMaker AI."
+   },
+   {
+    "key": "D",
+    "text": "Set up data monitoring in Amazon SageMaker AI."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-130",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to label training datasets by using human feedback to fine-tune a foundation model (FM). The company does not want to develop labeling applications or manage a labeling workforce. Which AWS service or feature meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon SageMaker Data Wrangler"
+   },
+   {
+    "key": "B",
+    "text": "Amazon SageMaker Ground Truth Plus"
+   },
+   {
+    "key": "C",
+    "text": "Amazon Transcribe"
+   },
+   {
+    "key": "D",
+    "text": "Amazon Macie"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-131",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to generate synthetic data responses for multiple prompts from a large volume of data. The company wants to use an API method to generate the responses. The company does not need to generate the responses immediately.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Input the prompts into the model. Generate responses by using real-time inference."
+   },
+   {
+    "key": "B",
+    "text": "Use Amazon Bedrock batch inference. Generate responses asynchronously."
+   },
+   {
+    "key": "C",
+    "text": "Use Amazon Bedrock agents. Build an agent system to process the prompts recursively."
+   },
+   {
+    "key": "D",
+    "text": "Use AWS Lambda functions to automate the task. Submit one prompt after another and store each response."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-132",
+  "domain": 1,
+  "type": "single",
+  "stem": "A real estate company is developing an ML model to predict house prices by using sales and marketing data. The company wants to use feature engineering to build a model that makes accurate predictions. Which approach will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Understand patterns by providing data visualization."
+   },
+   {
+    "key": "B",
+    "text": "Tune the model's hyperparameters."
+   },
+   {
+    "key": "C",
+    "text": "Create or select relevant features for model training."
+   },
+   {
+    "key": "D",
+    "text": "Collect data from multiple sources."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-133",
+  "domain": 2,
+  "type": "single",
+  "stem": "What are tokens in the context of generative AI models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Tokens are the basic units of input and output that a generative AI model operates on, representing words, subwords, or other linguistic units."
+   },
+   {
+    "key": "B",
+    "text": "Tokens are the mathematical representations of words or concepts used in generative AI models."
+   },
+   {
+    "key": "C",
+    "text": "Tokens are the pre-trained weights of a generative AI model that are fine-tuned for specific tasks."
+   },
+   {
+    "key": "D",
+    "text": "Tokens are the specific prompts or instructions given to a generative AI model to generate output."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-134",
+  "domain": 2,
+  "type": "single",
+  "stem": "An AI practitioner is using a large language model (LLM) to create content for marketing campaigns. The generated content sounds plausible and factual but is incorrect. Which problem is the LLM having?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Data leakage"
+   },
+   {
+    "key": "B",
+    "text": "Hallucination"
+   },
+   {
+    "key": "C",
+    "text": "Overfitting"
+   },
+   {
+    "key": "D",
+    "text": "Underfitting"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-135",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is building a solution to generate images for protective eyewear. The solution must have high accuracy and must minimize the risk of incorrect annotations. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Human-in-the-loop validation by using Amazon SageMaker Ground Truth Plus"
+   },
+   {
+    "key": "B",
+    "text": "Data augmentation by using an Amazon Bedrock knowledge base"
+   },
+   {
+    "key": "C",
+    "text": "Image recognition by using Amazon Rekognition"
+   },
+   {
+    "key": "D",
+    "text": "Data summarization by using Amazon QuickSight"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-136",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company needs to train an ML model to classify images of different types of animals. The company has a large dataset of labeled images and will not label more dat a. Which type of learning should the company use to train the model?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Supervised learning."
+   },
+   {
+    "key": "B",
+    "text": "Unsupervised learning."
+   },
+   {
+    "key": "C",
+    "text": "Reinforcement learning."
+   },
+   {
+    "key": "D",
+    "text": "Active learning."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-138",
+  "domain": 1,
+  "type": "match",
+  "stem": "AI and ML Concepts A company wants to build an ML application. Select and order the correct steps from the following list to develop a well-architected ML workload. Each step should be selected one time. (Select and order FOUR.)",
+  "pairs": [
+   {
+    "prompt": "Step 1",
+    "answer": "Define business goal and frame ML problem"
+   },
+   {
+    "prompt": "Step 2",
+    "answer": "Develop model"
+   },
+   {
+    "prompt": "Step 3",
+    "answer": "Deploy model"
+   },
+   {
+    "prompt": "Step 4",
+    "answer": "Monitor model"
+   }
+  ],
+  "termBank": [
+   "Define business goal and frame ML problem",
+   "Develop model",
+   "Deploy model",
+   "Monitor model"
+  ]
+ },
+ {
+  "id": "pd-139",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company has developed an ML model for image classification. The company wants to deploy the model to production so that a web application can use the model. The company needs to implement a solution to host the model and serve predictions without managing any of the underlying infrastructure. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use Amazon SageMaker Serverless Inference to deploy the model."
+   },
+   {
+    "key": "B",
+    "text": "Use Amazon CloudFront to deploy the model."
+   },
+   {
+    "key": "C",
+    "text": "Use Amazon API Gateway to host the model and serve predictions."
+   },
+   {
+    "key": "D",
+    "text": "Use AWS Batch to host the model and serve predictions."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-140",
+  "domain": 3,
+  "type": "single",
+  "stem": "An AI practitioner needs to improve the accuracy of a natural language generation model. The model uses rapidly changing inventory data. Which technique will improve the model's accuracy?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Transfer learning"
+   },
+   {
+    "key": "B",
+    "text": "Federated learning"
+   },
+   {
+    "key": "C",
+    "text": "Retrieval Augmented Generation (RAG)"
+   },
+   {
+    "key": "D",
+    "text": "One-shot prompting"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-141",
+  "domain": 1,
+  "type": "single",
+  "stem": "An AI practitioner has trained a model on a training dataset. The model performs well on the training data. However, the model does not perform well on evaluation data. What is the MOST likely cause of this issue?",
+  "options": [
+   {
+    "key": "A",
+    "text": "The model is underfit."
+   },
+   {
+    "key": "B",
+    "text": "The model requires prompt engineering."
+   },
+   {
+    "key": "C",
+    "text": "The model is biased."
+   },
+   {
+    "key": "D",
+    "text": "The model is overfit."
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-142",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is building a chatbot to improve user experience. The company is using a large language model (LLM) from Amazon Bedrock for intent detection. The company wants to use few-shot learning to improve intent detection accuracy. Which additional data does the company need to meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Pairs of chatbot responses and correct user intents"
+   },
+   {
+    "key": "B",
+    "text": "Pairs of user messages and correct chatbot responses"
+   },
+   {
+    "key": "C",
+    "text": "Pairs of user messages and correct user intents"
+   },
+   {
+    "key": "D",
+    "text": "Pairs of user intents and correct chatbot responses"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-143",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which strategy evaluates the accuracy of a foundation model (FM) that is used in image classification tasks?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Calculate the total cost of resources used by the model."
+   },
+   {
+    "key": "B",
+    "text": "Measure the model's accuracy against a predefined benchmark dataset."
+   },
+   {
+    "key": "C",
+    "text": "Count the number of layers in the neural network."
+   },
+   {
+    "key": "D",
+    "text": "Assess the color accuracy of images processed by the model."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-144",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is developing an ML model to predict heart disease risk. The model uses patient data, such as age, cholesterol, blood pressure, smoking status, and exercise habits. The dataset includes a target value that indicates whether a patient has heart disease. Which ML technique will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Unsupervised learning"
+   },
+   {
+    "key": "B",
+    "text": "Supervised learning"
+   },
+   {
+    "key": "C",
+    "text": "Reinforcement learning"
+   },
+   {
+    "key": "D",
+    "text": "Semi-supervised learning"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-145",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company's large language model (LLM) is experiencing hallucinations. How can the company decrease hallucinations?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Set up Agents for Amazon Bedrock to supervise the model training."
+   },
+   {
+    "key": "B",
+    "text": "Use data pre-processing and remove any data that causes hallucinations."
+   },
+   {
+    "key": "C",
+    "text": "Decrease the temperature inference parameter for the model."
+   },
+   {
+    "key": "D",
+    "text": "Use a foundation model (FM) that is trained to not hallucinate."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-146",
+  "domain": 2,
+  "type": "single",
+  "stem": "In which stage of the generative AI model lifecycle are tests performed to examine the model's accuracy?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Deployment"
+   },
+   {
+    "key": "B",
+    "text": "Data selection"
+   },
+   {
+    "key": "C",
+    "text": "Fine-tuning"
+   },
+   {
+    "key": "D",
+    "text": "Evaluation"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-147",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company deployed a model to production. After 4 months, the model inference quality degraded. The company wants to receive a notification if the model inference quality degrades. The company also wants to ensure that the problem does not happen again. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Retrain the model. Monitor model drift by using Amazon SageMaker Clarify."
+   },
+   {
+    "key": "B",
+    "text": "Retrain the model. Monitor model drift by using Amazon SageMaker Model Monitor."
+   },
+   {
+    "key": "C",
+    "text": "Build a new model. Monitor model drift by using Amazon SageMaker Feature Store."
+   },
+   {
+    "key": "D",
+    "text": "Build a new model. Monitor model drift by using Amazon SageMaker JumpStart."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-148",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is building an application that needs to generate synthetic data that is based on existing data. Which type of model can the company use to meet this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Generative adversarial network (GAN)"
+   },
+   {
+    "key": "B",
+    "text": "XGBoost"
+   },
+   {
+    "key": "C",
+    "text": "Residual neural network"
+   },
+   {
+    "key": "D",
+    "text": "WaveNet"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-149",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is training a foundation model (FM). The company wants to increase the accuracy of the model up to a specific acceptance level. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Decrease the batch size."
+   },
+   {
+    "key": "B",
+    "text": "Increase the epochs."
+   },
+   {
+    "key": "C",
+    "text": "Decrease the epochs."
+   },
+   {
+    "key": "D",
+    "text": "Increase the temperature parameter."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-150",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company needs to use Amazon SageMaker AI for model training and inference. The company must comply with regulatory requirements to run SageMaker jobs in an isolated environment without internet access. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Run SageMaker training and inference by using SageMaker Experiments."
+   },
+   {
+    "key": "B",
+    "text": "Run SageMaker training and inference by using network isolation."
+   },
+   {
+    "key": "C",
+    "text": "Encrypt the data at rest by using encryption for SageMaker geospatial capabilities."
+   },
+   {
+    "key": "D",
+    "text": "Associate appropriate AWS Identity and Access Management (IAM) roles with the SageMaker jobs."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-151",
+  "domain": 3,
+  "type": "single",
+  "stem": "An AI practitioner is developing a prompt for an Amazon Titan model. The model is hosted on Amazon Bedrock. The AI practitioner is using the model to solve numerical reasoning challenges. The AI practitioner adds the following phrase to the end of the prompt: \"Ask the model to show its work by explaining its reasoning step by step.\" Which prompt engineering technique is the AI practitioner using?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Chain-of-thought prompting"
+   },
+   {
+    "key": "B",
+    "text": "Prompt injection"
+   },
+   {
+    "key": "C",
+    "text": "Few-shot prompting"
+   },
+   {
+    "key": "D",
+    "text": "Prompt templating"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-152",
+  "domain": 1,
+  "type": "match",
+  "stem": "AI and ML Concepts Sated and order the steps from the following bat to correctly describe the ML Lifecycle for a new custom modal Select each step one time. (Select and order FOUR.)",
+  "pairs": [
+   {
+    "prompt": "Step 1",
+    "answer": "Define the business objective."
+   },
+   {
+    "prompt": "Step 2",
+    "answer": "Process the data."
+   },
+   {
+    "prompt": "Step 3",
+    "answer": "Develop and train the model."
+   },
+   {
+    "prompt": "Step 4",
+    "answer": "Deploy the model."
+   }
+  ],
+  "termBank": [
+   "Define the business objective.",
+   "Process the data.",
+   "Develop and train the model.",
+   "Deploy the model."
+  ]
+ },
+ {
+  "id": "pd-153",
+  "domain": 1,
+  "type": "single",
+  "stem": "An AI practitioner has built a deep learning model to classify the types of materials in images. The AI practitioner now wants to measure the model performance. Which metric will help the AI practitioner evaluate the performance of the model?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Confusion matrix"
+   },
+   {
+    "key": "B",
+    "text": "Correlation matrix"
+   },
+   {
+    "key": "C",
+    "text": "R2 score"
+   },
+   {
+    "key": "D",
+    "text": "Mean squared error (MSE)"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-154",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is using domain-specific models. The company wants to avoid creating new models from the beginning. The company instead wants to adapt pre-trained models to create models for new, related tasks. Which ML strategy meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Increase the number of epochs."
+   },
+   {
+    "key": "B",
+    "text": "Use transfer learning."
+   },
+   {
+    "key": "C",
+    "text": "Decrease the number of epochs."
+   },
+   {
+    "key": "D",
+    "text": "Use unsupervised learning."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-155",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is developing a new model to predict the prices of specific items. The model performed well on the training dataset. When the company deployed the model to production, the model's performance decreased significantly. What should the company do to mitigate this problem?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Reduce the volume of data that is used in training."
+   },
+   {
+    "key": "B",
+    "text": "Add hyperparameters to the model."
+   },
+   {
+    "key": "C",
+    "text": "Increase the volume of data that is used in training."
+   },
+   {
+    "key": "D",
+    "text": "Increase the model training time."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-156",
+  "domain": 1,
+  "type": "single",
+  "stem": "What does an F1 score measure in the context of foundation model (FM) performance?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Model precision and recall."
+   },
+   {
+    "key": "B",
+    "text": "Model speed in generating responses."
+   },
+   {
+    "key": "C",
+    "text": "Financial cost of operating the model."
+   },
+   {
+    "key": "D",
+    "text": "Energy efficiency of the model's computations."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-158",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to use a large language model (LLM) on Amazon Bedrock for sentiment analysis. The company needs the LLM to produce more consistent responses to the same input prompt. Which adjustment to an inference parameter should the company make to meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Decrease the temperature value"
+   },
+   {
+    "key": "B",
+    "text": "Increase the temperature value"
+   },
+   {
+    "key": "C",
+    "text": "Decrease the length of output tokens"
+   },
+   {
+    "key": "D",
+    "text": "Increase the maximum generation length"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-159",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is implementing the Amazon Titan foundation model (FM) by using Amazon Bedrock. The company needs to supplement the model by using relevant data from the company's private data sources. Which solution will meet this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use a different FM"
+   },
+   {
+    "key": "B",
+    "text": "Choose a lower temperature value"
+   },
+   {
+    "key": "C",
+    "text": "Create an Amazon Bedrock knowledge base"
+   },
+   {
+    "key": "D",
+    "text": "Enable model invocation logging"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-160",
+  "domain": 4,
+  "type": "single",
+  "stem": "A company has an ML model. The company wants to know how the model makes predictions. Which term refers to understanding model predictions?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Model interpretability"
+   },
+   {
+    "key": "B",
+    "text": "Model training"
+   },
+   {
+    "key": "C",
+    "text": "Model interoperability"
+   },
+   {
+    "key": "D",
+    "text": "Model performance"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-161",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company has documents that are missing some words because of a database error. The company wants to build an ML model that can suggest potential words to fill in the missing text. Which type of model meets this requirement?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Topic modeling"
+   },
+   {
+    "key": "B",
+    "text": "Clustering models"
+   },
+   {
+    "key": "C",
+    "text": "Prescriptive ML models"
+   },
+   {
+    "key": "D",
+    "text": "BERT-based models"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-162",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which technique involves training AI models on labeled datasets to adapt the models to specific industry terminology and requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Data augmentation"
+   },
+   {
+    "key": "B",
+    "text": "Fine-tuning"
+   },
+   {
+    "key": "C",
+    "text": "Model quantization"
+   },
+   {
+    "key": "D",
+    "text": "Continuous pre-training"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-163",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is using few-shot prompting on a base model that is hosted on Amazon Bedrock. The model currently uses 10 examples in the prompt. The model is invoked once daily and is performing well. The company wants to lower the monthly cost. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Customize the model by using fine-tuning."
+   },
+   {
+    "key": "B",
+    "text": "Decrease the number of tokens in the prompt."
+   },
+   {
+    "key": "C",
+    "text": "Increase the number of tokens in the prompt."
+   },
+   {
+    "key": "D",
+    "text": "Use Provisioned Throughput."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-164",
+  "domain": 1,
+  "type": "single",
+  "stem": "Why does overfilting occur in ML models?",
+  "options": [
+   {
+    "key": "A",
+    "text": "The training dataset does not reptesent all possible input values."
+   },
+   {
+    "key": "B",
+    "text": "The model contains a regularization method."
+   },
+   {
+    "key": "C",
+    "text": "The model training stops early because of an early stopping criterion."
+   },
+   {
+    "key": "D",
+    "text": "The training dataset contains too many features."
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-165",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company has built an image classification model to predict plant diseases from photos of plant leaves. The company wants to evaluate how many images the model classified correctly. Which evaluation metric should the company use to measure the model's performance?",
+  "options": [
+   {
+    "key": "A",
+    "text": "R-squared score"
+   },
+   {
+    "key": "B",
+    "text": "Accuracy"
+   },
+   {
+    "key": "C",
+    "text": "Root mean squared error (RMSE)"
+   },
+   {
+    "key": "D",
+    "text": "Learning rate"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-166",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which technique breaks a complex task into smaller subtasks that are sent sequentially to a large language model (LLM)?",
+  "options": [
+   {
+    "key": "A",
+    "text": "One-shot prompting"
+   },
+   {
+    "key": "B",
+    "text": "Prompt chaining"
+   },
+   {
+    "key": "C",
+    "text": "Tree of thoughts"
+   },
+   {
+    "key": "D",
+    "text": "Retrieval Augmented Generation (RAG)"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-167",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is monitoring a predictive model by using Amazon SageMaker Model Monitor. The company notices data drift beyond a defined threshold. The company wants to mitigate a potentially adverse impact on the predictive model.",
+  "options": [
+   {
+    "key": "A",
+    "text": "Restart the SageMaker AI endpoint."
+   },
+   {
+    "key": "B",
+    "text": "Adjust the monitoring sensitivity."
+   },
+   {
+    "key": "C",
+    "text": "Re-train the model with fresh data."
+   },
+   {
+    "key": "D",
+    "text": "Set up experiments tracking."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-168",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to classify human genes into 20 categories based on gene characteristics. The company needs an ML algorithm to document how the inner mechanism of the model affects the output. Which ML algorithm meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Decision trees"
+   },
+   {
+    "key": "B",
+    "text": "Linear regression"
+   },
+   {
+    "key": "C",
+    "text": "Logistic regression"
+   },
+   {
+    "key": "D",
+    "text": "Neural networks"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-169",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to use a large language model (LLM) on Amazon Bedrock for sentiment analysis. The company wants to know how much information can fit into one prompt. Which consideration will inform the company's decision?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Temperature"
+   },
+   {
+    "key": "B",
+    "text": "Context window"
+   },
+   {
+    "key": "C",
+    "text": "Batch size"
+   },
+   {
+    "key": "D",
+    "text": "Model size"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-170",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is developing an ML model to support the company's retail application. The company wants to use information that the model has produced from previous tasks to increase the learning speed of the model. Which model training solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Supervised learning"
+   },
+   {
+    "key": "B",
+    "text": "Hyperparameter tuning"
+   },
+   {
+    "key": "C",
+    "text": "Regularization techniques"
+   },
+   {
+    "key": "D",
+    "text": "Transfer learning"
+   }
+  ],
+  "correct": [
+   "D"
+  ]
+ },
+ {
+  "id": "pd-171",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company is building an ML model to analyze archived dat a. The company must perform inference on large datasets that are multiple GBs in size. The company does not need to access the model predictions immediately. Which Amazon SageMaker inference option will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Batch transform"
+   },
+   {
+    "key": "B",
+    "text": "Real-time inference"
+   },
+   {
+    "key": "C",
+    "text": "Serverless inference"
+   },
+   {
+    "key": "D",
+    "text": "Asynchronous inference"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-172",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company uses an open-source pre-trained model to analyze user sentiment for a newly released product. Which action must the company perform, according to MLOps best practices?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Use deep learning to perform hyperparameter tuning."
+   },
+   {
+    "key": "B",
+    "text": "Collect user reviews and label each review as positive or negative."
+   },
+   {
+    "key": "C",
+    "text": "Continuously monitor outputs in production."
+   },
+   {
+    "key": "D",
+    "text": "Perform feature engineering on the input dataset."
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-173",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company needs to choose a model from Amazon Bedrock to use internally. The company must identify a model that generates responses in a style that the company's employees prefer. What should the company do to meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Evaluate the models by using built-in prompt datasets."
+   },
+   {
+    "key": "B",
+    "text": "Evaluate the models by using a human workforce and custom prompt datasets."
+   },
+   {
+    "key": "C",
+    "text": "Use public model leaderboards to identify the model."
+   },
+   {
+    "key": "D",
+    "text": "Use the model InvocationLatency runtime metrics in Amazon CloudWatch when trying models."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-174",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company wants to use its documents as a knowledge base for a large language model (LLM) in a Retrieval Augmented Generation (RAG) solution. Which solution will meet these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Encrypt each document with encryption keys."
+   },
+   {
+    "key": "B",
+    "text": "Create embeddings from document chunks."
+   },
+   {
+    "key": "C",
+    "text": "Label the document data with metadata."
+   },
+   {
+    "key": "D",
+    "text": "Generate one-hot encoding for each document."
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-175",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company uses Amazon SageMaker for its ML pipeline in a production environment. The company has large input data sizes up to 1 GB and processing times up to 1 hour. The company needs near real-time latency. Which SageMaker inference option meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Real-time inference"
+   },
+   {
+    "key": "B",
+    "text": "Serverless inference"
+   },
+   {
+    "key": "C",
+    "text": "Asynchronous inference"
+   },
+   {
+    "key": "D",
+    "text": "Batch transform"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-176",
+  "domain": 1,
+  "type": "single",
+  "stem": "Which type of AI model makes numeric predictions?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Diffusion"
+   },
+   {
+    "key": "B",
+    "text": "Regression"
+   },
+   {
+    "key": "C",
+    "text": "Transformer"
+   },
+   {
+    "key": "D",
+    "text": "Multi-modal"
+   }
+  ],
+  "correct": [
+   "B"
+  ]
+ },
+ {
+  "id": "pd-177",
+  "domain": 1,
+  "type": "single",
+  "stem": "A company wants to build an ML model by using Amazon SageMaker. The company needs to share and manage variables for model development across multiple teams. Which SageMaker feature meets these requirements?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Amazon SageMaker Feature Store"
+   },
+   {
+    "key": "B",
+    "text": "Amazon SageMaker Data Wrangler"
+   },
+   {
+    "key": "C",
+    "text": "Amazon SageMaker Clarify"
+   },
+   {
+    "key": "D",
+    "text": "Amazon SageMaker Model Cards"
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-178",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company is using a pre-trained large language model (LLM) to build a chatbot for product recommendations. The company needs the LLM outputs to be short and written in a specific language. Which solution will align the LLM response quality with the company's expectations?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Adjust the prompt."
+   },
+   {
+    "key": "B",
+    "text": "Choose an LLM of a different size."
+   },
+   {
+    "key": "C",
+    "text": "Increase the temperature."
+   },
+   {
+    "key": "D",
+    "text": "Increase the Top K value."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-179",
+  "domain": 1,
+  "type": "single",
+  "stem": "A software company wants to use a large language model (LLM) for workflow automation. The application will transform user messages into JSON files. The company will use the JSON files as inputs for data pipelines. The company has a labeled dataset that contains user messages and output JSON files. Which solution will train the LLM for workflow automation?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Unsupervised learning"
+   },
+   {
+    "key": "B",
+    "text": "Continued pre-training"
+   },
+   {
+    "key": "C",
+    "text": "Fine-tuning"
+   },
+   {
+    "key": "D",
+    "text": "Reinforcement learning from human feedback (RLHF)"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-180",
+  "domain": 3,
+  "type": "single",
+  "stem": "A company uses a foundation model (FM) from Amazon Bedrock for an AI search tool. The company wants to fine-tune the model to be more accurate by using the company's data. Which strategy will successfully fine-tune the model?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Provide labeled data with the prompt field and the completion field."
+   },
+   {
+    "key": "B",
+    "text": "Prepare the training dataset by creating a .txt file that contains multiple lines in .csv format."
+   },
+   {
+    "key": "C",
+    "text": "Purchase Provisioned Throughput for Amazon Bedrock."
+   },
+   {
+    "key": "D",
+    "text": "Train the model on journals and textbooks."
+   }
+  ],
+  "correct": [
+   "A"
+  ]
+ },
+ {
+  "id": "pd-181",
+  "domain": 1,
+  "type": "single",
+  "stem": "An AI practitioner is developing a new ML model. After training the model, the AI practitioner evaluates the accuracy of the model's predictions. The model's accuracy is low when the model uses both the training dataset and the test dataset. Which scenario is the MOST likely cause of this problem?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Overfitting"
+   },
+   {
+    "key": "B",
+    "text": "Hallucination"
+   },
+   {
+    "key": "C",
+    "text": "Underfitting"
+   },
+   {
+    "key": "D",
+    "text": "Cross-validation"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ },
+ {
+  "id": "pd-182",
+  "domain": 2,
+  "type": "single",
+  "stem": "A company has a generative AI model that has limited training data. The model produces output that seems correct but is incorrect. Which option represents the model's problem?",
+  "options": [
+   {
+    "key": "A",
+    "text": "Interpretability"
+   },
+   {
+    "key": "B",
+    "text": "Nondeterminism"
+   },
+   {
+    "key": "C",
+    "text": "Hallucinations"
+   },
+   {
+    "key": "D",
+    "text": "Accuracy"
+   }
+  ],
+  "correct": [
+   "C"
+  ]
+ }
+]
