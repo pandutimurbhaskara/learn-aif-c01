@@ -13,6 +13,18 @@ npm run build      # static build in dist/ (open with `npm run preview`)
 
 Progress is stored in your browser's localStorage. Use **About → Export progress** to back it up.
 
+## Deploy (Cloudflare, free tier)
+
+Cloudflare dashboard → **Workers & Pages → Create → Import a repository**, pick this repo, then:
+
+| Setting | Value |
+|---|---|
+| Build command | `npm run build` |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | `/` |
+
+`wrangler.jsonc` points at `dist/` and `.node-version` pins Node 22. Every push to `main` redeploys. To deploy from your machine instead: `npx wrangler login`, then `npm run deploy`.
+
 > Keep this site local. The pintardengan.ai questions have no stated license and are included for personal study only.
 
 ## Content layout
