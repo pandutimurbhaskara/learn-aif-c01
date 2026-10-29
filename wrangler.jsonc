@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "learn-aif-c01",
+  "compatibility_date": "2026-10-01",
+  // Static site: `npm run build` writes dist/, Cloudflare serves it.
+  // The app uses HashRouter, so no server-side routing is needed.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
